@@ -24,3 +24,26 @@
 2021-05-02 11:51:28.232 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
 2021-05-02 11:51:28.294 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
 2021-05-02 11:51:30.076 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2021-05-02 12:01:28.368 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:01:28.368 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-05-02 12:01:28.378 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2021-05-02 12:01:28.524 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 12420 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-02 12:01:28.524 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-02 12:01:28.758 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-02 12:01:28.758 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:01:28.760 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-02 12:01:28.760 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 12:01:28.760 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-02 12:01:28.760 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-02 12:01:28.760 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-02 12:01:28.760 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-02 12:01:28.768 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-02 12:01:28.768 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 241 ms
+2021-05-02 12:01:28.877 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:01:28.924 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-02 12:01:28.928 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:01:28.928 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 12:01:28.938 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.446 seconds (JVM running for 611.962)
+2021-05-02 12:01:28.938 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-02 12:01:28.938 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-02 12:01:28.938 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
