@@ -8,6 +8,7 @@ import com.wsz.medicine.resp.SaleOrderResp;
 import com.wsz.medicine.util.CopyUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ObjectUtils;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
@@ -21,15 +22,11 @@ public class SaleOrderService {
     public List<SaleOrderResp> list(SaleOrderReq req) {
         SaleOrderExample saleOrderExample=new SaleOrderExample();
         SaleOrderExample.Criteria criteria=saleOrderExample.createCriteria();
-        criteria.andCustIdEqualTo(req.getCustId());
+        if (!ObjectUtils.isEmpty(req.getCustId())) {
+            criteria.andCustIdEqualTo(req.getCustId());
+        }
         List<SaleOrder> saleOrdersList = saleOrderMapper.selectByExample(saleOrderExample);
 
-//        List<SaleOrderResp> respList=new ArrayList<>();
-//        for (SaleOrder saleOrder:saleOrdersList) {
-//            SaleOrderResp saleOrderResp=new SaleOrderResp();
-//            BeanUtils.copyProperties(saleOrder,saleOrderResp);
-//            respList.add(saleOrderResp);
-//        }
         List<SaleOrderResp> respList = CopyUtil.copyList(saleOrdersList, SaleOrderResp.class);
 
         return respList;
