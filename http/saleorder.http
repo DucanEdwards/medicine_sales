@@ -1,3 +1,3 @@
-GET http://localhost:9000/saleorder/list
+GET http://localhost:9000/saleorder/list?custId=2
 
 ###

@@ -47,3 +47,465 @@
 2021-05-02 12:01:28.938 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
 2021-05-02 12:01:28.938 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
 2021-05-02 12:01:28.938 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-02 12:02:01.168 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 12:02:01.168 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-02 12:02:01.168 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2021-05-02 12:02:01.168 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-2 - Starting...
+2021-05-02 12:02:01.328 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-2 - Start completed.
+2021-05-02 12:09:26.417 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:09:26.417 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2021-05-02 12:09:26.417 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2021-05-02 12:09:26.605 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 12420 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-02 12:09:26.605 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-02 12:09:26.824 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-02 12:09:26.824 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:09:26.824 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-02 12:09:26.824 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 12:09:26.824 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-02 12:09:26.824 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-02 12:09:26.824 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-02 12:09:26.824 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-02 12:09:26.886 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-02 12:09:26.886 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 281 ms
+2021-05-02 12:09:26.964 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:09:26.985 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-02 12:09:27.000 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:09:27.000 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 12:09:27.000 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.435 seconds (JVM running for 1090.036)
+2021-05-02 12:09:27.000 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-02 12:09:27.000 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-02 12:09:27.000 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-02 12:09:27.515 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 12:09:27.516 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-02 12:09:27.517 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2021-05-02 12:09:27.519 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-3 - Starting...
+2021-05-02 12:09:27.547 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-3 - Start completed.
+2021-05-02 12:14:03.717 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:14:03.718 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2021-05-02 12:14:03.726 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2021-05-02 12:14:03.891 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 12420 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-02 12:14:03.892 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-02 12:14:04.203 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-02 12:14:04.203 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:14:04.204 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-02 12:14:04.204 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 12:14:04.204 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-02 12:14:04.204 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-02 12:14:04.204 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-02 12:14:04.204 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-02 12:14:04.249 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-02 12:14:04.250 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 356 ms
+2021-05-02 12:14:04.337 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:14:04.384 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-02 12:14:04.386 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:14:04.392 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 12:14:04.398 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.54 seconds (JVM running for 1367.426)
+2021-05-02 12:14:04.399 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-02 12:14:04.400 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-02 12:14:04.400 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-02 12:14:06.156 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:14:06.257 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 12420 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-02 12:14:06.257 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-02 12:14:06.393 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-02 12:14:06.394 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:14:06.394 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-02 12:14:06.394 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 12:14:06.394 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-02 12:14:06.394 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-02 12:14:06.394 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-02 12:14:06.395 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-02 12:14:06.419 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-02 12:14:06.419 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 160 ms
+2021-05-02 12:14:06.555 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:14:06.592 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-02 12:14:06.596 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:14:06.598 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 12:14:06.602 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.365 seconds (JVM running for 1369.63)
+2021-05-02 12:14:06.604 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-02 12:14:06.604 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-02 12:14:06.604 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-02 12:14:34.105 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 12:14:34.105 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-02 12:14:34.105 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2021-05-02 12:14:34.215 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
+2021-05-02 12:14:34.246 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
+2021-05-02 12:24:26.964 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:24:26.965 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-4 - Shutdown initiated...
+2021-05-02 12:24:26.967 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-4 - Shutdown completed.
+2021-05-02 12:24:27.107 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 12420 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-02 12:24:27.107 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-02 12:24:27.316 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-02 12:24:27.317 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:24:27.317 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-02 12:24:27.317 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 12:24:27.317 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-02 12:24:27.317 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-02 12:24:27.317 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-02 12:24:27.317 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-02 12:24:27.330 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-02 12:24:27.331 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 222 ms
+2021-05-02 12:24:27.404 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:24:27.448 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-02 12:24:27.450 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:24:27.459 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 12:24:27.462 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.38 seconds (JVM running for 1990.492)
+2021-05-02 12:24:27.463 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-02 12:24:27.464 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-02 12:24:27.464 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-02 12:24:39.294 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 12:24:39.299 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-02 12:24:39.299 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2021-05-02 12:24:39.305 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-5 - Starting...
+2021-05-02 12:24:39.314 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-5 - Start completed.
+2021-05-02 12:29:57.233 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:29:57.234 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-5 - Shutdown initiated...
+2021-05-02 12:29:57.240 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-5 - Shutdown completed.
+2021-05-02 12:29:57.383 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 12420 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-02 12:29:57.383 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-02 12:29:57.529 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-02 12:29:57.530 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:29:57.531 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-02 12:29:57.531 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 12:29:57.531 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-02 12:29:57.531 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-02 12:29:57.532 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-02 12:29:57.532 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-02 12:29:57.540 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-02 12:29:57.540 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 155 ms
+2021-05-02 12:29:57.589 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:29:57.618 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-02 12:29:57.622 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:29:57.625 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 12:29:57.628 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.265 seconds (JVM running for 2320.659)
+2021-05-02 12:29:57.629 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-02 12:29:57.629 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-02 12:29:57.629 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-02 12:29:59.347 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:29:59.433 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 12420 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-02 12:29:59.433 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-02 12:29:59.549 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-02 12:29:59.550 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:29:59.550 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-02 12:29:59.550 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 12:29:59.550 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-02 12:29:59.550 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-02 12:29:59.550 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-02 12:29:59.551 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-02 12:29:59.559 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-02 12:29:59.559 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 125 ms
+2021-05-02 12:29:59.604 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:29:59.627 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-02 12:29:59.631 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:29:59.634 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 12:29:59.637 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.223 seconds (JVM running for 2322.668)
+2021-05-02 12:29:59.637 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-02 12:29:59.638 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-02 12:29:59.638 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-02 12:30:01.316 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 12:30:01.317 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-02 12:30:01.317 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2021-05-02 12:30:01.323 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-6 - Starting...
+2021-05-02 12:30:01.417 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-6 - Start completed.
+2021-05-02 12:34:17.699 ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]   :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Value for custId cannot be null] with root cause
+java.lang.RuntimeException: Value for custId cannot be null
+	at com.wsz.medicine.domain.SaleOrderExample$GeneratedCriteria.addCriterion(SaleOrderExample.java:96)
+	at com.wsz.medicine.domain.SaleOrderExample$GeneratedCriteria.andCustIdEqualTo(SaleOrderExample.java:179)
+	at com.wsz.medicine.domain.SaleOrderExample$Criteria.andCustIdEqualTo(SaleOrderExample.java:419)
+	at com.wsz.medicine.service.SaleOrderService.list(SaleOrderService.java:23)
+	at com.wsz.medicine.controller.SaleOrderController.list(SaleOrderController.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-02 12:34:33.485 ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]   :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Value for custId cannot be null] with root cause
+java.lang.RuntimeException: Value for custId cannot be null
+	at com.wsz.medicine.domain.SaleOrderExample$GeneratedCriteria.addCriterion(SaleOrderExample.java:96)
+	at com.wsz.medicine.domain.SaleOrderExample$GeneratedCriteria.andCustIdEqualTo(SaleOrderExample.java:179)
+	at com.wsz.medicine.domain.SaleOrderExample$Criteria.andCustIdEqualTo(SaleOrderExample.java:419)
+	at com.wsz.medicine.service.SaleOrderService.list(SaleOrderService.java:23)
+	at com.wsz.medicine.controller.SaleOrderController.list(SaleOrderController.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-02 12:35:04.903 ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]   :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Value for custId cannot be null] with root cause
+java.lang.RuntimeException: Value for custId cannot be null
+	at com.wsz.medicine.domain.SaleOrderExample$GeneratedCriteria.addCriterion(SaleOrderExample.java:96)
+	at com.wsz.medicine.domain.SaleOrderExample$GeneratedCriteria.andCustIdEqualTo(SaleOrderExample.java:179)
+	at com.wsz.medicine.domain.SaleOrderExample$Criteria.andCustIdEqualTo(SaleOrderExample.java:419)
+	at com.wsz.medicine.service.SaleOrderService.list(SaleOrderService.java:23)
+	at com.wsz.medicine.controller.SaleOrderController.list(SaleOrderController.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-02 12:35:14.236 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:35:14.236 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-6 - Shutdown initiated...
+2021-05-02 12:35:14.242 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-6 - Shutdown completed.
+2021-05-02 12:35:14.397 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 12420 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-02 12:35:14.398 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-02 12:35:14.538 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-02 12:35:14.539 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:35:14.539 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-02 12:35:14.539 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 12:35:14.539 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-02 12:35:14.539 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-02 12:35:14.540 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-02 12:35:14.540 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-02 12:35:14.547 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-02 12:35:14.547 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 147 ms
+2021-05-02 12:35:14.600 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:35:14.627 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-02 12:35:14.632 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:35:14.634 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 12:35:14.638 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.264 seconds (JVM running for 2637.669)
+2021-05-02 12:35:14.638 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-02 12:35:14.639 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-02 12:35:14.639 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-02 12:35:16.380 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:35:16.433 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 12420 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-02 12:35:16.434 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-02 12:35:16.539 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-02 12:35:16.540 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:35:16.540 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-02 12:35:16.540 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 12:35:16.540 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-02 12:35:16.540 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-02 12:35:16.541 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-02 12:35:16.541 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-02 12:35:16.548 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-02 12:35:16.548 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 113 ms
+2021-05-02 12:35:16.589 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 12:35:16.614 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-02 12:35:16.618 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-02 12:35:16.621 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 12:35:16.624 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.206 seconds (JVM running for 2639.656)
+2021-05-02 12:35:16.625 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-02 12:35:16.625 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-02 12:35:16.626 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-02 12:35:17.216 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 12:35:17.218 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-02 12:35:17.220 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-05-02 12:35:17.236 ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]   :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Value for custId cannot be null] with root cause
+java.lang.RuntimeException: Value for custId cannot be null
+	at com.wsz.medicine.domain.SaleOrderExample$GeneratedCriteria.addCriterion(SaleOrderExample.java:96)
+	at com.wsz.medicine.domain.SaleOrderExample$GeneratedCriteria.andCustIdEqualTo(SaleOrderExample.java:179)
+	at com.wsz.medicine.domain.SaleOrderExample$Criteria.andCustIdEqualTo(SaleOrderExample.java:419)
+	at com.wsz.medicine.service.SaleOrderService.list(SaleOrderService.java:23)
+	at com.wsz.medicine.controller.SaleOrderController.list(SaleOrderController.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-02 12:35:52.896 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-7 - Starting...
+2021-05-02 12:35:52.921 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-7 - Start completed.
+2021-05-02 17:31:27.960 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 15408 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-02 17:31:27.976 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-02 17:31:28.038 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-02 17:31:28.038 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-02 17:31:30.440 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-02 17:31:30.455 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-02 17:31:30.455 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-02 17:31:30.455 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 17:31:30.487 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-02 17:31:30.487 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-02 17:31:30.487 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-02 17:31:30.518 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-02 17:31:30.596 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-02 17:31:30.611 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2573 ms
+2021-05-02 17:31:31.092 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 17:31:31.343 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-02 17:31:31.375 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-02 17:31:31.390 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 17:31:31.390 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 4.556 seconds (JVM running for 6.649)
+2021-05-02 17:31:31.390 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-02 17:31:31.390 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-02 17:31:35.317 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 17:31:35.317 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-02 17:31:35.317 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2021-05-02 17:31:35.473 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-05-02 17:31:36.912 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
