@@ -1,165 +1,26 @@
-2021-04-30 21:26:21.060 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 15040 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
-2021-04-30 21:26:21.060 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-30 21:26:21.669 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2021-04-30 21:26:21.669 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2021-04-30 21:26:21.669 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-30 21:26:21.684 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
-2021-04-30 21:26:21.684 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
-2021-04-30 21:26:21.684 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-04-30 21:26:21.684 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-04-30 21:26:21.684 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
-2021-04-30 21:26:21.731 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-30 21:26:21.731 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 640 ms
-2021-04-30 21:26:21.847 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-30 21:26:21.943 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2021-04-30 21:26:21.957 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2021-04-30 21:26:21.963 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 1.411 seconds (JVM running for 2.218)
-2021-04-30 21:29:49.048 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 1712 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
-2021-04-30 21:29:49.064 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-30 21:29:49.751 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
-2021-04-30 21:29:49.767 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
-2021-04-30 21:29:49.767 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-30 21:29:49.767 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
-2021-04-30 21:29:49.767 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
-2021-04-30 21:29:49.767 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-04-30 21:29:49.767 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-04-30 21:29:49.767 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
-2021-04-30 21:29:49.813 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-30 21:29:49.813 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 718 ms
-2021-04-30 21:29:49.943 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-30 21:29:50.036 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
-2021-04-30 21:29:50.052 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
-2021-04-30 21:29:50.068 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 1.42 seconds (JVM running for 2.206)
-2021-04-30 21:29:50.068 INFO  com.wsz.medicine.MedicineApplication              :17   [32m                  [0;39m 启动成功！！
-2021-04-30 21:29:50.068 INFO  com.wsz.medicine.MedicineApplication              :18   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
-2021-04-30 21:32:36.827 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 14444 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
-2021-04-30 21:32:36.827 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-30 21:32:37.500 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
-2021-04-30 21:32:37.516 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
-2021-04-30 21:32:37.516 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-30 21:32:37.516 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
-2021-04-30 21:32:37.516 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
-2021-04-30 21:32:37.516 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-04-30 21:32:37.516 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-04-30 21:32:37.516 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
-2021-04-30 21:32:37.564 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-30 21:32:37.564 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 690 ms
-2021-04-30 21:32:37.689 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-30 21:32:37.799 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
-2021-04-30 21:32:37.815 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
-2021-04-30 21:32:37.815 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 1.335 seconds (JVM running for 2.161)
-2021-04-30 21:32:37.815 INFO  com.wsz.medicine.MedicineApplication              :17   [32m                  [0;39m 启动成功！！
-2021-04-30 21:32:37.815 INFO  com.wsz.medicine.MedicineApplication              :18   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
-2021-04-30 21:32:39.855 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-30 21:32:39.856 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2021-04-30 21:32:39.856 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2021-04-30 21:34:13.480 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 5696 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
-2021-04-30 21:34:13.485 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-30 21:34:14.232 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
-2021-04-30 21:34:14.240 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
-2021-04-30 21:34:14.241 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-30 21:34:14.241 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
-2021-04-30 21:34:14.242 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
-2021-04-30 21:34:14.242 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-04-30 21:34:14.243 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-04-30 21:34:14.245 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
-2021-04-30 21:34:14.308 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-30 21:34:14.308 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 778 ms
-2021-04-30 21:34:14.473 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-30 21:34:14.619 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
-2021-04-30 21:34:14.633 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
-2021-04-30 21:34:14.641 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 1.663 seconds (JVM running for 2.667)
-2021-04-30 21:34:14.643 INFO  com.wsz.medicine.MedicineApplication              :17   [32m                  [0;39m 启动成功！！
-2021-04-30 21:34:14.643 INFO  com.wsz.medicine.MedicineApplication              :18   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
-2021-04-30 21:34:24.632 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-30 21:34:24.633 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2021-04-30 21:34:24.633 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2021-04-30 21:46:36.359 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 4788 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
-2021-04-30 21:46:36.362 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-30 21:46:36.402 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-04-30 21:46:36.403 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-04-30 21:46:37.306 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
-2021-04-30 21:46:37.312 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
-2021-04-30 21:46:37.312 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-30 21:46:37.313 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
-2021-04-30 21:46:37.314 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
-2021-04-30 21:46:37.315 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-04-30 21:46:37.315 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-04-30 21:46:37.320 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
-2021-04-30 21:46:37.361 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-30 21:46:37.362 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 958 ms
-2021-04-30 21:46:37.470 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-30 21:46:37.591 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-30 21:46:37.604 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
-2021-04-30 21:46:37.620 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
-2021-04-30 21:46:37.627 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 1.789 seconds (JVM running for 2.718)
-2021-04-30 21:46:37.627 INFO  com.wsz.medicine.MedicineApplication              :17   [32m                  [0;39m 启动成功！！
-2021-04-30 21:46:37.627 INFO  com.wsz.medicine.MedicineApplication              :18   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
-2021-04-30 21:46:44.594 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-30 21:46:44.594 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2021-04-30 21:46:44.594 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2021-04-30 21:46:55.710 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-30 21:46:55.819 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 4788 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
-2021-04-30 21:46:55.819 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-30 21:46:55.988 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
-2021-04-30 21:46:55.988 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
-2021-04-30 21:46:55.988 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-30 21:46:55.988 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
-2021-04-30 21:46:55.988 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
-2021-04-30 21:46:55.988 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-04-30 21:46:55.988 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-04-30 21:46:55.988 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
-2021-04-30 21:46:55.988 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-30 21:46:55.988 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 169 ms
-2021-04-30 21:46:56.035 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-30 21:46:56.051 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-30 21:46:56.067 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
-2021-04-30 21:46:56.067 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
-2021-04-30 21:46:56.067 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.275 seconds (JVM running for 21.166)
-2021-04-30 21:46:56.067 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2021-04-30 21:46:56.067 INFO  com.wsz.medicine.MedicineApplication              :17   [32m                  [0;39m 启动成功！！
-2021-04-30 21:46:56.067 INFO  com.wsz.medicine.MedicineApplication              :18   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
-2021-04-30 21:47:01.047 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-30 21:47:01.047 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2021-04-30 21:47:01.047 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2021-04-30 21:55:02.819 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 10528 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
-2021-04-30 21:55:02.822 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-30 21:55:02.856 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-04-30 21:55:02.856 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-04-30 21:55:03.624 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.wsz.medicine]' package. Please check your configuration.
-2021-04-30 21:55:03.877 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
-2021-04-30 21:55:03.883 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
-2021-04-30 21:55:03.884 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-30 21:55:03.884 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
-2021-04-30 21:55:03.886 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
-2021-04-30 21:55:03.886 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-04-30 21:55:03.886 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-04-30 21:55:03.888 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
-2021-04-30 21:55:03.928 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-30 21:55:03.928 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1071 ms
-2021-04-30 21:55:04.037 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-30 21:55:04.134 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2021-04-30 21:55:04.134 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-30 21:55:04.138 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2021-04-30 21:55:04.227 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-04-30 21:55:04.325 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
-
-Reason: Failed to determine a suitable driver class
-
-
-Action:
-
-Consider the following:
-	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
-	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
-
+2021-05-02 11:51:21.887 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 12420 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-02 11:51:21.887 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-02 11:51:21.997 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-02 11:51:21.997 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-02 11:51:24.722 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-02 11:51:24.738 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-02 11:51:24.738 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-02 11:51:24.738 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 11:51:24.754 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-02 11:51:24.754 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-02 11:51:24.754 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-02 11:51:24.816 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-02 11:51:24.946 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-02 11:51:24.946 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2949 ms
+2021-05-02 11:51:25.613 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 11:51:25.860 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-02 11:51:25.875 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-02 11:51:25.891 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 11:51:25.922 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 5.451 seconds (JVM running for 8.945)
+2021-05-02 11:51:25.922 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-02 11:51:25.922 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-02 11:51:28.232 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 11:51:28.232 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-02 11:51:28.232 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2021-05-02 11:51:28.294 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-05-02 11:51:30.076 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
