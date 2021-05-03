@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsz.medicine.mapper.OperatorsMapper">
+  <resultMap id="BaseResultMap" type="com.wsz.medicine.domain.Operators">
+    <id column="opr_id" jdbcType="BIGINT" property="oprId" />
+    <result column="opr_name" jdbcType="VARCHAR" property="oprName" />
+    <result column="opr_tel" jdbcType="VARCHAR" property="oprTel" />
+    <result column="opr_sex" jdbcType="VARCHAR" property="oprSex" />
+    <result column="opr_pay" jdbcType="VARCHAR" property="oprPay" />
+    <result column="opr_password" jdbcType="VARCHAR" property="oprPassword" />
+    <result column="opr_hiredate" jdbcType="DATE" property="oprHiredate" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    opr_id, opr_name, opr_tel, opr_sex, opr_pay, opr_password, opr_hiredate
+  </sql>
+  <select id="selectByExample" parameterType="com.wsz.medicine.domain.OperatorsExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from operators
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from operators
+    where opr_id = #{oprId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from operators
+    where opr_id = #{oprId,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.wsz.medicine.domain.OperatorsExample">
+    delete from operators
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.wsz.medicine.domain.Operators">
+    insert into operators (opr_id, opr_name, opr_tel, 
+      opr_sex, opr_pay, opr_password, 
+      opr_hiredate)
+    values (#{oprId,jdbcType=BIGINT}, #{oprName,jdbcType=VARCHAR}, #{oprTel,jdbcType=VARCHAR}, 
+      #{oprSex,jdbcType=VARCHAR}, #{oprPay,jdbcType=VARCHAR}, #{oprPassword,jdbcType=VARCHAR}, 
+      #{oprHiredate,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" parameterType="com.wsz.medicine.domain.Operators">
+    insert into operators
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="oprId != null">
+        opr_id,
+      </if>
+      <if test="oprName != null">
+        opr_name,
+      </if>
+      <if test="oprTel != null">
+        opr_tel,
+      </if>
+      <if test="oprSex != null">
+        opr_sex,
+      </if>
+      <if test="oprPay != null">
+        opr_pay,
+      </if>
+      <if test="oprPassword != null">
+        opr_password,
+      </if>
+      <if test="oprHiredate != null">
+        opr_hiredate,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="oprId != null">
+        #{oprId,jdbcType=BIGINT},
+      </if>
+      <if test="oprName != null">
+        #{oprName,jdbcType=VARCHAR},
+      </if>
+      <if test="oprTel != null">
+        #{oprTel,jdbcType=VARCHAR},
+      </if>
+      <if test="oprSex != null">
+        #{oprSex,jdbcType=VARCHAR},
+      </if>
+      <if test="oprPay != null">
+        #{oprPay,jdbcType=VARCHAR},
+      </if>
+      <if test="oprPassword != null">
+        #{oprPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="oprHiredate != null">
+        #{oprHiredate,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.wsz.medicine.domain.OperatorsExample" resultType="java.lang.Long">
+    select count(*) from operators
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update operators
+    <set>
+      <if test="record.oprId != null">
+        opr_id = #{record.oprId,jdbcType=BIGINT},
+      </if>
+      <if test="record.oprName != null">
+        opr_name = #{record.oprName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.oprTel != null">
+        opr_tel = #{record.oprTel,jdbcType=VARCHAR},
+      </if>
+      <if test="record.oprSex != null">
+        opr_sex = #{record.oprSex,jdbcType=VARCHAR},
+      </if>
+      <if test="record.oprPay != null">
+        opr_pay = #{record.oprPay,jdbcType=VARCHAR},
+      </if>
+      <if test="record.oprPassword != null">
+        opr_password = #{record.oprPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="record.oprHiredate != null">
+        opr_hiredate = #{record.oprHiredate,jdbcType=DATE},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update operators
+    set opr_id = #{record.oprId,jdbcType=BIGINT},
+      opr_name = #{record.oprName,jdbcType=VARCHAR},
+      opr_tel = #{record.oprTel,jdbcType=VARCHAR},
+      opr_sex = #{record.oprSex,jdbcType=VARCHAR},
+      opr_pay = #{record.oprPay,jdbcType=VARCHAR},
+      opr_password = #{record.oprPassword,jdbcType=VARCHAR},
+      opr_hiredate = #{record.oprHiredate,jdbcType=DATE}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.wsz.medicine.domain.Operators">
+    update operators
+    <set>
+      <if test="oprName != null">
+        opr_name = #{oprName,jdbcType=VARCHAR},
+      </if>
+      <if test="oprTel != null">
+        opr_tel = #{oprTel,jdbcType=VARCHAR},
+      </if>
+      <if test="oprSex != null">
+        opr_sex = #{oprSex,jdbcType=VARCHAR},
+      </if>
+      <if test="oprPay != null">
+        opr_pay = #{oprPay,jdbcType=VARCHAR},
+      </if>
+      <if test="oprPassword != null">
+        opr_password = #{oprPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="oprHiredate != null">
+        opr_hiredate = #{oprHiredate,jdbcType=DATE},
+      </if>
+    </set>
+    where opr_id = #{oprId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wsz.medicine.domain.Operators">
+    update operators
+    set opr_name = #{oprName,jdbcType=VARCHAR},
+      opr_tel = #{oprTel,jdbcType=VARCHAR},
+      opr_sex = #{oprSex,jdbcType=VARCHAR},
+      opr_pay = #{oprPay,jdbcType=VARCHAR},
+      opr_password = #{oprPassword,jdbcType=VARCHAR},
+      opr_hiredate = #{oprHiredate,jdbcType=DATE}
+    where opr_id = #{oprId,jdbcType=BIGINT}
+  </update>
+</mapper>

@@ -40,6 +40,9 @@
                              targetPackage="com.wsz.medicine.mapper"
                              type="XMLMAPPER"/>
 
-        <table tableName="sales_order" domainObjectName="SaleOrder"/>
+<!--        <table tableName="sales_order" domainObjectName="SaleOrder"/>-->
+<!--        <table tableName="operators" domainObjectName="Operators"/>-->
+<!--        <table tableName="customers" domainObjectName="Customers"/>-->
+        <table tableName="order_detail" domainObjectName="OrderDetail"/>
     </context>
 </generatorConfiguration>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsz.medicine.mapper.CustomersMapper">
+  <resultMap id="BaseResultMap" type="com.wsz.medicine.domain.Customers">
+    <id column="cust_id" jdbcType="INTEGER" property="custId" />
+    <result column="cust_name" jdbcType="CHAR" property="custName" />
+    <result column="cust_address" jdbcType="CHAR" property="custAddress" />
+    <result column="cust_city" jdbcType="CHAR" property="custCity" />
+    <result column="cust_state" jdbcType="CHAR" property="custState" />
+    <result column="cust_zip" jdbcType="CHAR" property="custZip" />
+    <result column="cust_country" jdbcType="CHAR" property="custCountry" />
+    <result column="cust_contact" jdbcType="CHAR" property="custContact" />
+    <result column="cust_email" jdbcType="CHAR" property="custEmail" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, 
+    cust_contact, cust_email
+  </sql>
+  <select id="selectByExample" parameterType="com.wsz.medicine.domain.CustomersExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from customers
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from customers
+    where cust_id = #{custId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from customers
+    where cust_id = #{custId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.wsz.medicine.domain.CustomersExample">
+    delete from customers
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.wsz.medicine.domain.Customers">
+    insert into customers (cust_id, cust_name, cust_address, 
+      cust_city, cust_state, cust_zip, 
+      cust_country, cust_contact, cust_email
+      )
+    values (#{custId,jdbcType=INTEGER}, #{custName,jdbcType=CHAR}, #{custAddress,jdbcType=CHAR}, 
+      #{custCity,jdbcType=CHAR}, #{custState,jdbcType=CHAR}, #{custZip,jdbcType=CHAR}, 
+      #{custCountry,jdbcType=CHAR}, #{custContact,jdbcType=CHAR}, #{custEmail,jdbcType=CHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.wsz.medicine.domain.Customers">
+    insert into customers
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="custId != null">
+        cust_id,
+      </if>
+      <if test="custName != null">
+        cust_name,
+      </if>
+      <if test="custAddress != null">
+        cust_address,
+      </if>
+      <if test="custCity != null">
+        cust_city,
+      </if>
+      <if test="custState != null">
+        cust_state,
+      </if>
+      <if test="custZip != null">
+        cust_zip,
+      </if>
+      <if test="custCountry != null">
+        cust_country,
+      </if>
+      <if test="custContact != null">
+        cust_contact,
+      </if>
+      <if test="custEmail != null">
+        cust_email,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="custId != null">
+        #{custId,jdbcType=INTEGER},
+      </if>
+      <if test="custName != null">
+        #{custName,jdbcType=CHAR},
+      </if>
+      <if test="custAddress != null">
+        #{custAddress,jdbcType=CHAR},
+      </if>
+      <if test="custCity != null">
+        #{custCity,jdbcType=CHAR},
+      </if>
+      <if test="custState != null">
+        #{custState,jdbcType=CHAR},
+      </if>
+      <if test="custZip != null">
+        #{custZip,jdbcType=CHAR},
+      </if>
+      <if test="custCountry != null">
+        #{custCountry,jdbcType=CHAR},
+      </if>
+      <if test="custContact != null">
+        #{custContact,jdbcType=CHAR},
+      </if>
+      <if test="custEmail != null">
+        #{custEmail,jdbcType=CHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.wsz.medicine.domain.CustomersExample" resultType="java.lang.Long">
+    select count(*) from customers
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update customers
+    <set>
+      <if test="record.custId != null">
+        cust_id = #{record.custId,jdbcType=INTEGER},
+      </if>
+      <if test="record.custName != null">
+        cust_name = #{record.custName,jdbcType=CHAR},
+      </if>
+      <if test="record.custAddress != null">
+        cust_address = #{record.custAddress,jdbcType=CHAR},
+      </if>
+      <if test="record.custCity != null">
+        cust_city = #{record.custCity,jdbcType=CHAR},
+      </if>
+      <if test="record.custState != null">
+        cust_state = #{record.custState,jdbcType=CHAR},
+      </if>
+      <if test="record.custZip != null">
+        cust_zip = #{record.custZip,jdbcType=CHAR},
+      </if>
+      <if test="record.custCountry != null">
+        cust_country = #{record.custCountry,jdbcType=CHAR},
+      </if>
+      <if test="record.custContact != null">
+        cust_contact = #{record.custContact,jdbcType=CHAR},
+      </if>
+      <if test="record.custEmail != null">
+        cust_email = #{record.custEmail,jdbcType=CHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update customers
+    set cust_id = #{record.custId,jdbcType=INTEGER},
+      cust_name = #{record.custName,jdbcType=CHAR},
+      cust_address = #{record.custAddress,jdbcType=CHAR},
+      cust_city = #{record.custCity,jdbcType=CHAR},
+      cust_state = #{record.custState,jdbcType=CHAR},
+      cust_zip = #{record.custZip,jdbcType=CHAR},
+      cust_country = #{record.custCountry,jdbcType=CHAR},
+      cust_contact = #{record.custContact,jdbcType=CHAR},
+      cust_email = #{record.custEmail,jdbcType=CHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.wsz.medicine.domain.Customers">
+    update customers
+    <set>
+      <if test="custName != null">
+        cust_name = #{custName,jdbcType=CHAR},
+      </if>
+      <if test="custAddress != null">
+        cust_address = #{custAddress,jdbcType=CHAR},
+      </if>
+      <if test="custCity != null">
+        cust_city = #{custCity,jdbcType=CHAR},
+      </if>
+      <if test="custState != null">
+        cust_state = #{custState,jdbcType=CHAR},
+      </if>
+      <if test="custZip != null">
+        cust_zip = #{custZip,jdbcType=CHAR},
+      </if>
+      <if test="custCountry != null">
+        cust_country = #{custCountry,jdbcType=CHAR},
+      </if>
+      <if test="custContact != null">
+        cust_contact = #{custContact,jdbcType=CHAR},
+      </if>
+      <if test="custEmail != null">
+        cust_email = #{custEmail,jdbcType=CHAR},
+      </if>
+    </set>
+    where cust_id = #{custId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wsz.medicine.domain.Customers">
+    update customers
+    set cust_name = #{custName,jdbcType=CHAR},
+      cust_address = #{custAddress,jdbcType=CHAR},
+      cust_city = #{custCity,jdbcType=CHAR},
+      cust_state = #{custState,jdbcType=CHAR},
+      cust_zip = #{custZip,jdbcType=CHAR},
+      cust_country = #{custCountry,jdbcType=CHAR},
+      cust_contact = #{custContact,jdbcType=CHAR},
+      cust_email = #{custEmail,jdbcType=CHAR}
+    where cust_id = #{custId,jdbcType=INTEGER}
+  </update>
+</mapper>
