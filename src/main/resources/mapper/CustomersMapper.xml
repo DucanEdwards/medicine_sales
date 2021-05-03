@@ -2,15 +2,11 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.wsz.medicine.mapper.CustomersMapper">
   <resultMap id="BaseResultMap" type="com.wsz.medicine.domain.Customers">
-    <id column="cust_id" jdbcType="INTEGER" property="custId" />
-    <result column="cust_name" jdbcType="CHAR" property="custName" />
-    <result column="cust_address" jdbcType="CHAR" property="custAddress" />
-    <result column="cust_city" jdbcType="CHAR" property="custCity" />
-    <result column="cust_state" jdbcType="CHAR" property="custState" />
-    <result column="cust_zip" jdbcType="CHAR" property="custZip" />
-    <result column="cust_country" jdbcType="CHAR" property="custCountry" />
-    <result column="cust_contact" jdbcType="CHAR" property="custContact" />
-    <result column="cust_email" jdbcType="CHAR" property="custEmail" />
+    <id column="cust_id" jdbcType="BIGINT" property="custId" />
+    <result column="cust_name" jdbcType="VARCHAR" property="custName" />
+    <result column="cust_tel" jdbcType="VARCHAR" property="custTel" />
+    <result column="cust_password" jdbcType="VARCHAR" property="custPassword" />
+    <result column="cust_cardnum" jdbcType="VARCHAR" property="custCardnum" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -71,8 +67,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, 
-    cust_contact, cust_email
+    cust_id, cust_name, cust_tel, cust_password, cust_cardnum
   </sql>
   <select id="selectByExample" parameterType="com.wsz.medicine.domain.CustomersExample" resultMap="BaseResultMap">
     select
@@ -88,15 +83,15 @@
       order by ${orderByClause}
     </if>
   </select>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
     from customers
-    where cust_id = #{custId,jdbcType=INTEGER}
+    where cust_id = #{custId,jdbcType=BIGINT}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from customers
-    where cust_id = #{custId,jdbcType=INTEGER}
+    where cust_id = #{custId,jdbcType=BIGINT}
   </delete>
   <delete id="deleteByExample" parameterType="com.wsz.medicine.domain.CustomersExample">
     delete from customers
@@ -105,14 +100,10 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.wsz.medicine.domain.Customers">
-    insert into customers (cust_id, cust_name, cust_address, 
-      cust_city, cust_state, cust_zip, 
-      cust_country, cust_contact, cust_email
-      )
-    values (#{custId,jdbcType=INTEGER}, #{custName,jdbcType=CHAR}, #{custAddress,jdbcType=CHAR}, 
-      #{custCity,jdbcType=CHAR}, #{custState,jdbcType=CHAR}, #{custZip,jdbcType=CHAR}, 
-      #{custCountry,jdbcType=CHAR}, #{custContact,jdbcType=CHAR}, #{custEmail,jdbcType=CHAR}
-      )
+    insert into customers (cust_id, cust_name, cust_tel, 
+      cust_password, cust_cardnum)
+    values (#{custId,jdbcType=BIGINT}, #{custName,jdbcType=VARCHAR}, #{custTel,jdbcType=VARCHAR}, 
+      #{custPassword,jdbcType=VARCHAR}, #{custCardnum,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.wsz.medicine.domain.Customers">
     insert into customers
@@ -123,55 +114,31 @@
       <if test="custName != null">
         cust_name,
       </if>
-      <if test="custAddress != null">
-        cust_address,
+      <if test="custTel != null">
+        cust_tel,
       </if>
-      <if test="custCity != null">
-        cust_city,
+      <if test="custPassword != null">
+        cust_password,
       </if>
-      <if test="custState != null">
-        cust_state,
-      </if>
-      <if test="custZip != null">
-        cust_zip,
-      </if>
-      <if test="custCountry != null">
-        cust_country,
-      </if>
-      <if test="custContact != null">
-        cust_contact,
-      </if>
-      <if test="custEmail != null">
-        cust_email,
+      <if test="custCardnum != null">
+        cust_cardnum,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="custId != null">
-        #{custId,jdbcType=INTEGER},
+        #{custId,jdbcType=BIGINT},
       </if>
       <if test="custName != null">
-        #{custName,jdbcType=CHAR},
+        #{custName,jdbcType=VARCHAR},
       </if>
-      <if test="custAddress != null">
-        #{custAddress,jdbcType=CHAR},
+      <if test="custTel != null">
+        #{custTel,jdbcType=VARCHAR},
       </if>
-      <if test="custCity != null">
-        #{custCity,jdbcType=CHAR},
+      <if test="custPassword != null">
+        #{custPassword,jdbcType=VARCHAR},
       </if>
-      <if test="custState != null">
-        #{custState,jdbcType=CHAR},
-      </if>
-      <if test="custZip != null">
-        #{custZip,jdbcType=CHAR},
-      </if>
-      <if test="custCountry != null">
-        #{custCountry,jdbcType=CHAR},
-      </if>
-      <if test="custContact != null">
-        #{custContact,jdbcType=CHAR},
-      </if>
-      <if test="custEmail != null">
-        #{custEmail,jdbcType=CHAR},
+      <if test="custCardnum != null">
+        #{custCardnum,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -185,31 +152,19 @@
     update customers
     <set>
       <if test="record.custId != null">
-        cust_id = #{record.custId,jdbcType=INTEGER},
+        cust_id = #{record.custId,jdbcType=BIGINT},
       </if>
       <if test="record.custName != null">
-        cust_name = #{record.custName,jdbcType=CHAR},
+        cust_name = #{record.custName,jdbcType=VARCHAR},
       </if>
-      <if test="record.custAddress != null">
-        cust_address = #{record.custAddress,jdbcType=CHAR},
+      <if test="record.custTel != null">
+        cust_tel = #{record.custTel,jdbcType=VARCHAR},
       </if>
-      <if test="record.custCity != null">
-        cust_city = #{record.custCity,jdbcType=CHAR},
+      <if test="record.custPassword != null">
+        cust_password = #{record.custPassword,jdbcType=VARCHAR},
       </if>
-      <if test="record.custState != null">
-        cust_state = #{record.custState,jdbcType=CHAR},
-      </if>
-      <if test="record.custZip != null">
-        cust_zip = #{record.custZip,jdbcType=CHAR},
-      </if>
-      <if test="record.custCountry != null">
-        cust_country = #{record.custCountry,jdbcType=CHAR},
-      </if>
-      <if test="record.custContact != null">
-        cust_contact = #{record.custContact,jdbcType=CHAR},
-      </if>
-      <if test="record.custEmail != null">
-        cust_email = #{record.custEmail,jdbcType=CHAR},
+      <if test="record.custCardnum != null">
+        cust_cardnum = #{record.custCardnum,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null">
@@ -218,15 +173,11 @@
   </update>
   <update id="updateByExample" parameterType="map">
     update customers
-    set cust_id = #{record.custId,jdbcType=INTEGER},
-      cust_name = #{record.custName,jdbcType=CHAR},
-      cust_address = #{record.custAddress,jdbcType=CHAR},
-      cust_city = #{record.custCity,jdbcType=CHAR},
-      cust_state = #{record.custState,jdbcType=CHAR},
-      cust_zip = #{record.custZip,jdbcType=CHAR},
-      cust_country = #{record.custCountry,jdbcType=CHAR},
-      cust_contact = #{record.custContact,jdbcType=CHAR},
-      cust_email = #{record.custEmail,jdbcType=CHAR}
+    set cust_id = #{record.custId,jdbcType=BIGINT},
+      cust_name = #{record.custName,jdbcType=VARCHAR},
+      cust_tel = #{record.custTel,jdbcType=VARCHAR},
+      cust_password = #{record.custPassword,jdbcType=VARCHAR},
+      cust_cardnum = #{record.custCardnum,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -235,42 +186,26 @@
     update customers
     <set>
       <if test="custName != null">
-        cust_name = #{custName,jdbcType=CHAR},
+        cust_name = #{custName,jdbcType=VARCHAR},
       </if>
-      <if test="custAddress != null">
-        cust_address = #{custAddress,jdbcType=CHAR},
+      <if test="custTel != null">
+        cust_tel = #{custTel,jdbcType=VARCHAR},
       </if>
-      <if test="custCity != null">
-        cust_city = #{custCity,jdbcType=CHAR},
+      <if test="custPassword != null">
+        cust_password = #{custPassword,jdbcType=VARCHAR},
       </if>
-      <if test="custState != null">
-        cust_state = #{custState,jdbcType=CHAR},
-      </if>
-      <if test="custZip != null">
-        cust_zip = #{custZip,jdbcType=CHAR},
-      </if>
-      <if test="custCountry != null">
-        cust_country = #{custCountry,jdbcType=CHAR},
-      </if>
-      <if test="custContact != null">
-        cust_contact = #{custContact,jdbcType=CHAR},
-      </if>
-      <if test="custEmail != null">
-        cust_email = #{custEmail,jdbcType=CHAR},
+      <if test="custCardnum != null">
+        cust_cardnum = #{custCardnum,jdbcType=VARCHAR},
       </if>
     </set>
-    where cust_id = #{custId,jdbcType=INTEGER}
+    where cust_id = #{custId,jdbcType=BIGINT}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.wsz.medicine.domain.Customers">
     update customers
-    set cust_name = #{custName,jdbcType=CHAR},
-      cust_address = #{custAddress,jdbcType=CHAR},
-      cust_city = #{custCity,jdbcType=CHAR},
-      cust_state = #{custState,jdbcType=CHAR},
-      cust_zip = #{custZip,jdbcType=CHAR},
-      cust_country = #{custCountry,jdbcType=CHAR},
-      cust_contact = #{custContact,jdbcType=CHAR},
-      cust_email = #{custEmail,jdbcType=CHAR}
-    where cust_id = #{custId,jdbcType=INTEGER}
+    set cust_name = #{custName,jdbcType=VARCHAR},
+      cust_tel = #{custTel,jdbcType=VARCHAR},
+      cust_password = #{custPassword,jdbcType=VARCHAR},
+      cust_cardnum = #{custCardnum,jdbcType=VARCHAR}
+    where cust_id = #{custId,jdbcType=BIGINT}
   </update>
 </mapper>

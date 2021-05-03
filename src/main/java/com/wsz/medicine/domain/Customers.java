@@ -1,29 +1,21 @@
 package com.wsz.medicine.domain;
 
 public class Customers {
-    private Integer custId;
+    private Long custId;
 
     private String custName;
 
-    private String custAddress;
+    private String custTel;
 
-    private String custCity;
+    private String custPassword;
 
-    private String custState;
+    private String custCardnum;
 
-    private String custZip;
-
-    private String custCountry;
-
-    private String custContact;
-
-    private String custEmail;
-
-    public Integer getCustId() {
+    public Long getCustId() {
         return custId;
     }
 
-    public void setCustId(Integer custId) {
+    public void setCustId(Long custId) {
         this.custId = custId;
     }
 
@@ -35,60 +27,28 @@ public class Customers {
         this.custName = custName;
     }
 
-    public String getCustAddress() {
-        return custAddress;
+    public String getCustTel() {
+        return custTel;
     }
 
-    public void setCustAddress(String custAddress) {
-        this.custAddress = custAddress;
+    public void setCustTel(String custTel) {
+        this.custTel = custTel;
     }
 
-    public String getCustCity() {
-        return custCity;
+    public String getCustPassword() {
+        return custPassword;
     }
 
-    public void setCustCity(String custCity) {
-        this.custCity = custCity;
+    public void setCustPassword(String custPassword) {
+        this.custPassword = custPassword;
     }
 
-    public String getCustState() {
-        return custState;
+    public String getCustCardnum() {
+        return custCardnum;
     }
 
-    public void setCustState(String custState) {
-        this.custState = custState;
-    }
-
-    public String getCustZip() {
-        return custZip;
-    }
-
-    public void setCustZip(String custZip) {
-        this.custZip = custZip;
-    }
-
-    public String getCustCountry() {
-        return custCountry;
-    }
-
-    public void setCustCountry(String custCountry) {
-        this.custCountry = custCountry;
-    }
-
-    public String getCustContact() {
-        return custContact;
-    }
-
-    public void setCustContact(String custContact) {
-        this.custContact = custContact;
-    }
-
-    public String getCustEmail() {
-        return custEmail;
-    }
-
-    public void setCustEmail(String custEmail) {
-        this.custEmail = custEmail;
+    public void setCustCardnum(String custCardnum) {
+        this.custCardnum = custCardnum;
     }
 
     @Override
@@ -99,13 +59,9 @@ public class Customers {
         sb.append("Hash = ").append(hashCode());
         sb.append(", custId=").append(custId);
         sb.append(", custName=").append(custName);
-        sb.append(", custAddress=").append(custAddress);
-        sb.append(", custCity=").append(custCity);
-        sb.append(", custState=").append(custState);
-        sb.append(", custZip=").append(custZip);
-        sb.append(", custCountry=").append(custCountry);
-        sb.append(", custContact=").append(custContact);
-        sb.append(", custEmail=").append(custEmail);
+        sb.append(", custTel=").append(custTel);
+        sb.append(", custPassword=").append(custPassword);
+        sb.append(", custCardnum=").append(custCardnum);
         sb.append("]");
         return sb.toString();
     }

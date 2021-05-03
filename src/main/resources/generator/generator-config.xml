@@ -25,6 +25,7 @@
                         connectionURL="jdbc:mysql://localhost:3306/medicine_sale?serverTimezone=Asia/Shanghai"
                         userId="root"
                         password="henry14">
+            <property name="nullCatalogMeansCurrent" value="true"/>
         </jdbcConnection>
 
         <!-- domain类的位置 -->
@@ -42,7 +43,7 @@
 
 <!--        <table tableName="sales_order" domainObjectName="SaleOrder"/>-->
 <!--        <table tableName="operators" domainObjectName="Operators"/>-->
-<!--        <table tableName="customers" domainObjectName="Customers"/>-->
-        <table tableName="order_detail" domainObjectName="OrderDetail"/>
+        <table tableName="customers" domainObjectName="Customers"/>
+<!--        <table tableName="order_detail" domainObjectName="OrderDetail"/>-->
     </context>
 </generatorConfiguration>
