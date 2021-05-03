@@ -4,19 +4,31 @@
       <div :style="{ background: '#fff', padding: '24px', minHeight: '280px' }">
         <a-table
             :columns="columns"
-            :row-key="record => record.id"
+            :row-key="record => record.orderId"
             :data-source="saleorders"
             :pagination="pagination"
             :loading="loading"
             @change="handleTableChange"
         >
+
+          <template #state="{ text }">
+            <span>
+              <a-tag
+                  :color="text == 0 ? 'volcano' : 'geekblue'"
+              >
+                {{ text==0?"未操作":"已操作" }}
+              </a-tag>
+            </span>
+          </template>
+
           <template v-slot:action="{ text, record }">
             <a-space size="small">
-              <a-button type="info">
+              <a-button type="dashed" @click="handledetail(record.orderId)">
                 订单细节
               </a-button>
             </a-space>
           </template>
+
         </a-table>
       </div>
     </a-layout-content>
@@ -57,7 +69,8 @@ export default defineComponent({
       },
       {
         title: '状态',
-        dataIndex: 'state'
+        dataIndex: 'state',
+        slots: { customRender: 'state' },
       },
       {
         title: 'Action',
@@ -78,11 +91,19 @@ export default defineComponent({
     }
 
     const handleTableChange=(pagination: any)=>{
-      console.log("看看自带的分页参数都有啥：" + pagination);
       query({
         page: pagination.current,
         size: pagination.pageSize
       });
+    }
+
+    const handledetail=(id:number)=>{
+      axios.get("/saleorder/detail/"+id).then((res)=>{
+        const data=res.data;
+        if (data.success) {
+          console.log(data.content)
+        }
+      })
     }
 
 
@@ -95,7 +116,8 @@ export default defineComponent({
       saleorders,
       pagination,
       loading,
-      handleTableChange
+      handleTableChange,
+      handledetail
     }
 
   }

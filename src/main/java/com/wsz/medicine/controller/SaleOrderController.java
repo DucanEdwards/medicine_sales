@@ -6,6 +6,7 @@ import com.wsz.medicine.resp.CommonResp;
 import com.wsz.medicine.resp.SaleOrderResp;
 import com.wsz.medicine.service.SaleOrderService;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -20,6 +21,14 @@ public class SaleOrderController {
 
     @GetMapping("/list")
     public CommonResp list(SaleOrderReq req) {
+        CommonResp<List<SaleOrderResp>> saleOrderCommonResp = new CommonResp<>();
+        List<SaleOrderResp> list=saleOrderService.list(req);
+        saleOrderCommonResp.setContent(list);
+        return saleOrderCommonResp;
+    }
+
+    @GetMapping("/detail/{id}")
+    public CommonResp detail(@PathVariable Long id) {
         CommonResp<List<SaleOrderResp>> saleOrderCommonResp = new CommonResp<>();
         List<SaleOrderResp> list=saleOrderService.list(req);
         saleOrderCommonResp.setContent(list);
