@@ -76,7 +76,7 @@ export default defineComponent({
         slots: { customRender: 'state' },
       },
       {
-        title: 'Action',
+        title: '了解更多',
         key: 'action',
         slots: { customRender: 'action' }
       }

@@ -1,0 +1,298 @@
+GET http://localhost:9000/opr/order/10
+
+<> 2021-05-04T223444.200.json
+
+###
+
+GET http://localhost:9000/opr/order/9
+
+<> 2021-05-04T223432.200.json
+
+###
+
+GET http://localhost:9000/opr/order/2
+
+<> 2021-05-04T223422.200.json
+
+###
+
+GET http://localhost:9000/opr/order/1
+
+<> 2021-05-04T223405.200.json
+
+###
+
+GET http://localhost:9000/opr/order/4
+
+<> 2021-05-04T223350.200.json
+
+###
+
+GET http://localhost:9000/opr/order/4
+
+<> 2021-05-04T223324.500.json
+
+###
+
+GET http://localhost:9000/opr/order
+
+<> 2021-05-04T223244.404.json
+
+###
+
+GET http://localhost:9000/opr/order?oprId=4
+
+<> 2021-05-04T223233.404.json
+
+###
+
+GET http://localhost:9000/opr/order?oprId=4
+
+<> 2021-05-04T223044.404.json
+
+###
+
+GET http://localhost:9000/saleorder/list?custId=2
+
+<> 2021-05-04T222839.200.json
+
+###
+
+GET http://localhost:9000/opr/order?oprId=4
+
+<> 2021-05-04T222816.404.json
+
+###
+
+GET http://localhost:9000/opr/order?oprId=4
+
+<> 2021-05-04T222644.404.json
+
+###
+
+GET http://localhost:9000/opr/order?oprId=3
+
+<> 2021-05-04T222636.404.json
+
+###
+
+GET http://localhost:9000/opr/order?oprId=3
+
+<> 2021-05-04T222613.404.json
+
+###
+
+GET http://localhost:9000/opr/order?oprId=3
+
+<> 2021-05-04T222547.404.json
+
+###
+
+GET http://localhost:9000/opr/order?oprId=2
+
+<> 2021-05-04T222541.404.json
+
+###
+
+GET http://localhost:9000/opr/order?oprId=1
+
+<> 2021-05-04T222532.404.json
+
+###
+
+GET http://localhost:9000/saleorder/list?custId=2
+
+<> 2021-05-04T222312.200.json
+
+###
+
+GET http://localhost:9000/opr/order?oprId=1
+
+<> 2021-05-04T222254.404.json
+
+###
+
+GET http://localhost:9000/opr/order?oprId=1
+
+<> 2021-05-04T221953.404.json
+
+###
+
+GET http://localhost:9000/opr/list
+
+<> 2021-05-04T205811.200.json
+
+###
+
+GET http://localhost:9000/opr/list
+
+<> 2021-05-04T204953.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list?custId=2
+
+<> 2021-05-02T210005.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list?custId=2
+
+<> 2021-05-02T173137.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list?custId=2
+
+<> 2021-05-02T123553.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list?oprId=2
+
+<> 2021-05-02T123517.500.json
+
+###
+
+GET http://localhost:9000/saleorder/list?oprId=2
+
+<> 2021-05-02T123504.500.json
+
+###
+
+GET http://localhost:9000/saleorder/list?null=
+
+<> 2021-05-02T123433.500.json
+
+###
+
+GET http://localhost:9000/saleorder/list
+
+<> 2021-05-02T123417.500.json
+
+###
+
+GET http://localhost:9000/saleorder/list?custId=1
+
+<> 2021-05-02T123411.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list?custId=1
+
+<> 2021-05-02T123119.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list?custId=1
+
+<> 2021-05-02T123001.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list?custId=1
+
+<> 2021-05-02T122439.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list?custId=1
+
+<> 2021-05-02T121524.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list?custId=1
+
+<> 2021-05-02T121434.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list
+
+<> 2021-05-02T120927.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list
+
+<> 2021-05-02T120201.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list
+
+<> 2021-05-02T115130.200.json
+
+###
+
+GET http://localhost:9000/saleorder/list
+
+###
+
+GET http://localhost:9000/saleorder/list
+
+###
+
+GET http://localhost:9000/saleorder/list
+
+<> 2021-04-30T223906.200.json
+
+###
+
+GET http://localhost:9000/hello
+Accept: application/json
+
+###
+
+GET http://localhost:9000/hello
+Accept: application/json
+
+###
+
+GET http://localhost:9000/saleorder/list
+
+###
+
+GET http://localhost:9000/hello
+Accept: application/json
+
+<> 2021-04-30T214701.200.json
+
+###
+
+GET http://localhost:9000/hello
+Accept: application/json
+
+<> 2021-04-30T214644.200.json
+
+###
+
+GET http://localhost:9000/hello
+Accept: application/json
+
+<> 2021-04-30T214604.200.json
+
+###
+
+GET http://localhost:9000/hello
+Accept: application/json
+
+<> 2021-04-30T214445.200.json
+
+###
+
+GET http://localhost:9000/hello
+Accept: application/json
+
+<> 2021-04-30T214431.200.json
+
+###
+
+GET http://localhost:9000/hello
+Accept: application/json
+
+<> 2021-04-30T213927.200.json
+
+###
+

@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import AdminSaleOrder from '../views/admin/admin-saleorder.vue'
 import AdminOrderDetail from '../views/admin/admin-orderdetail.vue'
 import AdminOpr from '../views/admin/admin-opr.vue'
+import AdminOprOrder from '../views/admin/admin-opr-order.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -32,6 +33,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/admin/opr',
     name: 'AdminOpr',
     component: AdminOpr
+  },
+  {
+    path: '/admin/opr/order',
+    name: 'AdminOprOrder',
+    component: AdminOprOrder
   },
 ]
 

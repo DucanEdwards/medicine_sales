@@ -4,10 +4,9 @@
       <div :style="{ background: '#fff', padding: '24px', minHeight: '280px' }">
         <a-table
             :columns="columns"
-            :row-key="record => record.orderId"
+            :row-key="record => record.oprId"
             :data-source="operators"
             :loading="loading"
-            @change="handleTableChange"
         >
 
 <!--          <template #state="{ text }">-->
@@ -20,15 +19,15 @@
 <!--            </span>-->
 <!--          </template>-->
 
-<!--          <template v-slot:action="{ text, record }">-->
-<!--            <a-space size="small">-->
-<!--              <a-button type="dashed" @click="handledetail(record.orderId)">-->
-<!--                <router-link :to="'/admin/orderdetail?orderId=' + record.orderId">-->
-<!--                  订单细节-->
-<!--                </router-link>-->
-<!--              </a-button>-->
-<!--            </a-space>-->
-<!--          </template>-->
+          <template v-slot:action="{ text, record }">
+            <a-space size="small">
+              <a-button type="dashed" @click="handleorder(record.oprId)">
+                <router-link :to="'/admin/opr/order?oprId=' + record.oprId">
+                  分配的订单
+                </router-link>
+              </a-button>
+            </a-space>
+          </template>
 
         </a-table>
       </div>
@@ -74,6 +73,11 @@ export default defineComponent({
       {
         title: '雇佣时间',
         dataIndex: 'oprHiredate',
+      },
+      {
+        title: '了解更多',
+        key: 'action',
+        slots: { customRender: 'action' }
       }
     ];
 
@@ -86,6 +90,10 @@ export default defineComponent({
       });
     }
 
+    const handleorder=(oprid:number)=>{
+      console.log("前往查询操作员对应的订单页面");
+    }
+
     onMounted(()=>{
       query();
     })
@@ -93,7 +101,8 @@ export default defineComponent({
     return {
       operators,
       loading,
-      columns
+      columns,
+      handleorder
     }
   }
 });
