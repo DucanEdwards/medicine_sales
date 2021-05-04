@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
 import AdminSaleOrder from '../views/admin/admin-saleorder.vue'
+import AdminOrderDetail from '../views/admin/admin-orderdetail.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -20,6 +21,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/admin/saleorder',
     name: 'AdminSaleOrder',
     component: AdminSaleOrder
+  },
+  {
+    path: '/admin/orderdetail',
+    name: 'AdminOrderDetail',
+    component: AdminOrderDetail
   },
 ]
 

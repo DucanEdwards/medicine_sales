@@ -24,7 +24,9 @@
           <template v-slot:action="{ text, record }">
             <a-space size="small">
               <a-button type="dashed" @click="handledetail(record.orderId)">
-                订单细节
+                <router-link :to="'/admin/orderdetail?orderId=' + record.orderId">
+                  订单细节
+                </router-link>
               </a-button>
             </a-space>
           </template>
@@ -38,6 +40,7 @@
 <script lang="ts">
 import { defineComponent,ref,onMounted} from 'vue';
 import axios from "axios";
+
 
 export default defineComponent({
   name: 'AdminSaleOrder',
@@ -98,12 +101,13 @@ export default defineComponent({
     }
 
     const handledetail=(id:number)=>{
-      axios.get("/saleorder/detail/"+id).then((res)=>{
-        const data=res.data;
-        if (data.success) {
-          console.log(data.content)
-        }
-      })
+      // axios.get("/saleorder/detail/"+id).then((res)=>{
+      //   const data=res.data;
+      //   if (data.success) {
+      //     console.log(data.content)
+      //   }
+      // })
+      console.log(id)
     }
 
 

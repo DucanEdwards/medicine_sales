@@ -7,6 +7,7 @@ import 'element-plus/lib/theme-chalk/index.css';
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
 import axios from "axios";
+import * as Icons from '@ant-design/icons-vue';
 
 axios.defaults.baseURL="http://localhost:9000"
 
@@ -29,3 +30,9 @@ axios.interceptors.response.use(function (response) {
 
 const app=createApp(App);
 app.use(store).use(router).use(ElementPlus).use(Antd).mount('#app')
+
+// 全局使用图标
+const icons: any = Icons;
+for (const i in icons) {
+    app.component(i, icons[i]);
+}

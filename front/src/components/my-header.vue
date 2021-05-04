@@ -8,6 +8,11 @@
       <a-menu-item key="/">
         <router-link to="/">首页</router-link>
       </a-menu-item>
+
+      <a-menu-item key="/admin/opr">
+        <router-link to="/admin/opr">操作员</router-link>
+      </a-menu-item>
+
       <a-menu-item key="/admin/saleorder">
         <router-link to="/admin/saleorder">销售查询</router-link>
       </a-menu-item>
