@@ -43,7 +43,8 @@
 
 <!--        <table tableName="sales_order" domainObjectName="SaleOrder"/>-->
 <!--        <table tableName="operators" domainObjectName="Operators"/>-->
-        <table tableName="customers" domainObjectName="Customers"/>
+<!--        <table tableName="customers" domainObjectName="Customers"/>-->
 <!--        <table tableName="order_detail" domainObjectName="OrderDetail"/>-->
+        <table tableName="drug" domainObjectName="Drug"/>
     </context>
 </generatorConfiguration>

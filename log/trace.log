@@ -1,21 +1,359 @@
-2021-05-03 21:53:35.247 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 13564 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
-2021-05-03 21:53:35.262 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-05-03 21:53:35.567 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-05-03 21:53:35.568 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-05-03 21:53:40.896 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
-2021-05-03 21:53:40.928 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
-2021-05-03 21:53:40.944 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-05-03 21:53:40.944 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
-2021-05-03 21:53:40.944 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
-2021-05-03 21:53:40.944 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-05-03 21:53:40.944 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-05-03 21:53:40.991 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
-2021-05-03 21:53:41.116 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-05-03 21:53:41.116 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 5546 ms
-2021-05-03 21:53:42.519 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-05-03 21:53:42.934 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-05-03 21:53:42.950 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
-2021-05-03 21:53:42.966 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
-2021-05-03 21:53:42.997 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 10.279 seconds (JVM running for 16.648)
-2021-05-03 21:53:43.013 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
-2021-05-03 21:53:43.013 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-04 11:16:54.525 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 2440 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-04 11:16:54.541 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-04 11:16:54.729 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-04 11:16:54.729 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-04 11:17:00.574 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-04 11:17:00.637 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:17:00.637 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-04 11:17:00.637 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-04 11:17:00.685 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-04 11:17:00.685 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-04 11:17:00.685 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-04 11:17:00.857 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-04 11:17:01.173 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-04 11:17:01.173 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 6444 ms
+2021-05-04 11:17:02.598 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 11:17:03.099 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-04 11:17:03.116 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:17:03.131 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-04 11:17:03.210 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 10.737 seconds (JVM running for 14.384)
+2021-05-04 11:17:03.210 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-04 11:17:03.210 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-04 11:18:58.876 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-04 11:18:58.876 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-04 11:18:58.877 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-05-04 11:19:03.610 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-05-04 11:19:13.909 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2021-05-04 11:20:09.508 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 6648 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-04 11:20:09.508 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-04 11:20:09.555 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-04 11:20:09.555 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-04 11:20:11.171 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-04 11:20:11.187 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:20:11.187 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-04 11:20:11.187 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-04 11:20:11.187 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-04 11:20:11.187 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-04 11:20:11.187 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-04 11:20:11.202 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-04 11:20:11.241 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-04 11:20:11.256 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1701 ms
+2021-05-04 11:20:11.898 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 11:20:12.085 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-04 11:20:12.103 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:20:12.118 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-04 11:20:12.118 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 3.287 seconds (JVM running for 5.235)
+2021-05-04 11:20:12.134 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-04 11:20:12.134 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-04 11:20:28.894 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-04 11:20:28.894 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-04 11:20:28.895 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-05-04 11:20:28.980 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-05-04 11:20:29.772 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2021-05-04 11:29:20.928 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-04 11:29:20.931 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-05-04 11:29:20.952 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2021-05-04 11:29:21.240 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 6648 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-04 11:29:21.240 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-04 11:29:21.335 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.wsz.medicine.mapper]' package. Please check your configuration.
+2021-05-04 11:29:21.386 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-04 11:29:21.401 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:29:21.401 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-04 11:29:21.401 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-04 11:29:21.401 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-04 11:29:21.401 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-04 11:29:21.401 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-04 11:29:21.401 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-04 11:29:21.573 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-04 11:29:21.573 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 333 ms
+2021-05-04 11:29:21.604 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 11:29:21.668 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [G:\database_practice\big_job\target\classes\mapper\CustomersMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [G:\database_practice\big_job\target\classes\mapper\CustomersMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.wsz.medicine.domain.Customers'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.wsz.medicine.domain.Customers
+2021-05-04 11:29:21.668 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-04 11:29:21.668 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-05-04 11:29:21.668 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-04 11:29:21.715 ERROR org.springframework.boot.SpringApplication        :871  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [G:\database_practice\big_job\target\classes\mapper\CustomersMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [G:\database_practice\big_job\target\classes\mapper\CustomersMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.wsz.medicine.domain.Customers'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.wsz.medicine.domain.Customers
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at com.wsz.medicine.MedicineApplication.main(MedicineApplication.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [G:\database_practice\big_job\target\classes\mapper\CustomersMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [G:\database_practice\big_job\target\classes\mapper\CustomersMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.wsz.medicine.domain.Customers'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.wsz.medicine.domain.Customers
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 23 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [G:\database_practice\big_job\target\classes\mapper\CustomersMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [G:\database_practice\big_job\target\classes\mapper\CustomersMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.wsz.medicine.domain.Customers'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.wsz.medicine.domain.Customers
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:632)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$de646b95.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$de646b95$$FastClassBySpringCGLIB$$a0d298b5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$de646b95.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 24 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [G:\database_practice\big_job\target\classes\mapper\CustomersMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.wsz.medicine.domain.Customers'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.wsz.medicine.domain.Customers
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 37 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.wsz.medicine.domain.Customers'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.wsz.medicine.domain.Customers
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 39 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.wsz.medicine.domain.Customers'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.wsz.medicine.domain.Customers
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 43 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.wsz.medicine.domain.Customers
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 45 common frames omitted
+2021-05-04 11:29:23.614 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 6648 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-04 11:29:23.614 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-04 11:29:24.608 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-04 11:29:24.609 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:29:24.609 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-04 11:29:24.610 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-04 11:29:24.612 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-04 11:29:24.613 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-04 11:29:24.615 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-04 11:29:24.615 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-04 11:29:24.634 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-04 11:29:24.634 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1004 ms
+2021-05-04 11:29:24.637 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logAspect': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.wsz.medicine.aspect.LogAspect] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@26e295c0]
+2021-05-04 11:29:24.637 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-05-04 11:29:24.645 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-04 11:29:24.649 ERROR org.springframework.boot.SpringApplication        :871  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logAspect': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.wsz.medicine.aspect.LogAspect] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@26e295c0]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at com.wsz.medicine.MedicineApplication.main(MedicineApplication.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.wsz.medicine.aspect.LogAspect] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@26e295c0]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/ProceedingJoinPoint
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.ProceedingJoinPoint
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 28 common frames omitted
+2021-05-04 11:29:46.140 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 16816 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-04 11:29:46.140 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-04 11:29:46.173 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-04 11:29:46.173 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-04 11:29:47.861 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-04 11:29:47.910 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:29:47.910 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-04 11:29:47.910 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-04 11:29:47.925 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-04 11:29:47.925 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-04 11:29:47.925 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-04 11:29:47.925 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-04 11:29:48.066 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-04 11:29:48.066 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1878 ms
+2021-05-04 11:29:48.944 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 11:29:49.163 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-04 11:29:49.179 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:29:49.194 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-04 11:29:49.210 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 3.787 seconds (JVM running for 5.203)
+2021-05-04 11:29:49.210 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-04 11:29:49.210 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-04 11:29:55.992 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-04 11:29:55.993 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-04 11:29:55.994 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-05-04 11:29:56.071 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m44626539211526144 [0;39m ------------- 开始 -------------
+2021-05-04 11:29:56.071 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m44626539211526144 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-04 11:29:56.072 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m44626539211526144 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-04 11:29:56.072 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m44626539211526144 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-04 11:29:56.183 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m44626539211526144 [0;39m 请求参数: [{}]
+2021-05-04 11:29:56.252 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m44626539211526144 [0;39m HikariPool-1 - Starting...
+2021-05-04 11:29:57.774 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m44626539211526144 [0;39m HikariPool-1 - Start completed.
+2021-05-04 11:29:57.859 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m44626539211526144 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"optTime":1616533344000,"orderId":1,"state":"0"},{"custId":20,"oprId":4,"optTime":1591706353000,"orderId":2,"state":"1"},{"custId":24,"oprId":10,"optTime":1588734612000,"orderId":3,"state":"1"},{"custId":11,"oprId":10,"optTime":1618789137000,"orderId":4,"state":"1"},{"custId":23,"oprId":9,"optTime":1619307103000,"orderId":5,"state":"0"},{"custId":5,"oprId":2,"optTime":1610218202000,"orderId":6,"state":"1"},{"custId":7,"oprId":8,"optTime":1589122077000,"orderId":7,"state":"1"},{"custId":26,"oprId":2,"optTime":1615774007000,"orderId":8,"state":"0"},{"custId":4,"oprId":3,"optTime":1605387557000,"orderId":9,"state":"1"},{"custId":21,"oprId":8,"optTime":1589981263000,"orderId":10,"state":"1"},{"custId":25,"oprId":8,"optTime":1607834491000,"orderId":11,"state":"0"},{"custId":15,"oprId":1,"optTime":1595754363000,"orderId":12,"state":"0"},{"custId":18,"oprId":10,"optTime":1590685433000,"orderId":13,"state":"0"},{"custId":3,"oprId":5,"optTime":1601057347000,"orderId":14,"state":"1"},{"custId":4,"oprId":2,"optTime":1594460127000,"orderId":15,"state":"0"},{"custId":7,"oprId":9,"optTime":1599072890000,"orderId":16,"state":"1"},{"custId":15,"oprId":10,"optTime":1604587992000,"orderId":17,"state":"0"},{"custId":11,"oprId":9,"optTime":1618743970000,"orderId":18,"state":"1"},{"custId":7,"oprId":6,"optTime":1592854104000,"orderId":19,"state":"0"},{"custId":1,"oprId":5,"optTime":1616639543000,"orderId":20,"state":"0"},{"custId":12,"oprId":6,"optTime":1602473270000,"orderId":21,"state":"1"},{"custId":11,"oprId":3,"optTime":1589056029000,"orderId":22,"state":"1"},{"custId":10,"oprId":7,"optTime":1616558468000,"orderId":23,"state":"1"},{"custId":14,"oprId":3,"optTime":1596946559000,"orderId":24,"state":"1"},{"custId":30,"oprId":1,"optTime":1593287562000,"orderId":25,"state":"1"},{"custId":14,"oprId":10,"optTime":1613073758000,"orderId":26,"state":"1"},{"custId":17,"oprId":9,"optTime":1602185335000,"orderId":27,"state":"1"},{"custId":20,"oprId":7,"optTime":1609553766000,"orderId":28,"state":"1"},{"custId":5,"oprId":10,"optTime":1589334264000,"orderId":29,"state":"1"},{"custId":9,"oprId":6,"optTime":1603028458000,"orderId":30,"state":"0"},{"custId":23,"oprId":2,"optTime":1601389870000,"orderId":31,"state":"0"},{"custId":17,"oprId":4,"optTime":1600922998000,"orderId":32,"state":"1"},{"custId":3,"oprId":4,"optTime":1601494576000,"orderId":33,"state":"1"},{"custId":11,"oprId":9,"optTime":1597363308000,"orderId":34,"state":"0"},{"custId":4,"oprId":1,"optTime":1605619011000,"orderId":35,"state":"1"},{"custId":22,"oprId":7,"optTime":1612224984000,"orderId":36,"state":"1"},{"custId":26,"oprId":5,"optTime":1594675856000,"orderId":37,"state":"0"},{"custId":24,"oprId":6,"optTime":1606621981000,"orderId":38,"state":"1"},{"custId":9,"oprId":9,"optTime":1608418251000,"orderId":39,"state":"1"},{"custId":15,"oprId":8,"optTime":1610125897000,"orderId":40,"state":"0"},{"custId":11,"oprId":5,"optTime":1593743421000,"orderId":41,"state":"0"},{"custId":10,"oprId":2,"optTime":1619290022000,"orderId":42,"state":"1"},{"custId":23,"oprId":4,"optTime":1597538069000,"orderId":43,"state":"0"},{"custId":13,"oprId":1,"optTime":1593701473000,"orderId":44,"state":"0"},{"custId":4,"oprId":4,"optTime":1614525149000,"orderId":45,"state":"0"},{"custId":9,"oprId":6,"optTime":1588211725000,"orderId":46,"state":"1"},{"custId":22,"oprId":10,"optTime":1611020873000,"orderId":47,"state":"1"},{"custId":24,"oprId":1,"optTime":1590133485000,"orderId":48,"state":"0"},{"custId":23,"oprId":6,"optTime":1599264982000,"orderId":49,"state":"1"},{"custId":24,"oprId":2,"optTime":1590955323000,"orderId":50,"state":"0"}],"success":true}
+2021-05-04 11:29:57.859 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m44626539211526144 [0;39m ------------- 结束 耗时：1790 ms -------------
+2021-05-04 11:30:05.398 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m44626578340188160 [0;39m ------------- 开始 -------------
+2021-05-04 11:30:05.398 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m44626578340188160 [0;39m 请求地址: http://localhost:9000/saleorder/detail/1 GET
+2021-05-04 11:30:05.399 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m44626578340188160 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.detail
+2021-05-04 11:30:05.399 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m44626578340188160 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-04 11:30:05.400 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m44626578340188160 [0;39m 请求参数: [1]
+2021-05-04 11:30:05.409 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m44626578340188160 [0;39m 返回结果: {"content":[null],"success":true}
+2021-05-04 11:30:05.409 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m44626578340188160 [0;39m ------------- 结束 耗时：11 ms -------------
+2021-05-04 11:32:33.014 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-04 11:32:33.014 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-05-04 11:32:33.030 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2021-05-04 11:32:33.233 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 16816 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-04 11:32:33.233 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-04 11:32:33.467 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-04 11:32:33.467 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:32:33.467 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-04 11:32:33.467 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-04 11:32:33.467 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-04 11:32:33.467 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-04 11:32:33.467 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-04 11:32:33.467 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-04 11:32:33.483 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-04 11:32:33.483 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 250 ms
+2021-05-04 11:32:33.686 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 11:32:33.842 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-04 11:32:33.858 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:32:33.858 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-04 11:32:33.873 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.664 seconds (JVM running for 169.869)
+2021-05-04 11:32:33.873 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-04 11:32:33.873 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-04 11:32:33.873 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-04 11:32:38.031 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-04 11:32:38.032 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-04 11:32:38.033 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-05-04 11:32:38.038 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m44627218554556416 [0;39m ------------- 开始 -------------
+2021-05-04 11:32:38.038 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m44627218554556416 [0;39m 请求地址: http://localhost:9000/saleorder/detail/1 GET
+2021-05-04 11:32:38.038 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m44627218554556416 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.detail
+2021-05-04 11:32:38.039 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m44627218554556416 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-04 11:32:38.041 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m44627218554556416 [0;39m 请求参数: [1]
+2021-05-04 11:32:38.044 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m44627218554556416 [0;39m HikariPool-2 - Starting...
+2021-05-04 11:32:38.170 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m44627218554556416 [0;39m HikariPool-2 - Start completed.
+2021-05-04 11:32:38.225 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m44627218554556416 [0;39m 返回结果: {"content":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"success":true}
+2021-05-04 11:32:38.225 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m44627218554556416 [0;39m ------------- 结束 耗时：188 ms -------------
+2021-05-04 11:32:52.935 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-04 11:32:52.935 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2021-05-04 11:32:52.935 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2021-05-04 11:32:53.076 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 16816 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-04 11:32:53.076 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-04 11:32:53.265 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-04 11:32:53.265 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:32:53.280 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-04 11:32:53.280 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-04 11:32:53.280 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-04 11:32:53.280 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-04 11:32:53.280 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-04 11:32:53.280 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-04 11:32:53.296 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-04 11:32:53.296 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 220 ms
+2021-05-04 11:32:53.422 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 11:32:53.531 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-04 11:32:53.547 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:32:53.547 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-04 11:32:53.547 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.496 seconds (JVM running for 189.554)
+2021-05-04 11:32:53.547 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-04 11:32:53.547 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-04 11:32:53.547 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-04 11:34:35.602 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-04 11:34:35.603 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-04 11:34:35.604 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2021-05-04 11:34:35.608 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m44627711683072000 [0;39m ------------- 开始 -------------
+2021-05-04 11:34:35.609 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m44627711683072000 [0;39m 请求地址: http://localhost:9000/saleorder/detail/2 GET
+2021-05-04 11:34:35.609 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m44627711683072000 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.detail
+2021-05-04 11:34:35.610 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m44627711683072000 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-04 11:34:35.612 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m44627711683072000 [0;39m 请求参数: [2]
+2021-05-04 11:34:35.615 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m44627711683072000 [0;39m HikariPool-3 - Starting...
+2021-05-04 11:34:35.626 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m44627711683072000 [0;39m HikariPool-3 - Start completed.
+2021-05-04 11:34:35.628 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m44627711683072000 [0;39m 返回结果: {"content":[null,null],"success":true}
+2021-05-04 11:34:35.628 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m44627711683072000 [0;39m ------------- 结束 耗时：20 ms -------------
+2021-05-04 11:38:52.058 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-04 11:38:52.058 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2021-05-04 11:38:52.074 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2021-05-04 11:38:52.247 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 16816 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-04 11:38:52.247 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-04 11:38:52.459 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-04 11:38:52.459 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:38:52.459 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-04 11:38:52.459 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-04 11:38:52.459 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-04 11:38:52.475 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-04 11:38:52.475 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-04 11:38:52.475 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-04 11:38:52.490 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-04 11:38:52.490 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 243 ms
+2021-05-04 11:38:52.663 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 11:38:52.792 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-04 11:38:52.799 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-04 11:38:52.801 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-04 11:38:52.804 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.572 seconds (JVM running for 548.803)
+2021-05-04 11:38:52.805 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-04 11:38:52.806 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-04 11:38:52.806 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-04 11:39:01.549 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-04 11:39:01.550 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-04 11:39:01.551 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-05-04 11:39:01.553 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m44628827137249280 [0;39m ------------- 开始 -------------
+2021-05-04 11:39:01.553 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m44628827137249280 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-04 11:39:01.553 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m44628827137249280 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-04 11:39:01.554 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m44628827137249280 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-04 11:39:01.555 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m44628827137249280 [0;39m 请求参数: [{}]
+2021-05-04 11:39:01.563 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m44628827137249280 [0;39m HikariPool-4 - Starting...
+2021-05-04 11:39:01.579 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m44628827137249280 [0;39m HikariPool-4 - Start completed.
+2021-05-04 11:39:01.611 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m44628827137249280 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"optTime":1616533344000,"orderId":1,"state":"0"},{"custId":20,"oprId":4,"optTime":1591706353000,"orderId":2,"state":"1"},{"custId":24,"oprId":10,"optTime":1588734612000,"orderId":3,"state":"1"},{"custId":11,"oprId":10,"optTime":1618789137000,"orderId":4,"state":"1"},{"custId":23,"oprId":9,"optTime":1619307103000,"orderId":5,"state":"0"},{"custId":5,"oprId":2,"optTime":1610218202000,"orderId":6,"state":"1"},{"custId":7,"oprId":8,"optTime":1589122077000,"orderId":7,"state":"1"},{"custId":26,"oprId":2,"optTime":1615774007000,"orderId":8,"state":"0"},{"custId":4,"oprId":3,"optTime":1605387557000,"orderId":9,"state":"1"},{"custId":21,"oprId":8,"optTime":1589981263000,"orderId":10,"state":"1"},{"custId":25,"oprId":8,"optTime":1607834491000,"orderId":11,"state":"0"},{"custId":15,"oprId":1,"optTime":1595754363000,"orderId":12,"state":"0"},{"custId":18,"oprId":10,"optTime":1590685433000,"orderId":13,"state":"0"},{"custId":3,"oprId":5,"optTime":1601057347000,"orderId":14,"state":"1"},{"custId":4,"oprId":2,"optTime":1594460127000,"orderId":15,"state":"0"},{"custId":7,"oprId":9,"optTime":1599072890000,"orderId":16,"state":"1"},{"custId":15,"oprId":10,"optTime":1604587992000,"orderId":17,"state":"0"},{"custId":11,"oprId":9,"optTime":1618743970000,"orderId":18,"state":"1"},{"custId":7,"oprId":6,"optTime":1592854104000,"orderId":19,"state":"0"},{"custId":1,"oprId":5,"optTime":1616639543000,"orderId":20,"state":"0"},{"custId":12,"oprId":6,"optTime":1602473270000,"orderId":21,"state":"1"},{"custId":11,"oprId":3,"optTime":1589056029000,"orderId":22,"state":"1"},{"custId":10,"oprId":7,"optTime":1616558468000,"orderId":23,"state":"1"},{"custId":14,"oprId":3,"optTime":1596946559000,"orderId":24,"state":"1"},{"custId":30,"oprId":1,"optTime":1593287562000,"orderId":25,"state":"1"},{"custId":14,"oprId":10,"optTime":1613073758000,"orderId":26,"state":"1"},{"custId":17,"oprId":9,"optTime":1602185335000,"orderId":27,"state":"1"},{"custId":20,"oprId":7,"optTime":1609553766000,"orderId":28,"state":"1"},{"custId":5,"oprId":10,"optTime":1589334264000,"orderId":29,"state":"1"},{"custId":9,"oprId":6,"optTime":1603028458000,"orderId":30,"state":"0"},{"custId":23,"oprId":2,"optTime":1601389870000,"orderId":31,"state":"0"},{"custId":17,"oprId":4,"optTime":1600922998000,"orderId":32,"state":"1"},{"custId":3,"oprId":4,"optTime":1601494576000,"orderId":33,"state":"1"},{"custId":11,"oprId":9,"optTime":1597363308000,"orderId":34,"state":"0"},{"custId":4,"oprId":1,"optTime":1605619011000,"orderId":35,"state":"1"},{"custId":22,"oprId":7,"optTime":1612224984000,"orderId":36,"state":"1"},{"custId":26,"oprId":5,"optTime":1594675856000,"orderId":37,"state":"0"},{"custId":24,"oprId":6,"optTime":1606621981000,"orderId":38,"state":"1"},{"custId":9,"oprId":9,"optTime":1608418251000,"orderId":39,"state":"1"},{"custId":15,"oprId":8,"optTime":1610125897000,"orderId":40,"state":"0"},{"custId":11,"oprId":5,"optTime":1593743421000,"orderId":41,"state":"0"},{"custId":10,"oprId":2,"optTime":1619290022000,"orderId":42,"state":"1"},{"custId":23,"oprId":4,"optTime":1597538069000,"orderId":43,"state":"0"},{"custId":13,"oprId":1,"optTime":1593701473000,"orderId":44,"state":"0"},{"custId":4,"oprId":4,"optTime":1614525149000,"orderId":45,"state":"0"},{"custId":9,"oprId":6,"optTime":1588211725000,"orderId":46,"state":"1"},{"custId":22,"oprId":10,"optTime":1611020873000,"orderId":47,"state":"1"},{"custId":24,"oprId":1,"optTime":1590133485000,"orderId":48,"state":"0"},{"custId":23,"oprId":6,"optTime":1599264982000,"orderId":49,"state":"1"},{"custId":24,"oprId":2,"optTime":1590955323000,"orderId":50,"state":"0"}],"success":true}
+2021-05-04 11:39:01.612 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m44628827137249280 [0;39m ------------- 结束 耗时：60 ms -------------
+2021-05-04 11:39:04.070 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m44628837694312448 [0;39m ------------- 开始 -------------
+2021-05-04 11:39:04.071 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m44628837694312448 [0;39m 请求地址: http://localhost:9000/saleorder/detail/1 GET
+2021-05-04 11:39:04.071 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m44628837694312448 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.detail
+2021-05-04 11:39:04.071 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m44628837694312448 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-04 11:39:04.072 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m44628837694312448 [0;39m 请求参数: [1]
+2021-05-04 11:39:04.077 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m44628837694312448 [0;39m 返回结果: {"content":[{"custName":"Ulises Meysham","custTel":"5143525828","drugName":"Captopril","drugNum":1,"oprName":"Madella Taffrey","orderId":1}],"success":true}
+2021-05-04 11:39:04.078 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m44628837694312448 [0;39m ------------- 结束 耗时：8 ms -------------

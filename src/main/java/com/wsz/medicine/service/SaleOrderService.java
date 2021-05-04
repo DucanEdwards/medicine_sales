@@ -2,8 +2,10 @@ package com.wsz.medicine.service;
 
 import com.wsz.medicine.domain.SaleOrder;
 import com.wsz.medicine.domain.SaleOrderExample;
+import com.wsz.medicine.mapper.SaleOrderDetailMapperCust;
 import com.wsz.medicine.mapper.SaleOrderMapper;
 import com.wsz.medicine.req.SaleOrderReq;
+import com.wsz.medicine.resp.OrderDetailResp;
 import com.wsz.medicine.resp.SaleOrderResp;
 import com.wsz.medicine.util.CopyUtil;
 import org.springframework.beans.BeanUtils;
@@ -19,6 +21,9 @@ public class SaleOrderService {
     @Resource
     private SaleOrderMapper saleOrderMapper;
 
+    @Resource
+    private SaleOrderDetailMapperCust saleOrderDetailMapperCust;
+
     public List<SaleOrderResp> list(SaleOrderReq req) {
         SaleOrderExample saleOrderExample=new SaleOrderExample();
         SaleOrderExample.Criteria criteria=saleOrderExample.createCriteria();
@@ -30,6 +35,10 @@ public class SaleOrderService {
         List<SaleOrderResp> respList = CopyUtil.copyList(saleOrdersList, SaleOrderResp.class);
 
         return respList;
+    }
+
+    public List<OrderDetailResp> getDetail(Long id) {
+        return saleOrderDetailMapperCust.getDetail(id);
     }
 
 }

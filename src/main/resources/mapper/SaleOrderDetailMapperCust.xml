@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wsz.medicine.mapper.SaleOrderDetailMapperCust" >
+    
+    <select id="getDetail" resultType="com.wsz.medicine.resp.OrderDetailResp">
+        select od.order_id as orderId,
+               opr_name as oprName,
+               cust_name as custName,
+               cust_tel as custTel,
+               drug_name as drugName,
+               drug_num as drugNum
+        from order_detail od
+                 left join sales_order so on od.order_id = so.order_id
+                 left join customers c on c.cust_id = so.cust_id
+                 left join operators o on so.opr_id = o.opr_id
+        where od.order_id=#{id}
+    </select>
+
+</mapper>

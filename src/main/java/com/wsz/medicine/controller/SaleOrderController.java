@@ -3,6 +3,7 @@ package com.wsz.medicine.controller;
 import com.wsz.medicine.domain.SaleOrder;
 import com.wsz.medicine.req.SaleOrderReq;
 import com.wsz.medicine.resp.CommonResp;
+import com.wsz.medicine.resp.OrderDetailResp;
 import com.wsz.medicine.resp.SaleOrderResp;
 import com.wsz.medicine.service.SaleOrderService;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -29,8 +30,8 @@ public class SaleOrderController {
 
     @GetMapping("/detail/{id}")
     public CommonResp detail(@PathVariable Long id) {
-        CommonResp<List<SaleOrderResp>> saleOrderCommonResp = new CommonResp<>();
-        List<SaleOrderResp> list=saleOrderService.list(req);
+        List<OrderDetailResp> list=saleOrderService.getDetail(id);
+        CommonResp<List<OrderDetailResp>> saleOrderCommonResp = new CommonResp<>();
         saleOrderCommonResp.setContent(list);
         return saleOrderCommonResp;
     }
