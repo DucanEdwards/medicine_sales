@@ -1,5 +1,7 @@
 package com.wsz.medicine.resp;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 
 public class SaleOrderResp {
@@ -9,6 +11,7 @@ public class SaleOrderResp {
 
     private Long oprId;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
     private Date optTime;
 
     private String state;

@@ -6,7 +6,6 @@
             :columns="columns"
             :row-key="record => record.orderId"
             :data-source="operators"
-            :pagination="pagination"
             :loading="loading"
             @change="handleTableChange"
         >
@@ -38,7 +37,7 @@
 </template>
 
 <script lang="ts">
-import {defineComponent, ref} from 'vue';
+import {defineComponent, ref,onMounted} from 'vue';
 import axios from "axios";
 import {useRoute} from "vue-router";
 
@@ -50,38 +49,51 @@ export default defineComponent({
     const loading = ref(false);
     const columns = [
       {
-        title: '订单编号',
-        dataIndex: 'orderId',
+        title: '操作员号',
+        dataIndex: 'oprId',
       },
       {
         title: '操作员名',
         dataIndex: 'oprName'
       },
       {
-        // title: '顾客名',
-        key:"custName",
-        dataIndex: 'custName',
-        slots: { title: 'customName'}
+        title: '操作员手机号',
+        key:"oprTel",
+        dataIndex: 'oprTel',
       },
       {
-        // title: '顾客手机号', 加了title就失效
-        key:"custTel",
-        dataIndex: 'custTel',
-        slots: { title: 'customTel'}
+        title: '操作员性别',
+        key:"oprSex",
+        dataIndex: 'oprSex',
       },
       {
-        key:"drugName",
-        dataIndex: 'drugName',
-        slots: { title: 'customDrug'}
+        title: '操作员薪资',
+        key:"oprPay",
+        dataIndex: 'oprPay',
       },
       {
-        title: '药品数',
-        dataIndex: 'drugNum',
+        title: '雇佣时间',
+        dataIndex: 'oprHiredate',
       }
     ];
 
+    const query=()=>{
+      loading.value=true
+      axios.get("/opr/list").then((res) => {
+        loading.value = false;
+        const data = res.data;
+        operators.value = data.content;
+      });
+    }
+
+    onMounted(()=>{
+      query();
+    })
+
     return {
-      operators
+      operators,
+      loading,
+      columns
     }
   }
 });
