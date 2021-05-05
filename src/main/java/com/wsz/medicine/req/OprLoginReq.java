@@ -1,12 +1,12 @@
 package com.wsz.medicine.req;
 
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 public class OprLoginReq {
-    @NotNull(message = "【账号】不能为空")
+
     private Long oprId;
 
-    @NotNull(message = "【密码】不能为空")
     private String oprPassword;
 
     @Override
