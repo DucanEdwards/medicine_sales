@@ -36,4 +36,12 @@ public class SaleOrderController {
         return saleOrderCommonResp;
     }
 
+    @GetMapping("/confirm-order/{orderId}")
+    public CommonResp updateState(@PathVariable Long orderId) {
+        CommonResp commonResp = new CommonResp<>();
+        String message=saleOrderService.updateState(orderId);
+        commonResp.setMessage(message);
+        return commonResp;
+    }
+
 }

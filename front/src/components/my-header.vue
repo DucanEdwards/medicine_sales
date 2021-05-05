@@ -67,12 +67,14 @@ import {computed, defineComponent, ref} from 'vue';
 import axios from 'axios';
 import { message } from 'ant-design-vue';
 import store from "@/store";
+import {useRouter} from 'vue-router'
 
 export default defineComponent({
   name: 'my-header',
   setup() {
     // const opr=ref();
     // opr.value={};
+    const router=useRouter();
     const opr=computed(()=>store.state.opr)
 
     const loginUser=ref({
@@ -110,6 +112,7 @@ export default defineComponent({
         if (data.success) {
           message.success("退出登录成功！");
           store.commit("setOpr",{});
+          router.push('/')
         } else {
           message.error(data.message);
         }
