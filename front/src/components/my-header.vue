@@ -17,7 +17,7 @@
         <router-link to="/admin/saleorder">销售查询</router-link>
       </a-menu-item>
 
-      <a-menu-item key="/admin/confirm-order">
+      <a-menu-item key="/admin/confirm-order" :style="opr.oprId?{}:{display:'none'}">
         <router-link to="/admin/confirm-order">操作订单</router-link>
       </a-menu-item>
 
@@ -34,6 +34,19 @@
           {{ opr.oprName }}
         </a-tag>
       </a>
+
+      <a-popconfirm
+          title="Confirm Logout?"
+          ok-text="Yes"
+          cancel-text="No"
+          @confirm="logout()"
+      >
+        <a class="login" v-show="opr.oprId">
+          <a-button type="primary">
+            退出登录
+          </a-button>
+        </a>
+      </a-popconfirm>
     </a-menu>
 
     <a-modal v-model:visible="visible" :confirmLoading="loading" title="Login" @ok="login">
@@ -90,13 +103,27 @@ export default defineComponent({
       });
     };
 
+    const logout = () => {
+      console.log("退出登录");
+      axios.get('/opr/logout/'+ opr.value.token).then((res) => {
+        const data = res.data;
+        if (data.success) {
+          message.success("退出登录成功！");
+          store.commit("setOpr",{});
+        } else {
+          message.error(data.message);
+        }
+      });
+    };
+
     return {
       loginUser,
       visible,
       loading,
       opr,
       showLoginModal,
-      login
+      login,
+      logout
     }
   }
 });
@@ -105,6 +132,7 @@ export default defineComponent({
 <style scoped>
 .login {
   float: right;
+  padding-right: 10px;
 }
 .loginname{
   color: #e1b12c;

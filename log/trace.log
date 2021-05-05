@@ -3369,3 +3369,624 @@ org.springframework.web.bind.MethodArgumentNotValidException: Validation failed 
 2021-05-05 14:26:31.030 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45033365505708032 [0;39m 生成单点登录token：45033365564428288，并放入redis中
 2021-05-05 14:26:33.639 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45033365505708032 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45033365564428288"},"success":true}
 2021-05-05 14:26:33.639 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45033365505708032 [0;39m ------------- 结束 耗时：2624 ms -------------
+2021-05-05 14:32:24.231 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45034846996795392 [0;39m ------------- 开始 -------------
+2021-05-05 14:32:24.231 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45034846996795392 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:32:24.231 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45034846996795392 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:32:24.231 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45034846996795392 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:32:24.231 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45034846996795392 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:32:24.235 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45034846996795392 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:32:24.235 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45034846996795392 [0;39m ------------- 结束 耗时：4 ms -------------
+2021-05-05 14:32:29.350 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45034868467437568 [0;39m ------------- 开始 -------------
+2021-05-05 14:32:29.350 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45034868467437568 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 14:32:29.350 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45034868467437568 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 14:32:29.350 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45034868467437568 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:32:29.351 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45034868467437568 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 14:32:29.353 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45034868467437568 [0;39m 生成单点登录token：45034868480020480，并放入redis中
+2021-05-05 14:32:29.355 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45034868467437568 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45034868480020480"},"success":true}
+2021-05-05 14:32:29.355 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45034868467437568 [0;39m ------------- 结束 耗时：5 ms -------------
+2021-05-05 14:33:09.731 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45035037837627392 [0;39m ------------- 开始 -------------
+2021-05-05 14:33:09.731 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45035037837627392 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:33:09.731 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45035037837627392 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:33:09.731 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45035037837627392 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:33:09.732 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45035037837627392 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:33:09.734 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45035037837627392 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:33:09.734 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45035037837627392 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-05 14:34:03.403 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45035262954311680 [0;39m ------------- 开始 -------------
+2021-05-05 14:34:03.403 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45035262954311680 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 14:34:03.404 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45035262954311680 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 14:34:03.404 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45035262954311680 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:34:03.404 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45035262954311680 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 14:34:03.406 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45035262954311680 [0;39m 生成单点登录token：45035262966894592，并放入redis中
+2021-05-05 14:34:03.408 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45035262954311680 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45035262966894592"},"success":true}
+2021-05-05 14:34:03.409 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45035262954311680 [0;39m ------------- 结束 耗时：6 ms -------------
+2021-05-05 14:34:20.705 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45035335524159488 [0;39m ------------- 开始 -------------
+2021-05-05 14:34:20.705 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45035335524159488 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:34:20.705 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45035335524159488 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:34:20.705 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45035335524159488 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:34:20.706 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45035335524159488 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:34:20.725 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45035335524159488 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:34:20.726 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45035335524159488 [0;39m ------------- 结束 耗时：21 ms -------------
+2021-05-05 14:34:22.316 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45035342281183232 [0;39m ------------- 开始 -------------
+2021-05-05 14:34:22.317 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45035342281183232 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 14:34:22.317 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45035342281183232 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 14:34:22.317 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45035342281183232 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:34:22.317 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45035342281183232 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 14:34:22.319 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45035342281183232 [0;39m 生成单点登录token：45035342293766144，并放入redis中
+2021-05-05 14:34:22.320 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45035342281183232 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45035342293766144"},"success":true}
+2021-05-05 14:34:22.321 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45035342281183232 [0;39m ------------- 结束 耗时：5 ms -------------
+2021-05-05 14:34:52.540 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45035469049827328 [0;39m ------------- 开始 -------------
+2021-05-05 14:34:52.540 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45035469049827328 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:34:52.540 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45035469049827328 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:34:52.540 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45035469049827328 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:34:52.540 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45035469049827328 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:34:52.544 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45035469049827328 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:34:52.545 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45035469049827328 [0;39m ------------- 结束 耗时：5 ms -------------
+2021-05-05 14:34:55.546 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45035481657905152 [0;39m ------------- 开始 -------------
+2021-05-05 14:34:55.547 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45035481657905152 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 14:34:55.547 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45035481657905152 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 14:34:55.547 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45035481657905152 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:34:55.547 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45035481657905152 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 14:34:55.564 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45035481657905152 [0;39m 生成单点登录token：45035481733402624，并放入redis中
+2021-05-05 14:34:55.566 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45035481657905152 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45035481733402624"},"success":true}
+2021-05-05 14:34:55.566 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45035481657905152 [0;39m ------------- 结束 耗时：20 ms -------------
+2021-05-05 14:35:07.736 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45035532786470912 [0;39m ------------- 开始 -------------
+2021-05-05 14:35:07.736 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45035532786470912 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:35:07.736 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45035532786470912 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:35:07.736 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45035532786470912 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:35:07.736 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45035532786470912 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:35:07.738 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45035532786470912 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:35:07.738 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45035532786470912 [0;39m ------------- 结束 耗时：2 ms -------------
+2021-05-05 14:37:04.106 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45036020877627392 [0;39m ------------- 开始 -------------
+2021-05-05 14:37:04.107 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45036020877627392 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 14:37:04.107 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45036020877627392 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 14:37:04.107 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45036020877627392 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:37:04.107 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45036020877627392 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 14:37:04.109 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45036020877627392 [0;39m 生成单点登录token：45036020890210304，并放入redis中
+2021-05-05 14:37:04.110 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45036020877627392 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45036020890210304"},"success":true}
+2021-05-05 14:37:04.111 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45036020877627392 [0;39m ------------- 结束 耗时：5 ms -------------
+2021-05-05 14:38:33.919 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45036397580652544 [0;39m ------------- 开始 -------------
+2021-05-05 14:38:33.920 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45036397580652544 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:38:33.920 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45036397580652544 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:38:33.920 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45036397580652544 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:38:33.920 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45036397580652544 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:38:33.923 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45036397580652544 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:38:33.923 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45036397580652544 [0;39m ------------- 结束 耗时：4 ms -------------
+2021-05-05 14:38:37.721 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45036413527396352 [0;39m ------------- 开始 -------------
+2021-05-05 14:38:37.721 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45036413527396352 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 14:38:37.721 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45036413527396352 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 14:38:37.722 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45036413527396352 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:38:37.722 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45036413527396352 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 14:38:37.724 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45036413527396352 [0;39m 生成单点登录token：45036413539979264，并放入redis中
+2021-05-05 14:38:37.726 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45036413527396352 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45036413539979264"},"success":true}
+2021-05-05 14:38:37.726 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45036413527396352 [0;39m ------------- 结束 耗时：5 ms -------------
+2021-05-05 14:39:08.048 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45036540728053760 [0;39m ------------- 开始 -------------
+2021-05-05 14:39:08.048 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45036540728053760 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:39:08.048 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45036540728053760 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:39:08.048 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45036540728053760 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:39:08.049 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45036540728053760 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:39:08.052 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45036540728053760 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:39:08.052 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45036540728053760 [0;39m ------------- 结束 耗时：4 ms -------------
+2021-05-05 14:39:47.404 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45036705799081984 [0;39m ------------- 开始 -------------
+2021-05-05 14:39:47.405 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45036705799081984 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:39:47.405 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45036705799081984 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:39:47.405 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45036705799081984 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:39:47.405 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45036705799081984 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:39:47.408 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45036705799081984 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:39:47.409 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45036705799081984 [0;39m ------------- 结束 耗时：5 ms -------------
+2021-05-05 14:39:49.165 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45036713185251328 [0;39m ------------- 开始 -------------
+2021-05-05 14:39:49.166 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45036713185251328 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 14:39:49.166 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45036713185251328 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 14:39:49.166 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45036713185251328 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:39:49.167 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45036713185251328 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 14:39:49.170 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45036713185251328 [0;39m 生成单点登录token：45036713206222848，并放入redis中
+2021-05-05 14:39:49.173 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45036713185251328 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45036713206222848"},"success":true}
+2021-05-05 14:39:49.173 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45036713185251328 [0;39m ------------- 结束 耗时：8 ms -------------
+2021-05-05 14:41:21.554 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45037100692803584 [0;39m ------------- 开始 -------------
+2021-05-05 14:41:21.555 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45037100692803584 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:41:21.555 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45037100692803584 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:41:21.556 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45037100692803584 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:41:21.556 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45037100692803584 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:41:21.570 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45037100692803584 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:41:21.570 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45037100692803584 [0;39m ------------- 结束 耗时：16 ms -------------
+2021-05-05 14:41:23.392 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45037108401934336 [0;39m ------------- 开始 -------------
+2021-05-05 14:41:23.393 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45037108401934336 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 14:41:23.394 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45037108401934336 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 14:41:23.394 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45037108401934336 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:41:23.395 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45037108401934336 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 14:41:23.397 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45037108401934336 [0;39m 生成单点登录token：45037108422905856，并放入redis中
+2021-05-05 14:41:23.399 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45037108401934336 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45037108422905856"},"success":true}
+2021-05-05 14:41:23.399 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45037108401934336 [0;39m ------------- 结束 耗时：7 ms -------------
+2021-05-05 14:42:38.099 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45037421745803264 [0;39m ------------- 开始 -------------
+2021-05-05 14:42:38.100 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45037421745803264 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:42:38.100 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45037421745803264 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:42:38.100 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45037421745803264 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:42:38.100 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45037421745803264 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:42:38.102 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45037421745803264 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:42:38.103 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45037421745803264 [0;39m ------------- 结束 耗时：4 ms -------------
+2021-05-05 14:43:00.185 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45037514381201408 [0;39m ------------- 开始 -------------
+2021-05-05 14:43:00.185 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45037514381201408 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:43:00.185 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45037514381201408 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:43:00.185 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45037514381201408 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:43:00.186 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45037514381201408 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:43:00.188 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45037514381201408 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:43:00.188 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45037514381201408 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-05 14:43:55.965 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45037748339478528 [0;39m ------------- 开始 -------------
+2021-05-05 14:43:55.965 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45037748339478528 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:43:55.965 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45037748339478528 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:43:55.966 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45037748339478528 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:43:55.966 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45037748339478528 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:43:55.968 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45037748339478528 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:43:55.968 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45037748339478528 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-05 14:48:19.747 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45038854721376256 [0;39m ------------- 开始 -------------
+2021-05-05 14:48:19.748 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45038854721376256 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:48:19.748 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45038854721376256 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:48:19.748 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45038854721376256 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:48:19.748 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45038854721376256 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:48:19.763 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45038854721376256 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:48:19.764 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45038854721376256 [0;39m ------------- 结束 耗时：17 ms -------------
+2021-05-05 14:48:27.342 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45038886577115136 [0;39m ------------- 开始 -------------
+2021-05-05 14:48:27.342 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45038886577115136 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 14:48:27.342 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45038886577115136 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 14:48:27.342 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45038886577115136 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:48:27.347 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45038886577115136 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 14:48:27.350 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45038886577115136 [0;39m 生成单点登录token：45038886610669568，并放入redis中
+2021-05-05 14:48:27.366 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45038886577115136 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45038886610669568"},"success":true}
+2021-05-05 14:48:27.366 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45038886577115136 [0;39m ------------- 结束 耗时：24 ms -------------
+2021-05-05 14:49:19.937 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45039107176534016 [0;39m ------------- 开始 -------------
+2021-05-05 14:49:19.937 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45039107176534016 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:49:19.937 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45039107176534016 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:49:19.938 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45039107176534016 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:49:19.938 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45039107176534016 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:49:19.948 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45039107176534016 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:49:19.949 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45039107176534016 [0;39m ------------- 结束 耗时：12 ms -------------
+2021-05-05 14:50:53.756 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45039500681940992 [0;39m ------------- 开始 -------------
+2021-05-05 14:50:53.757 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45039500681940992 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:50:53.758 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45039500681940992 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:50:53.759 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45039500681940992 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:50:53.759 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45039500681940992 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:50:54.183 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45039500681940992 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:50:54.184 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45039500681940992 [0;39m ------------- 结束 耗时：428 ms -------------
+2021-05-05 14:53:08.445 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45040065608552448 [0;39m ------------- 开始 -------------
+2021-05-05 14:53:08.445 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45040065608552448 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:53:08.446 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45040065608552448 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:53:08.464 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45040065608552448 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:53:08.478 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45040065608552448 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:53:08.570 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45040065608552448 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:53:08.570 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45040065608552448 [0;39m ------------- 结束 耗时：125 ms -------------
+2021-05-05 14:55:25.970 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45040642430210048 [0;39m ------------- 开始 -------------
+2021-05-05 14:55:25.970 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45040642430210048 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:55:25.970 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45040642430210048 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:55:25.970 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45040642430210048 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:55:25.970 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45040642430210048 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:55:25.973 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45040642430210048 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:55:25.973 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45040642430210048 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-05 14:56:07.677 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45040817362046976 [0;39m ------------- 开始 -------------
+2021-05-05 14:56:07.677 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45040817362046976 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:56:07.677 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45040817362046976 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:56:07.687 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45040817362046976 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:56:07.687 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45040817362046976 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:56:07.791 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45040817362046976 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:56:07.791 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45040817362046976 [0;39m ------------- 结束 耗时：114 ms -------------
+2021-05-05 14:56:15.292 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45040849301671936 [0;39m ------------- 开始 -------------
+2021-05-05 14:56:15.292 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45040849301671936 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:56:15.292 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45040849301671936 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:56:15.293 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45040849301671936 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:56:15.293 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45040849301671936 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:56:15.399 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45040849301671936 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:56:15.399 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45040849301671936 [0;39m ------------- 结束 耗时：107 ms -------------
+2021-05-05 14:56:51.483 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45041001097728000 [0;39m ------------- 开始 -------------
+2021-05-05 14:56:51.483 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45041001097728000 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:56:51.484 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45041001097728000 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:56:51.484 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45041001097728000 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:56:51.485 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45041001097728000 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:56:51.526 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45041001097728000 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:56:51.527 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45041001097728000 [0;39m ------------- 结束 耗时：44 ms -------------
+2021-05-05 14:57:32.289 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45041172250497024 [0;39m ------------- 开始 -------------
+2021-05-05 14:57:32.290 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45041172250497024 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 14:57:32.290 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45041172250497024 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 14:57:32.290 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45041172250497024 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:57:32.291 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45041172250497024 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 14:57:32.397 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45041172250497024 [0;39m 生成单点登录token：45041172703481856，并放入redis中
+2021-05-05 14:57:32.432 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45041172250497024 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45041172703481856"},"success":true}
+2021-05-05 14:57:32.432 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45041172250497024 [0;39m ------------- 结束 耗时：143 ms -------------
+2021-05-05 14:57:35.570 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45041186012008448 [0;39m ------------- 开始 -------------
+2021-05-05 14:57:35.571 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45041186012008448 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:57:35.571 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45041186012008448 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:57:35.571 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45041186012008448 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:57:35.571 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45041186012008448 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:57:35.573 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45041186012008448 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:57:35.573 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45041186012008448 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-05 14:59:43.978 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45041724594196480 [0;39m ------------- 开始 -------------
+2021-05-05 14:59:43.978 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45041724594196480 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 14:59:43.979 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45041724594196480 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 14:59:43.980 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45041724594196480 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:59:43.980 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45041724594196480 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 14:59:43.988 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45041724594196480 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 14:59:43.988 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45041724594196480 [0;39m ------------- 结束 耗时：10 ms -------------
+2021-05-05 14:59:48.169 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45041742172524544 [0;39m ------------- 开始 -------------
+2021-05-05 14:59:48.170 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45041742172524544 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 14:59:48.170 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45041742172524544 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 14:59:48.171 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45041742172524544 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 14:59:48.171 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45041742172524544 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 14:59:48.175 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45041742172524544 [0;39m 生成单点登录token：45041742197690368，并放入redis中
+2021-05-05 14:59:48.216 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45041742172524544 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45041742197690368"},"success":true}
+2021-05-05 14:59:48.216 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45041742172524544 [0;39m ------------- 结束 耗时：47 ms -------------
+2021-05-05 15:00:09.796 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45041832882737152 [0;39m ------------- 开始 -------------
+2021-05-05 15:00:09.796 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45041832882737152 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 15:00:09.796 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45041832882737152 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 15:00:09.796 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45041832882737152 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:00:09.797 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45041832882737152 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 15:00:09.803 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45041832882737152 [0;39m 生成单点登录token：45041832912097280，并放入redis中
+2021-05-05 15:00:09.809 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45041832882737152 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45041832912097280"},"success":true}
+2021-05-05 15:00:09.809 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45041832882737152 [0;39m ------------- 结束 耗时：13 ms -------------
+2021-05-05 15:00:46.887 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45041988453666816 [0;39m ------------- 开始 -------------
+2021-05-05 15:00:46.887 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45041988453666816 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:00:46.887 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45041988453666816 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:00:46.887 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45041988453666816 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:00:46.888 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45041988453666816 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:00:46.890 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45041988453666816 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:00:46.890 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45041988453666816 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-05 15:00:49.662 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45042000092860416 [0;39m ------------- 开始 -------------
+2021-05-05 15:00:49.663 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45042000092860416 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 15:00:49.663 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45042000092860416 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 15:00:49.664 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45042000092860416 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:00:49.664 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45042000092860416 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 15:00:49.669 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45042000092860416 [0;39m 生成单点登录token：45042000122220544，并放入redis中
+2021-05-05 15:00:49.691 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45042000092860416 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45042000122220544"},"success":true}
+2021-05-05 15:00:49.692 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45042000092860416 [0;39m ------------- 结束 耗时：30 ms -------------
+2021-05-05 15:01:23.646 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45042142632087552 [0;39m ------------- 开始 -------------
+2021-05-05 15:01:23.647 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45042142632087552 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:01:23.647 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45042142632087552 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:01:23.647 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45042142632087552 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:01:23.648 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45042142632087552 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:01:23.651 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45042142632087552 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:01:23.651 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45042142632087552 [0;39m ------------- 结束 耗时：5 ms -------------
+2021-05-05 15:01:26.513 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45042154657157120 [0;39m ------------- 开始 -------------
+2021-05-05 15:01:26.513 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45042154657157120 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 15:01:26.513 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45042154657157120 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 15:01:26.513 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45042154657157120 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:01:26.513 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45042154657157120 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 15:01:26.515 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45042154657157120 [0;39m 生成单点登录token：45042154665545728，并放入redis中
+2021-05-05 15:01:26.520 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45042154657157120 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45042154665545728"},"success":true}
+2021-05-05 15:01:26.521 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45042154657157120 [0;39m ------------- 结束 耗时：8 ms -------------
+2021-05-05 15:03:15.557 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45042612020842496 [0;39m ------------- 开始 -------------
+2021-05-05 15:03:15.558 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45042612020842496 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:03:15.558 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45042612020842496 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:03:15.558 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45042612020842496 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:03:15.558 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45042612020842496 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:03:15.581 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45042612020842496 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:03:15.581 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45042612020842496 [0;39m ------------- 结束 耗时：24 ms -------------
+2021-05-05 15:03:36.589 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45042700235444224 [0;39m ------------- 开始 -------------
+2021-05-05 15:03:36.590 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45042700235444224 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:03:36.590 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45042700235444224 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:03:36.600 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45042700235444224 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:03:36.600 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45042700235444224 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:03:36.611 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45042700235444224 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:03:36.612 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45042700235444224 [0;39m ------------- 结束 耗时：23 ms -------------
+2021-05-05 15:03:42.546 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45042725220913152 [0;39m ------------- 开始 -------------
+2021-05-05 15:03:42.546 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45042725220913152 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:03:42.547 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45042725220913152 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:03:42.547 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45042725220913152 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:03:42.548 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45042725220913152 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:03:42.559 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45042725220913152 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:03:42.561 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45042725220913152 [0;39m ------------- 结束 耗时：15 ms -------------
+2021-05-05 15:03:50.254 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45042757550608384 [0;39m ------------- 开始 -------------
+2021-05-05 15:03:50.255 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45042757550608384 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:03:50.255 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45042757550608384 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:03:50.255 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45042757550608384 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:03:50.255 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45042757550608384 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:03:50.259 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45042757550608384 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:03:50.259 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45042757550608384 [0;39m ------------- 结束 耗时：5 ms -------------
+2021-05-05 15:03:59.699 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45042797165809664 [0;39m ------------- 开始 -------------
+2021-05-05 15:03:59.699 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45042797165809664 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 15:03:59.700 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45042797165809664 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 15:03:59.700 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45042797165809664 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:03:59.713 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45042797165809664 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 15:03:59.912 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45042797165809664 [0;39m 生成单点登录token：45042798059196416，并放入redis中
+2021-05-05 15:04:00.005 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45042797165809664 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45042798059196416"},"success":true}
+2021-05-05 15:04:00.006 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45042797165809664 [0;39m ------------- 结束 耗时：307 ms -------------
+2021-05-05 15:04:45.696 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45042990091210752 [0;39m ------------- 开始 -------------
+2021-05-05 15:04:45.715 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45042990091210752 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:04:45.715 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45042990091210752 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:04:45.715 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45042990091210752 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:04:45.716 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45042990091210752 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:04:45.731 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45042990091210752 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:04:45.732 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45042990091210752 [0;39m ------------- 结束 耗时：36 ms -------------
+2021-05-05 15:04:49.283 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45043005136179200 [0;39m ------------- 开始 -------------
+2021-05-05 15:04:49.283 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45043005136179200 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 15:04:49.284 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45043005136179200 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 15:04:49.284 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45043005136179200 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:04:49.284 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45043005136179200 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 15:04:49.307 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45043005136179200 [0;39m 生成单点登录token：45043005236842496，并放入redis中
+2021-05-05 15:04:49.554 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45043005136179200 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45043005236842496"},"success":true}
+2021-05-05 15:04:49.554 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45043005136179200 [0;39m ------------- 结束 耗时：271 ms -------------
+2021-05-05 15:05:01.259 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45043055367163904 [0;39m ------------- 开始 -------------
+2021-05-05 15:05:01.259 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45043055367163904 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:05:01.259 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45043055367163904 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:05:01.260 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45043055367163904 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:05:01.260 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45043055367163904 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:05:01.262 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45043055367163904 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:05:01.262 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45043055367163904 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-05 15:05:04.685 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45043069736849408 [0;39m ------------- 开始 -------------
+2021-05-05 15:05:04.685 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45043069736849408 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 15:05:04.685 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45043069736849408 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 15:05:04.686 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45043069736849408 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:05:04.686 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45043069736849408 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 15:05:04.688 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45043069736849408 [0;39m 生成单点登录token：45043069749432320，并放入redis中
+2021-05-05 15:05:04.692 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45043069736849408 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45043069749432320"},"success":true}
+2021-05-05 15:05:04.692 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45043069736849408 [0;39m ------------- 结束 耗时：7 ms -------------
+2021-05-05 15:05:07.410 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45043081166327808 [0;39m ------------- 开始 -------------
+2021-05-05 15:05:07.425 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45043081166327808 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:05:07.425 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45043081166327808 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:05:07.425 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45043081166327808 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:05:07.426 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45043081166327808 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:05:07.428 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45043081166327808 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:05:07.428 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45043081166327808 [0;39m ------------- 结束 耗时：18 ms -------------
+2021-05-05 15:18:05.352 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05 15:18:06.991 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-5 - Shutdown initiated...
+2021-05-05 15:18:07.058 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-5 - Shutdown completed.
+2021-05-05 15:18:10.332 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 15296 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-05 15:18:10.333 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-05 15:18:13.171 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-05 15:18:13.171 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-05 15:18:13.175 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2021-05-05 15:18:13.514 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-05 15:18:13.514 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-05 15:18:13.514 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-05 15:18:13.514 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05 15:18:13.514 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-05 15:18:13.514 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-05 15:18:13.514 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-05 15:18:13.514 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-05 15:18:13.567 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-05 15:18:13.567 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 3231 ms
+2021-05-05 15:18:14.369 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05 15:18:17.910 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-05 15:18:18.001 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-05 15:18:18.006 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-05 15:18:18.106 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 8.007 seconds (JVM running for 3996.09)
+2021-05-05 15:18:18.124 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-05 15:18:18.125 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-05 15:18:18.146 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-05 15:18:20.801 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05 15:18:21.517 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 15296 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-05 15:18:21.517 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-05 15:18:21.669 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-05 15:18:21.669 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-05 15:18:21.675 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-05 15:18:21.816 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-05 15:18:21.818 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-05 15:18:21.818 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-05 15:18:21.818 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05 15:18:21.819 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-05 15:18:21.820 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-05 15:18:21.820 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-05 15:18:21.822 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-05 15:18:21.881 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-05 15:18:21.882 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 362 ms
+2021-05-05 15:18:22.188 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05 15:18:22.492 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-05 15:18:22.506 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-05 15:18:22.509 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-05 15:18:22.515 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 1.021 seconds (JVM running for 4000.5)
+2021-05-05 15:18:22.517 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-05 15:18:22.518 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-05 15:18:22.518 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-05 15:18:23.288 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05 15:18:23.288 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-05 15:18:23.289 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-05-05 15:18:23.297 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45046419354161152 [0;39m ------------- 开始 -------------
+2021-05-05 15:18:23.297 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45046419354161152 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:18:23.310 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45046419354161152 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:18:23.311 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45046419354161152 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:18:23.318 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45046419354161152 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:18:23.344 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m45046419354161152 [0;39m HikariPool-6 - Starting...
+2021-05-05 15:18:23.487 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m45046419354161152 [0;39m HikariPool-6 - Start completed.
+2021-05-05 15:18:23.537 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45046419354161152 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:18:23.537 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45046419354161152 [0;39m ------------- 结束 耗时：241 ms -------------
+2021-05-05 15:18:48.006 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45046522995412992 [0;39m ------------- 开始 -------------
+2021-05-05 15:18:48.006 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45046522995412992 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:18:48.006 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45046522995412992 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:18:48.006 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45046522995412992 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:18:48.007 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45046522995412992 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:18:48.016 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45046522995412992 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:18:48.016 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45046522995412992 [0;39m ------------- 结束 耗时：10 ms -------------
+2021-05-05 15:18:52.705 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45046542704447488 [0;39m ------------- 开始 -------------
+2021-05-05 15:18:52.706 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45046542704447488 [0;39m 请求地址: http://localhost:9000/opr/logout/45043069749432320 GET
+2021-05-05 15:18:52.706 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45046542704447488 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.logout
+2021-05-05 15:18:52.707 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45046542704447488 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:18:52.707 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45046542704447488 [0;39m 请求参数: ["45043069749432320"]
+2021-05-05 15:18:52.916 INFO  com.wsz.medicine.controller.OperatersController   :69   [32m45046542704447488 [0;39m 从redis中删除token: 45043069749432320
+2021-05-05 15:18:52.916 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45046542704447488 [0;39m 返回结果: {"success":true}
+2021-05-05 15:18:52.916 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45046542704447488 [0;39m ------------- 结束 耗时：211 ms -------------
+2021-05-05 15:19:25.502 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45046680265035776 [0;39m ------------- 开始 -------------
+2021-05-05 15:19:25.502 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45046680265035776 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:19:25.503 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45046680265035776 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:19:25.503 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45046680265035776 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:19:25.503 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45046680265035776 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:19:25.505 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45046680265035776 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:19:25.505 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45046680265035776 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-05 15:20:59.268 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45047073548144640 [0;39m ------------- 开始 -------------
+2021-05-05 15:20:59.268 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45047073548144640 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:20:59.268 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45047073548144640 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:20:59.268 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45047073548144640 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:20:59.269 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45047073548144640 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:20:59.270 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45047073548144640 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:20:59.271 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45047073548144640 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-05 15:21:07.437 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45047107811414016 [0;39m ------------- 开始 -------------
+2021-05-05 15:21:07.438 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45047107811414016 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:21:07.438 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45047107811414016 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:21:07.452 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45047107811414016 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:21:07.452 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45047107811414016 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:21:07.466 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45047107811414016 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:21:07.467 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45047107811414016 [0;39m ------------- 结束 耗时：30 ms -------------
+2021-05-05 15:21:15.495 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45047141609115648 [0;39m ------------- 开始 -------------
+2021-05-05 15:21:15.495 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45047141609115648 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:21:15.495 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45047141609115648 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:21:15.495 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45047141609115648 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:21:15.496 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45047141609115648 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:21:15.498 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45047141609115648 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:21:15.499 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45047141609115648 [0;39m ------------- 结束 耗时：4 ms -------------
+2021-05-05 15:21:17.844 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45047151461535744 [0;39m ------------- 开始 -------------
+2021-05-05 15:21:17.844 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45047151461535744 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 15:21:17.844 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45047151461535744 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 15:21:17.844 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45047151461535744 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:21:17.845 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45047151461535744 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 15:21:17.985 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45047151461535744 [0;39m 生成单点登录token：45047152052932608，并放入redis中
+2021-05-05 15:21:17.987 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45047151461535744 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45047152052932608"},"success":true}
+2021-05-05 15:21:17.987 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45047151461535744 [0;39m ------------- 结束 耗时：143 ms -------------
+2021-05-05 15:21:23.693 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45047175994019840 [0;39m ------------- 开始 -------------
+2021-05-05 15:21:23.693 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45047175994019840 [0;39m 请求地址: http://localhost:9000/opr/logout/45047152052932608 GET
+2021-05-05 15:21:23.693 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45047175994019840 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.logout
+2021-05-05 15:21:23.693 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45047175994019840 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:21:23.694 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45047175994019840 [0;39m 请求参数: ["45047152052932608"]
+2021-05-05 15:21:23.695 INFO  com.wsz.medicine.controller.OperatersController   :69   [32m45047175994019840 [0;39m 从redis中删除token: 45047152052932608
+2021-05-05 15:21:23.695 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45047175994019840 [0;39m 返回结果: {"success":true}
+2021-05-05 15:21:23.695 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45047175994019840 [0;39m ------------- 结束 耗时：2 ms -------------
+2021-05-05 15:22:23.846 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 15348 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-05 15:22:23.846 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.7.Final
+2021-05-05 15:22:23.848 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-05 15:22:23.940 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-05 15:22:23.940 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-05 15:22:25.899 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-05 15:22:25.906 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-05 15:22:25.948 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-05-05 15:22:27.203 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-05 15:22:27.213 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-05 15:22:27.213 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-05 15:22:27.213 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05 15:22:27.216 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-05 15:22:27.216 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-05 15:22:27.216 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-05 15:22:27.308 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-05 15:22:27.401 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-05 15:22:27.401 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 3459 ms
+2021-05-05 15:22:29.180 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05 15:22:29.527 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-05 15:22:29.545 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-05 15:22:29.561 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-05 15:22:29.582 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 6.578 seconds (JVM running for 9.489)
+2021-05-05 15:22:29.586 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-05 15:22:29.586 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-05 15:22:32.448 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05 15:22:32.448 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-05 15:22:32.452 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 3 ms
+2021-05-05 15:22:32.657 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45047465245806592 [0;39m ------------- 开始 -------------
+2021-05-05 15:22:32.657 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45047465245806592 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:22:32.658 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45047465245806592 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:22:32.658 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45047465245806592 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:22:32.927 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45047465245806592 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:22:33.114 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m45047465245806592 [0;39m HikariPool-1 - Starting...
+2021-05-05 15:22:34.819 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m45047465245806592 [0;39m HikariPool-1 - Start completed.
+2021-05-05 15:22:34.889 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45047465245806592 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:22:34.889 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45047465245806592 [0;39m ------------- 结束 耗时：2233 ms -------------
+2021-05-05 15:22:41.452 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45047502134710272 [0;39m ------------- 开始 -------------
+2021-05-05 15:22:41.452 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45047502134710272 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-05 15:22:41.452 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45047502134710272 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-05 15:22:41.453 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45047502134710272 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:22:41.454 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45047502134710272 [0;39m 请求参数: [{"custId":2}]
+2021-05-05 15:22:41.458 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45047502134710272 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-05 15:22:41.458 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45047502134710272 [0;39m ------------- 结束 耗时：7 ms -------------
+2021-05-05 15:22:44.268 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45047513950064640 [0;39m ------------- 开始 -------------
+2021-05-05 15:22:44.268 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45047513950064640 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 15:22:44.268 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45047513950064640 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 15:22:44.268 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45047513950064640 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:22:44.270 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45047513950064640 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 15:22:44.287 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45047513950064640 [0;39m 生成单点登录token：45047514029756416，并放入redis中
+2021-05-05 15:22:45.672 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45047513950064640 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45047514029756416"},"success":true}
+2021-05-05 15:22:45.673 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45047513950064640 [0;39m ------------- 结束 耗时：1405 ms -------------
+2021-05-05 15:22:48.916 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45047533445189632 [0;39m ------------- 开始 -------------
+2021-05-05 15:22:48.916 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45047533445189632 [0;39m 请求地址: http://localhost:9000/opr/logout/45047514029756416 GET
+2021-05-05 15:22:48.917 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45047533445189632 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.logout
+2021-05-05 15:22:48.917 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45047533445189632 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:22:48.917 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45047533445189632 [0;39m 请求参数: ["45047514029756416"]
+2021-05-05 15:22:48.919 INFO  com.wsz.medicine.controller.OperatersController   :69   [32m45047533445189632 [0;39m 从redis中删除token: 45047514029756416
+2021-05-05 15:22:48.920 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45047533445189632 [0;39m 返回结果: {"success":true}
+2021-05-05 15:22:48.920 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45047533445189632 [0;39m ------------- 结束 耗时：4 ms -------------
+2021-05-05 15:34:22.330 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45050441834303488 [0;39m ------------- 开始 -------------
+2021-05-05 15:34:22.331 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45050441834303488 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 15:34:22.332 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45050441834303488 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 15:34:22.334 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45050441834303488 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:34:22.334 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45050441834303488 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 15:34:22.338 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45050441834303488 [0;39m 生成单点登录token：45050441867857920，并放入redis中
+2021-05-05 15:34:22.340 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45050441834303488 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45050441867857920"},"success":true}
+2021-05-05 15:34:22.341 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45050441834303488 [0;39m ------------- 结束 耗时：11 ms -------------
+2021-05-05 15:34:25.115 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45050453515440128 [0;39m ------------- 开始 -------------
+2021-05-05 15:34:25.115 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45050453515440128 [0;39m 请求地址: http://localhost:9000/opr/logout/45050441867857920 GET
+2021-05-05 15:34:25.115 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45050453515440128 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.logout
+2021-05-05 15:34:25.115 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45050453515440128 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:34:25.116 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45050453515440128 [0;39m 请求参数: ["45050441867857920"]
+2021-05-05 15:34:25.117 INFO  com.wsz.medicine.controller.OperatersController   :69   [32m45050453515440128 [0;39m 从redis中删除token: 45050441867857920
+2021-05-05 15:34:25.117 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45050453515440128 [0;39m 返回结果: {"success":true}
+2021-05-05 15:34:25.117 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45050453515440128 [0;39m ------------- 结束 耗时：2 ms -------------
+2021-05-05 15:43:30.568 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05 15:43:30.714 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-05-05 15:43:30.719 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2021-05-05 15:43:30.968 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 15348 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-05 15:43:30.969 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-05 15:43:31.103 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-05 15:43:31.103 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-05 15:43:31.342 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 237 ms. Found 0 Redis repository interfaces.
+2021-05-05 15:43:31.497 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-05 15:43:31.498 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-05 15:43:31.498 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-05 15:43:31.498 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05 15:43:31.498 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-05 15:43:31.499 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-05 15:43:31.499 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-05 15:43:31.499 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-05 15:43:31.510 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-05 15:43:31.510 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 539 ms
+2021-05-05 15:43:31.738 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05 15:43:31.939 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-05 15:43:31.950 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-05 15:43:31.953 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-05 15:43:31.957 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 1.019 seconds (JVM running for 1271.865)
+2021-05-05 15:43:31.958 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-05 15:43:31.959 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-05 15:43:31.959 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-05 15:43:33.690 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05 15:43:33.893 INFO  com.wsz.medicine.MedicineApplication              :55   [32m                  [0;39m Starting MedicineApplication using Java 1.8.0_221 on LAPTOP-6ONV7TGF with PID 15348 (G:\database_practice\big_job\target\classes started by 30518 in G:\database_practice\big_job)
+2021-05-05 15:43:33.893 INFO  com.wsz.medicine.MedicineApplication              :675  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-05-05 15:43:34.028 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-05 15:43:34.028 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-05 15:43:34.033 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-05 15:43:34.124 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 9000 (http)
+2021-05-05 15:43:34.125 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9000"]
+2021-05-05 15:43:34.125 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-05-05 15:43:34.125 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05 15:43:34.125 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-05 15:43:34.126 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-05 15:43:34.126 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-05 15:43:34.126 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-05 15:43:34.143 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-05-05 15:43:34.143 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 247 ms
+2021-05-05 15:43:34.545 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05 15:43:34.794 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-05-05 15:43:34.803 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9000"]
+2021-05-05 15:43:34.806 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-05 15:43:34.809 INFO  com.wsz.medicine.MedicineApplication              :61   [32m                  [0;39m Started MedicineApplication in 0.946 seconds (JVM running for 1274.717)
+2021-05-05 15:43:34.811 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-05-05 15:43:34.811 INFO  com.wsz.medicine.MedicineApplication              :19   [32m                  [0;39m 启动成功！！
+2021-05-05 15:43:34.812 INFO  com.wsz.medicine.MedicineApplication              :20   [32m                  [0;39m 地址: 	http://127.0.0.1:9000
+2021-05-05 15:43:40.685 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05 15:43:40.687 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-05-05 15:43:40.688 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-05-05 15:43:40.699 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45052783803633664 [0;39m ------------- 开始 -------------
+2021-05-05 15:43:40.700 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45052783803633664 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-05 15:43:40.700 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45052783803633664 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-05 15:43:40.700 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45052783803633664 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:43:40.702 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45052783803633664 [0;39m 请求参数: [{"oprId":1,"oprPassword":"DMcv3v8AxaKE"}]
+2021-05-05 15:43:40.706 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m45052783803633664 [0;39m HikariPool-2 - Starting...
+2021-05-05 15:43:40.851 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m45052783803633664 [0;39m HikariPool-2 - Start completed.
+2021-05-05 15:43:40.918 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m45052783803633664 [0;39m 生成单点登录token：45052784722186240，并放入redis中
+2021-05-05 15:43:40.935 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45052783803633664 [0;39m 返回结果: {"content":{"oprId":1,"oprName":"Tobin Farquharson","token":"45052784722186240"},"success":true}
+2021-05-05 15:43:40.935 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45052783803633664 [0;39m ------------- 结束 耗时：236 ms -------------
+2021-05-05 15:43:47.013 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m45052810286469120 [0;39m ------------- 开始 -------------
+2021-05-05 15:43:47.014 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m45052810286469120 [0;39m 请求地址: http://localhost:9000/opr/logout/45052784722186240 GET
+2021-05-05 15:43:47.014 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m45052810286469120 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.logout
+2021-05-05 15:43:47.014 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m45052810286469120 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-05 15:43:47.014 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m45052810286469120 [0;39m 请求参数: ["45052784722186240"]
+2021-05-05 15:43:47.016 INFO  com.wsz.medicine.controller.OperatersController   :69   [32m45052810286469120 [0;39m 从redis中删除token: 45052784722186240
+2021-05-05 15:43:47.016 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m45052810286469120 [0;39m 返回结果: {"success":true}
+2021-05-05 15:43:47.016 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m45052810286469120 [0;39m ------------- 结束 耗时：3 ms -------------

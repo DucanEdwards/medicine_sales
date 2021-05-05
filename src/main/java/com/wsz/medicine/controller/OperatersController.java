@@ -56,9 +56,17 @@ public class OperatersController {
         Long token=snowFlake.nextId();
         LOG.info("生成单点登录token：{}，并放入redis中", token);
         oprLoginResp.setToken(token.toString());
-        redisTemplate.opsForValue().set(token, JSONObject.toJSONString(oprLoginResp), 3600, TimeUnit.SECONDS);
+        redisTemplate.opsForValue().set(token.toString(), JSONObject.toJSONString(oprLoginResp), 3600, TimeUnit.SECONDS);
 
         resp.setContent(oprLoginResp);
+        return resp;
+    }
+
+    @GetMapping("/logout/{token}")
+    public CommonResp logout(@PathVariable String token) {
+        CommonResp resp = new CommonResp<>();
+        redisTemplate.delete(token);
+        LOG.info("从redis中删除token: {}", token);
         return resp;
     }
 
