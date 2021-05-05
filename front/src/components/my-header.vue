@@ -24,10 +24,15 @@
       <a-menu-item key="2">统计</a-menu-item>
       <a-menu-item key="3">汇总分析</a-menu-item>
 
-      <a class="login" @click="showLoginModal">
+      <a class="login" @click="showLoginModal" v-show="!opr.oprId">
         <a-button type="primary">
           登录
         </a-button>
+      </a>
+      <a class="login" v-show="opr.oprId">
+        <a-tag class="loginname">
+          {{ opr.oprName }}
+        </a-tag>
       </a>
     </a-menu>
 
@@ -45,14 +50,20 @@
 </template>
 
 <script lang="ts">
-import { defineComponent,ref } from 'vue';
+import {computed, defineComponent, ref} from 'vue';
 import axios from 'axios';
 import { message } from 'ant-design-vue';
+import store from "@/store";
 
 export default defineComponent({
   name: 'my-header',
   setup() {
+    // const opr=ref();
+    // opr.value={};
+    const opr=computed(()=>store.state.opr)
+
     const loginUser=ref({
+      //必须和后端的字段名相同
       oprId:1,
       oprPassword:"DMcv3v8AxaKE"
     })
@@ -72,6 +83,7 @@ export default defineComponent({
         if (data.success) {
           visible.value = false;
           message.success("登录成功！");
+          store.commit('setOpr',data.content)
         } else {
           message.error(data.message);
         }
@@ -82,6 +94,7 @@ export default defineComponent({
       loginUser,
       visible,
       loading,
+      opr,
       showLoginModal,
       login
     }
@@ -92,5 +105,8 @@ export default defineComponent({
 <style scoped>
 .login {
   float: right;
+}
+.loginname{
+  color: #e1b12c;
 }
 </style>

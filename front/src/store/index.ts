@@ -1,12 +1,21 @@
 import { createStore } from 'vuex'
 
-export default createStore({
+declare let SessionStorage:any;
+
+const store=createStore({
   state: {
+    opr:SessionStorage.get("OPR")||{}
   },
   mutations: {
+    setOpr(state,opr) {
+      state.opr=opr;
+      SessionStorage.set("OPR",opr);
+    }
   },
   actions: {
   },
   modules: {
   }
 })
+
+export default store;

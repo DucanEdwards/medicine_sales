@@ -1,8 +1,11 @@
 package com.wsz.medicine.req;
 
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 public class OperatorsReq {
+
     private Long oprId;
 
     private String oprName;

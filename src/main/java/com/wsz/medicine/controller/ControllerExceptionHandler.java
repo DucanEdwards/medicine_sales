@@ -18,6 +18,21 @@ public class ControllerExceptionHandler {
      * @param e
      * @return
      */
+    @ExceptionHandler(value = BindException.class)
+    @ResponseBody
+    public CommonResp validExceptionHandler(BindException e) {
+        CommonResp commonResp = new CommonResp();
+        LOG.warn("参数校验失败：{}", e.getBindingResult().getAllErrors().get(0).getDefaultMessage());
+        commonResp.setSuccess(false);
+        commonResp.setMessage(e.getBindingResult().getAllErrors().get(0).getDefaultMessage());
+        return commonResp;
+    }
+
+    /**
+     * 校验异常统一处理
+     * @param e
+     * @return
+     */
     @ExceptionHandler(value = BusinessException.class)
     @ResponseBody
     public CommonResp validExceptionHandler(BusinessException e) {

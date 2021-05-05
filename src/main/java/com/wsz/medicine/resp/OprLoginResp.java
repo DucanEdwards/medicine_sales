@@ -7,6 +7,25 @@ public class OprLoginResp {
 
     private String oprName;
 
+    private String token;
+
+    @Override
+    public String toString() {
+        return "OprLoginResp{" +
+                "oprId=" + oprId +
+                ", oprName='" + oprName + '\'' +
+                ", token='" + token + '\'' +
+                '}';
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
     public Long getOprId() {
         return oprId;
     }
@@ -23,15 +42,4 @@ public class OprLoginResp {
         this.oprName = oprName;
     }
 
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", oprId=").append(oprId);
-        sb.append(", oprName=").append(oprName);
-        sb.append("]");
-        return sb.toString();
-    }
 }
