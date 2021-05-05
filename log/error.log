@@ -2689,3 +2689,48 @@ java.lang.RuntimeException: Value for orderId cannot be null
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
+2021-05-05 17:51:32.560 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wsz.medicine.service.BuyMedicineService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wsz.medicine.service.BuyMedicineService' in your configuration.
+
+2021-05-05 17:52:34.112 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wsz.medicine.service.BuyMedicineService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wsz.medicine.service.BuyMedicineService' in your configuration.
+
+2021-05-05 17:54:23.549 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wsz.medicine.service.BuyMedicineService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wsz.medicine.service.BuyMedicineService' in your configuration.
+

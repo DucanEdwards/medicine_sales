@@ -2,7 +2,7 @@
   <div class="home">
     <a-layout class="layout">
       <a-layout-content style="padding: 0 30px">
-        <div :style="{ background: '#fff', padding: '24px', minHeight: '280px' }">
+        <div :style="{ background: '#fff', padding: '24px', minHeight: '600px' }">
           Home
         </div>
       </a-layout-content>

@@ -1,3 +1,29 @@
+GET http://localhost:9000/drug/list
+
+<> 2021-05-05T175708.200.json
+
+###
+
+GET http://localhost:9000/drug/list
+
+<> 2021-05-05T175520.200.json
+
+###
+
+GET http://localhost:9000/drug/list
+
+###
+
+GET http://localhost:9000/drug/list
+
+###
+
+GET http://localhost:9000/saleorder/list
+
+<> 2021-05-05T174003.200.json
+
+###
+
 GET http://localhost:9000/opr/order/10
 
 <> 2021-05-04T223444.200.json
@@ -258,41 +284,6 @@ GET http://localhost:9000/hello
 Accept: application/json
 
 <> 2021-04-30T214701.200.json
-
-###
-
-GET http://localhost:9000/hello
-Accept: application/json
-
-<> 2021-04-30T214644.200.json
-
-###
-
-GET http://localhost:9000/hello
-Accept: application/json
-
-<> 2021-04-30T214604.200.json
-
-###
-
-GET http://localhost:9000/hello
-Accept: application/json
-
-<> 2021-04-30T214445.200.json
-
-###
-
-GET http://localhost:9000/hello
-Accept: application/json
-
-<> 2021-04-30T214431.200.json
-
-###
-
-GET http://localhost:9000/hello
-Accept: application/json
-
-<> 2021-04-30T213927.200.json
 
 ###
 

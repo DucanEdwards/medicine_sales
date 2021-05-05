@@ -21,6 +21,10 @@
         <router-link to="/admin/confirm-order">操作订单</router-link>
       </a-menu-item>
 
+      <a-menu-item key="/buy-medicine">
+        <router-link to="/buy-medicine">购买药品</router-link>
+      </a-menu-item>
+
       <a-menu-item key="2">统计</a-menu-item>
       <a-menu-item key="3">汇总分析</a-menu-item>
 
