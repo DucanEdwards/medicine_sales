@@ -16,6 +16,11 @@
       <a-menu-item key="/admin/saleorder">
         <router-link to="/admin/saleorder">销售查询</router-link>
       </a-menu-item>
+
+      <a-menu-item key="/admin/confirm-order">
+        <router-link to="/admin/confirm-order">操作订单</router-link>
+      </a-menu-item>
+
       <a-menu-item key="2">统计</a-menu-item>
       <a-menu-item key="3">汇总分析</a-menu-item>
     </a-menu>

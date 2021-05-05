@@ -1,6 +1,9 @@
 <template>
   <a-layout class="layout">
     <a-layout-content style="padding: 0 30px">
+      <a-button type="dashed" size="large">
+        <router-link :to="'/admin/opr'">返回</router-link>
+      </a-button>
       <div :style="{ background: '#fff', padding: '24px', minHeight: '280px' }">
         <a-table
             :columns="columns"

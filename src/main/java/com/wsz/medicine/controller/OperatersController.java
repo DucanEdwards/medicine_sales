@@ -1,15 +1,15 @@
 package com.wsz.medicine.controller;
 
 import com.wsz.medicine.req.OperatorsReq;
+import com.wsz.medicine.req.OprLoginReq;
 import com.wsz.medicine.req.SaleOrderReq;
 import com.wsz.medicine.resp.*;
 import com.wsz.medicine.service.OperatorsService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.util.DigestUtils;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -33,4 +33,13 @@ public class OperatersController {
         oprorderCommonResp.setContent(list);
         return oprorderCommonResp;
     }
+
+    @PostMapping("/login")
+    public CommonResp login(@Valid @RequestBody OprLoginReq req) {
+        CommonResp<OprLoginResp> resp = new CommonResp<>();
+        OprLoginResp oprLoginResp=operatorsService.login(req);
+        resp.setContent(oprLoginResp);
+        return resp;
+    }
+
 }
