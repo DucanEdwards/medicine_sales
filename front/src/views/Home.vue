@@ -2,8 +2,11 @@
   <div class="home">
     <a-layout class="layout">
       <a-layout-content style="padding: 0 30px">
-        <div :style="{ background: '#fff', padding: '24px', minHeight: '600px' }">
-          Home
+        <div class="center img" :style="{ background: '#fff', padding: '24px', minHeight: '600px' }">
+          <a-image
+              :width="1000"
+              src="https://www.cbdschool.com/wp-content/uploads/2017/05/CBD_Drug_Interactions-768x432.png"
+          />
         </div>
       </a-layout-content>
     </a-layout>
@@ -24,3 +27,14 @@ export default defineComponent({
   }
 });
 </script>
+
+<style scoped>
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  opacity:.7
+}
+</style>

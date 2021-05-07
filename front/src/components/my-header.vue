@@ -9,11 +9,11 @@
         <router-link to="/">首页</router-link>
       </a-menu-item>
 
-      <a-menu-item key="/admin/opr">
+      <a-menu-item key="/admin/opr" :style="opr.oprId?{}:{display:'none'}">
         <router-link to="/admin/opr">操作员</router-link>
       </a-menu-item>
 
-      <a-menu-item key="/admin/saleorder">
+      <a-menu-item key="/admin/saleorder" :style="opr.oprId?{}:{display:'none'}">
         <router-link to="/admin/saleorder">销售查询</router-link>
       </a-menu-item>
 
@@ -23,6 +23,10 @@
 
       <a-menu-item key="/buy-medicine" :style="cust.custId?{}:{display:'none'}">
         <router-link to="/buy-medicine">购买药品</router-link>
+      </a-menu-item>
+
+      <a-menu-item key="/order-history" :style="cust.custId?{}:{display:'none'}">
+        <router-link to="/order-history">历史订单</router-link>
       </a-menu-item>
 
       <a-menu-item key="2">统计</a-menu-item>
@@ -50,6 +54,7 @@
           cancel-text="No"
           @confirm="logout()"
       >
+        <template #icon><QuestionCircleOutlined style="color: red" /></template>
         <a class="login" v-show="opr.oprId || cust.custId">
           <a-button type="primary">
             退出登录
@@ -88,9 +93,10 @@
 <script lang="ts">
 import {computed, defineComponent, ref} from 'vue';
 import axios from 'axios';
-import { message } from 'ant-design-vue';
+import { message} from 'ant-design-vue';
 import store from "@/store";
 import {useRouter} from 'vue-router'
+import { QuestionCircleOutlined} from '@ant-design/icons-vue';
 
 export default defineComponent({
   name: 'my-header',

@@ -6,6 +6,8 @@ import AdminOpr from '../views/admin/admin-opr.vue'
 import AdminOprOrder from '../views/admin/admin-opr-order.vue'
 import AdminConfirmOrder from '../views/admin/admin-confirm-order.vue'
 import BuyMedicine from '../views/buy-medicine.vue'
+import OrderHistory from '../views/order-history.vue'
+import OrderHistoryDetail from '../views/order-history-detail.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -50,6 +52,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/buy-medicine',
     name: 'BuyMedicine',
     component: BuyMedicine
+  },
+  {
+    path: '/order-history',
+    name: 'OrderHistory',
+    component: OrderHistory
+  },
+  {
+    path: '/order-history/detail',
+    name: 'OrderHistoryDetail',
+    component: OrderHistoryDetail
   },
 ]
 

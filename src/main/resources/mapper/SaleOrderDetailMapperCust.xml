@@ -7,12 +7,14 @@
                opr_name as oprName,
                cust_name as custName,
                cust_tel as custTel,
-               drug_name as drugName,
-               drug_num as drugNum
+               d.drug_name as drugName,
+               drug_num as drugNum,
+               drug_price as drugPrice
         from order_detail od
                  left join sales_order so on od.order_id = so.order_id
                  left join customers c on c.cust_id = so.cust_id
                  left join operators o on so.opr_id = o.opr_id
+                 left join drug d on od.drug_id = d.drug_id
         where od.order_id=#{id}
     </select>
 

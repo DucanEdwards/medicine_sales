@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wsz.medicine.mapper.OrderHistoryMapperCust" >
+
+    <select id="list" resultType="com.wsz.medicine.resp.OrderHistoryResp">
+        CALL processorders(#{custId});
+        select order_id as orderId,
+               o.opr_id as oprId,
+               c.cust_name as custName,
+               so.opt_time as optTime,
+               so.state as state,
+               ordertotals.total as sum
+        from sales_order so
+                 left join customers c on c.cust_id = so.cust_id
+                 left outer join operators o on o.opr_id = so.opr_id
+                 left join ordertotals on ordertotals.orderId=so.order_id
+        where c.cust_id=#{custId}
+    </select>
+
+</mapper>

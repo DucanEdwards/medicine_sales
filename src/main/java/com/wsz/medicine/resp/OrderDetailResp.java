@@ -13,6 +13,29 @@ public class OrderDetailResp {
 
     private Integer drugNum;
 
+    private String drugPrice;
+
+    @Override
+    public String toString() {
+        return "OrderDetailResp{" +
+                "orderId=" + orderId +
+                ", oprName='" + oprName + '\'' +
+                ", custName='" + custName + '\'' +
+                ", custTel='" + custTel + '\'' +
+                ", drugName='" + drugName + '\'' +
+                ", drugNum=" + drugNum +
+                ", drugPrice='" + drugPrice + '\'' +
+                '}';
+    }
+
+    public String getDrugPrice() {
+        return drugPrice;
+    }
+
+    public void setDrugPrice(String drugPrice) {
+        this.drugPrice = drugPrice;
+    }
+
     public Long getOrderId() {
         return orderId;
     }
@@ -61,15 +84,4 @@ public class OrderDetailResp {
         this.drugNum = drugNum;
     }
 
-    @Override
-    public String toString() {
-        return "OrderDetailResp{" +
-                "orderId=" + orderId +
-                ", oprName='" + oprName + '\'' +
-                ", custName='" + custName + '\'' +
-                ", custTel='" + custTel + '\'' +
-                ", drugName='" + drugName + '\'' +
-                ", drugNum=" + drugNum +
-                '}';
-    }
 }
