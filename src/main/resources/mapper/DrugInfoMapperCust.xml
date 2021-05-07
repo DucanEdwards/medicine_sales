@@ -3,7 +3,8 @@
 <mapper namespace="com.wsz.medicine.mapper.DrugInfoMapperCust" >
 
     <select id="list" resultType="com.wsz.medicine.resp.DrugInfoResp">
-        select drug_name as drugName,
+        select drug_id as drugId,
+               drug_name as drugName,
                s.sort_name as sortName,
                drug_price as drugPrice,
                expire_date as expireDate

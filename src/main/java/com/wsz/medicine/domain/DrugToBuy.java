@@ -1,29 +1,24 @@
-package com.wsz.medicine.resp;
+package com.wsz.medicine.domain;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-
-import java.util.Date;
-
-public class DrugInfoResp {
+public class DrugToBuy {
     private Long drugId;
 
     private String drugName;
 
     private String drugPrice;
 
-    @JsonFormat(pattern = "yyyy-MM-dd",timezone="GMT+8")
-    private Date expireDate;
-
     private String sortName;
+
+    private Integer quantity;
 
     @Override
     public String toString() {
-        return "DrugInfoResp{" +
+        return "DrugToBuy{" +
                 "drugId=" + drugId +
                 ", drugName='" + drugName + '\'' +
                 ", drugPrice='" + drugPrice + '\'' +
-                ", expireDate=" + expireDate +
                 ", sortName='" + sortName + '\'' +
+                ", quantity=" + quantity +
                 '}';
     }
 
@@ -51,19 +46,19 @@ public class DrugInfoResp {
         this.drugPrice = drugPrice;
     }
 
-    public Date getExpireDate() {
-        return expireDate;
-    }
-
-    public void setExpireDate(Date expireDate) {
-        this.expireDate = expireDate;
-    }
-
     public String getSortName() {
         return sortName;
     }
 
     public void setSortName(String sortName) {
         this.sortName = sortName;
+    }
+
+    public Integer getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
     }
 }

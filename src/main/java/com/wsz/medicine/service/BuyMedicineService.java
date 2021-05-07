@@ -1,11 +1,9 @@
 package com.wsz.medicine.service;
 
-import com.wsz.medicine.domain.Customers;
-import com.wsz.medicine.domain.CustomersExample;
-import com.wsz.medicine.domain.Operators;
-import com.wsz.medicine.domain.OperatorsExample;
+import com.wsz.medicine.domain.*;
 import com.wsz.medicine.exception.BusinessException;
 import com.wsz.medicine.exception.BusinessExceptionCode;
+import com.wsz.medicine.mapper.BuyMedicineMapperCust;
 import com.wsz.medicine.mapper.CustomersMapper;
 import com.wsz.medicine.mapper.DrugInfoMapperCust;
 import com.wsz.medicine.req.CustLoginReq;
@@ -32,6 +30,9 @@ public class BuyMedicineService {
     @Resource
     private CustomersMapper customersMapper;
 
+    @Resource
+    private BuyMedicineMapperCust buyMedicineMapperCust;
+
     private static final Logger LOG = LoggerFactory.getLogger(BuyMedicineService.class);
 
 
@@ -41,7 +42,7 @@ public class BuyMedicineService {
 
     /**
      * 查询登录名
-     * @param oprid
+     * @param custid
      * @return
      */
     public Customers selectByLoginName(Long custid) {
@@ -79,5 +80,9 @@ public class BuyMedicineService {
                 throw new BusinessException(BusinessExceptionCode.OPR_LOGIN_FAIL);
             }
         }
+    }
+
+    public void buy(Long custId,List<DrugToBuy> list) {
+        buyMedicineMapperCust.buy(custId,list);
     }
 }

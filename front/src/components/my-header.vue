@@ -21,14 +21,14 @@
         <router-link to="/admin/confirm-order">操作订单</router-link>
       </a-menu-item>
 
-      <a-menu-item key="/buy-medicine">
+      <a-menu-item key="/buy-medicine" :style="cust.custId?{}:{display:'none'}">
         <router-link to="/buy-medicine">购买药品</router-link>
       </a-menu-item>
 
       <a-menu-item key="2">统计</a-menu-item>
       <a-menu-item key="3">汇总分析</a-menu-item>
 
-      <a class="login" @click="showLoginModal" v-show="!islogin">
+      <a class="login" @click="showLoginModal" v-show="!opr.oprId && !cust.custId">
         <a-button type="primary">
           登录
         </a-button>
@@ -50,7 +50,7 @@
           cancel-text="No"
           @confirm="logout()"
       >
-        <a class="login" v-show="islogin">
+        <a class="login" v-show="opr.oprId || cust.custId">
           <a-button type="primary">
             退出登录
           </a-button>
