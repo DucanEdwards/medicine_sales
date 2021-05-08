@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface AnalysisMapperCust {
     List<AnalysisResp> getAnalysis();
+
+    public void getNowAnalysis();
 }

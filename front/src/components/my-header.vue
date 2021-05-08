@@ -33,8 +33,9 @@
         <router-link to="/order-history">历史订单</router-link>
       </a-menu-item>
 
-      <a-menu-item key="2">统计</a-menu-item>
-      <a-menu-item key="3">汇总分析</a-menu-item>
+      <a-menu-item key="/analysis">
+        <router-link to="/analysis">数据统计</router-link>
+      </a-menu-item>
 
       <a class="login" @click="showLoginModal" v-show="!opr.oprId && !cust.custId">
         <a-button type="primary">

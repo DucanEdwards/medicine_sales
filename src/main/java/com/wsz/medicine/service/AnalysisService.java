@@ -15,4 +15,8 @@ public class AnalysisService {
     public List<AnalysisResp> getAnalysis() {
         return analysisMapperCust.getAnalysis();
     }
+
+    public void getNowAnalysis() {
+        analysisMapperCust.getNowAnalysis();
+    }
 }

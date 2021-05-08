@@ -10,6 +10,7 @@ import OrderHistory from '../views/order-history.vue'
 import OrderHistoryDetail from '../views/order-history-detail.vue'
 import AdminSupplier from '../views/admin/admin-supplier.vue'
 import AdminSupplierOrder from '../views/admin/admin-supplier-order.vue'
+import Analysis from '../views/analysis.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -74,6 +75,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/admin/supplier/order',
     name: 'AdminSupplierOrder',
     component: AdminSupplierOrder
+  },
+  {
+    path: '/analysis',
+    name: 'Analysis',
+    component: Analysis
   },
 ]
 

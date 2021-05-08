@@ -17,4 +17,44 @@
             t1.today =curdate()
     </select>
 
+    <update id="getNowAnalysis">
+        start transaction;
+
+        insert into analysis(today, order_sum, order_sum_30, sales_sum, sales_sum_30, loyal_customer)
+        select curdate(),0,0,0,0,0
+        from analysis
+        where not exists(select 1 from analysis where today=curdate());
+
+        update analysis
+        set order_sum=(select count(1) from sales_order)
+        where today=curdate();
+
+        update analysis
+        set order_sum_30=(select count(1) from sales_order so
+                          where so.opt_time>subdate(curdate(),interval 30 day))
+        where today=curdate();
+
+        update analysis
+        set sales_sum=(select round(sum(od.drug_num*substring(drug_price,2)),2) from order_detail od
+                                                                                         left join drug d on d.drug_id = od.drug_id)
+        where today=curdate();
+
+        update analysis
+        set sales_sum_30=(select round(sum(od.drug_num*substring(drug_price,2)),2) from order_detail od
+                                                                                            left join drug d on d.drug_id = od.drug_id
+                                                                                            left join sales_order so on od.order_id = so.order_id
+                          where so.opt_time>subdate(curdate(),interval 30 day))
+        where today=curdate();
+
+        update analysis
+        set loyal_customer=(select cust_name from sales_order
+                                                      left join customers c on sales_order.cust_id = c.cust_id
+                            group by sales_order.cust_id
+                            order by count(sales_order.cust_id) desc
+                            limit 1)
+        where today=curdate();
+
+        commit;
+    </update>
+
 </mapper>

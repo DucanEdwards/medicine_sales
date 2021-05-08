@@ -1,10 +1,13 @@
 package com.wsz.medicine.resp;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 
 public class AnalysisResp {
     private Long analysisId;
 
+    @JsonFormat(pattern = "yyyy-MM-dd",timezone="GMT+8")
     private Date today;
 
     private Long orderSum;
