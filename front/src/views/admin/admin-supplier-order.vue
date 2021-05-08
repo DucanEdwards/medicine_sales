@@ -1,19 +1,18 @@
 <template>
   <a-layout class="layout">
     <a-layout-content style="padding: 0 30px">
-      <a-button type="dashed" size="large">
-        <router-link :to="'/order-history'">返回</router-link>
-      </a-button>
       <div :style="{ background: '#fff', padding: '24px', minHeight: '280px' }">
         <a-table
             :columns="columns"
-            :row-key="record => record.orderId"
-            :data-source="orderhistory"
+            :row-key="record => record.purchaseId"
+            :data-source="supplierorder"
             :loading="loading"
         >
 
-          <template #sum="{record}">
-            {{ (record.drugPrice.slice(1)*record.drugNum).toFixed(2)}}
+          <template #sum="{ record }">
+            <a-tag  color="processing">
+              {{ (record.drugNum*record.purchasePrice.slice(1)).toFixed(2)}}
+            </a-tag>
           </template>
 
         </a-table>
@@ -23,47 +22,47 @@
 </template>
 
 <script lang="ts">
-import {computed, defineComponent, ref,onMounted} from 'vue';
+import {defineComponent, onMounted, ref} from 'vue';
 import axios from "axios";
 import {useRoute} from "vue-router";
-import store from "@/store";
 
 export default defineComponent({
-  name: 'OrderHistoryDetail',
+  name: 'AdminSupplierOrder',
   setup() {
     const route=useRoute();
-    const orderhistory = ref();
+    const supplierorder=ref();
     const loading = ref(false);
     const columns = [
       {
-        title: '订单ID',
-        dataIndex: 'orderId',
+        title: '进货订单ID',
+        dataIndex: 'purchaseId',
       },
       {
         title: '操作员名',
         dataIndex: 'oprName'
       },
       {
-        title: '顾客名',
-        dataIndex: 'custName'
-      },
-      {
-        title: "价格",
-        key:"drugPrice",
-        dataIndex: 'drugPrice',
-      },
-      {
-        title: "药品数",
-        key:"drugNum",
-        dataIndex: 'drugNum',
-      },
-      {
-        title: "药品名",
+        title: '药品名',
         key:"drugName",
         dataIndex: 'drugName',
       },
       {
-        title: "总价(￥)",
+        title: '药品数',
+        key:"drugNum",
+        dataIndex: 'drugNum',
+      },
+      {
+        title: "供货商名",
+        key:"supplierName",
+        dataIndex: 'supplierName',
+      },
+      {
+        title: "进货单价",
+        key:"purchasePrice",
+        dataIndex: 'purchasePrice',
+      },
+      {
+        title: "进货总价(￥)",
         key:"sum",
         dataIndex: 'sum',
         slots: { customRender: 'sum' },
@@ -71,12 +70,11 @@ export default defineComponent({
     ];
 
     const query=()=>{
-      loading.value=true
-      axios.get("/saleorder/detail/"+route.query.orderId).then((res) => {
-        loading.value = false;
+      axios.get("/supplier/order/"+route.query.supplierId).then((res)=>{
         const data = res.data;
-        orderhistory.value = data.content;
-      });
+        supplierorder.value=data.content
+        console.log(data)
+      })
     }
 
     onMounted(()=>{
@@ -84,7 +82,7 @@ export default defineComponent({
     })
 
     return {
-      orderhistory,
+      supplierorder,
       loading,
       columns
     }

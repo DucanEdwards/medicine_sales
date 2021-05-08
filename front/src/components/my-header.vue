@@ -21,6 +21,10 @@
         <router-link to="/admin/confirm-order">操作订单</router-link>
       </a-menu-item>
 
+      <a-menu-item key="/admin/supplier" :style="opr.oprId?{}:{display:'none'}">
+        <router-link to="/admin/supplier">供货商</router-link>
+      </a-menu-item>
+
       <a-menu-item key="/buy-medicine" :style="cust.custId?{}:{display:'none'}">
         <router-link to="/buy-medicine">购买药品</router-link>
       </a-menu-item>
@@ -47,6 +51,10 @@
           {{ cust.custName }}
         </a-tag>
       </a>
+
+      <a-avatar class="avatar" v-if="cust.custName || opr.oprName">
+        {{ LoginFirstName(cust.custName) || LoginFirstName(opr.oprName) }}
+      </a-avatar>
 
       <a-popconfirm
           title="Confirm Logout?"
@@ -198,6 +206,12 @@ export default defineComponent({
       console.log(radiovalue.value)
     }
 
+    const LoginFirstName=(name:string)=>{
+      if (name!=null) {
+        return name.substring(0,1);
+      }
+    }
+
 
     return {
       islogin,
@@ -212,7 +226,9 @@ export default defineComponent({
       logout,
 
       radiovalue,
-      radiochange
+      radiochange,
+
+      LoginFirstName
     }
   }
 });
@@ -225,5 +241,12 @@ export default defineComponent({
 }
 .loginname{
   color: #e1b12c;
+}
+.avatar{
+  float: right;
+  position: relative;
+  top: 17px;
+  background: #f56a00;
+  margin-right:5px;
 }
 </style>

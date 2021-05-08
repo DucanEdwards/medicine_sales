@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsz.medicine.mapper.PurchaseOrderMapper">
+  <resultMap id="BaseResultMap" type="com.wsz.medicine.domain.PurchaseOrder">
+    <id column="purchase_id" jdbcType="BIGINT" property="purchaseId" />
+    <result column="drug_id" jdbcType="BIGINT" property="drugId" />
+    <result column="drug_num" jdbcType="INTEGER" property="drugNum" />
+    <result column="purchase_price" jdbcType="VARCHAR" property="purchasePrice" />
+    <result column="opr_id" jdbcType="BIGINT" property="oprId" />
+    <result column="supplier_id" jdbcType="BIGINT" property="supplierId" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    purchase_id, drug_id, drug_num, purchase_price, opr_id, supplier_id
+  </sql>
+  <select id="selectByExample" parameterType="com.wsz.medicine.domain.PurchaseOrderExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from purchase_order
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from purchase_order
+    where purchase_id = #{purchaseId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from purchase_order
+    where purchase_id = #{purchaseId,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.wsz.medicine.domain.PurchaseOrderExample">
+    delete from purchase_order
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.wsz.medicine.domain.PurchaseOrder">
+    insert into purchase_order (purchase_id, drug_id, drug_num, 
+      purchase_price, opr_id, supplier_id
+      )
+    values (#{purchaseId,jdbcType=BIGINT}, #{drugId,jdbcType=BIGINT}, #{drugNum,jdbcType=INTEGER}, 
+      #{purchasePrice,jdbcType=VARCHAR}, #{oprId,jdbcType=BIGINT}, #{supplierId,jdbcType=BIGINT}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.wsz.medicine.domain.PurchaseOrder">
+    insert into purchase_order
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="purchaseId != null">
+        purchase_id,
+      </if>
+      <if test="drugId != null">
+        drug_id,
+      </if>
+      <if test="drugNum != null">
+        drug_num,
+      </if>
+      <if test="purchasePrice != null">
+        purchase_price,
+      </if>
+      <if test="oprId != null">
+        opr_id,
+      </if>
+      <if test="supplierId != null">
+        supplier_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="purchaseId != null">
+        #{purchaseId,jdbcType=BIGINT},
+      </if>
+      <if test="drugId != null">
+        #{drugId,jdbcType=BIGINT},
+      </if>
+      <if test="drugNum != null">
+        #{drugNum,jdbcType=INTEGER},
+      </if>
+      <if test="purchasePrice != null">
+        #{purchasePrice,jdbcType=VARCHAR},
+      </if>
+      <if test="oprId != null">
+        #{oprId,jdbcType=BIGINT},
+      </if>
+      <if test="supplierId != null">
+        #{supplierId,jdbcType=BIGINT},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.wsz.medicine.domain.PurchaseOrderExample" resultType="java.lang.Long">
+    select count(*) from purchase_order
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update purchase_order
+    <set>
+      <if test="record.purchaseId != null">
+        purchase_id = #{record.purchaseId,jdbcType=BIGINT},
+      </if>
+      <if test="record.drugId != null">
+        drug_id = #{record.drugId,jdbcType=BIGINT},
+      </if>
+      <if test="record.drugNum != null">
+        drug_num = #{record.drugNum,jdbcType=INTEGER},
+      </if>
+      <if test="record.purchasePrice != null">
+        purchase_price = #{record.purchasePrice,jdbcType=VARCHAR},
+      </if>
+      <if test="record.oprId != null">
+        opr_id = #{record.oprId,jdbcType=BIGINT},
+      </if>
+      <if test="record.supplierId != null">
+        supplier_id = #{record.supplierId,jdbcType=BIGINT},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update purchase_order
+    set purchase_id = #{record.purchaseId,jdbcType=BIGINT},
+      drug_id = #{record.drugId,jdbcType=BIGINT},
+      drug_num = #{record.drugNum,jdbcType=INTEGER},
+      purchase_price = #{record.purchasePrice,jdbcType=VARCHAR},
+      opr_id = #{record.oprId,jdbcType=BIGINT},
+      supplier_id = #{record.supplierId,jdbcType=BIGINT}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.wsz.medicine.domain.PurchaseOrder">
+    update purchase_order
+    <set>
+      <if test="drugId != null">
+        drug_id = #{drugId,jdbcType=BIGINT},
+      </if>
+      <if test="drugNum != null">
+        drug_num = #{drugNum,jdbcType=INTEGER},
+      </if>
+      <if test="purchasePrice != null">
+        purchase_price = #{purchasePrice,jdbcType=VARCHAR},
+      </if>
+      <if test="oprId != null">
+        opr_id = #{oprId,jdbcType=BIGINT},
+      </if>
+      <if test="supplierId != null">
+        supplier_id = #{supplierId,jdbcType=BIGINT},
+      </if>
+    </set>
+    where purchase_id = #{purchaseId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wsz.medicine.domain.PurchaseOrder">
+    update purchase_order
+    set drug_id = #{drugId,jdbcType=BIGINT},
+      drug_num = #{drugNum,jdbcType=INTEGER},
+      purchase_price = #{purchasePrice,jdbcType=VARCHAR},
+      opr_id = #{oprId,jdbcType=BIGINT},
+      supplier_id = #{supplierId,jdbcType=BIGINT}
+    where purchase_id = #{purchaseId,jdbcType=BIGINT}
+  </update>
+</mapper>

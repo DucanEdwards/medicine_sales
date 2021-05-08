@@ -8,6 +8,8 @@ import AdminConfirmOrder from '../views/admin/admin-confirm-order.vue'
 import BuyMedicine from '../views/buy-medicine.vue'
 import OrderHistory from '../views/order-history.vue'
 import OrderHistoryDetail from '../views/order-history-detail.vue'
+import AdminSupplier from '../views/admin/admin-supplier.vue'
+import AdminSupplierOrder from '../views/admin/admin-supplier-order.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -62,6 +64,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/order-history/detail',
     name: 'OrderHistoryDetail',
     component: OrderHistoryDetail
+  },
+  {
+    path: '/admin/supplier',
+    name: 'AdminSupplier',
+    component: AdminSupplier
+  },
+  {
+    path: '/admin/supplier/order',
+    name: 'AdminSupplierOrder',
+    component: AdminSupplierOrder
   },
 ]
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wsz.medicine.mapper.SupplierOrderMapperCust" >
+
+    <select id="getSupplierOrder" resultType="com.wsz.medicine.resp.SupplierOrderResp">
+        select
+            po.purchase_id as purchaseId,
+            opr_name as oprName,
+            drug_name as drugName,
+            po.drug_num as drugNum,
+            po.purchase_price as purchasePrice,
+            supplier_name as supplierName
+        from purchase_order po
+                 left join drug d on d.drug_id = po.drug_id
+                 left join operators o on o.opr_id = po.opr_id
+                 left join supplier s on po.supplier_id = s.supplier_id
+        where s.supplier_id=#{supplierId}
+    </select>
+
+</mapper>
