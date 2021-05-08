@@ -4012,3 +4012,453 @@ Unconditional classes:
 2021-05-08 22:10:40.023 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237336303964160 [0;39m 更新数据结束，耗时：0毫秒
 2021-05-08 22:10:45.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237357233541120 [0;39m 更新数据开始
 2021-05-08 22:10:45.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237357233541120 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:10:50.006 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237378175700992 [0;39m 更新数据开始
+2021-05-08 22:10:50.006 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237378175700992 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:10:55.018 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237399197552640 [0;39m 更新数据开始
+2021-05-08 22:10:55.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237399197552640 [0;39m 更新数据结束，耗时：1毫秒
+2021-05-08 22:11:00.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237420143906816 [0;39m 更新数据开始
+2021-05-08 22:11:00.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237420143906816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:11:05.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237441115426816 [0;39m 更新数据开始
+2021-05-08 22:11:05.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237441115426816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:11:10.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237462070169600 [0;39m 更新数据开始
+2021-05-08 22:11:10.009 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237462070169600 [0;39m 更新数据结束，耗时：1毫秒
+2021-05-08 22:11:15.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237483087826944 [0;39m 更新数据开始
+2021-05-08 22:11:15.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237483087826944 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:11:20.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237504059346944 [0;39m 更新数据开始
+2021-05-08 22:11:20.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237504059346944 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:11:25.004 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237524967952384 [0;39m 更新数据开始
+2021-05-08 22:11:25.004 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237524967952384 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:11:30.018 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237545998192640 [0;39m 更新数据开始
+2021-05-08 22:11:30.018 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237545998192640 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:11:35.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237566973906944 [0;39m 更新数据开始
+2021-05-08 22:11:35.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237566973906944 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:11:40.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237587945426944 [0;39m 更新数据开始
+2021-05-08 22:11:40.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237587945426944 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:11:45.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237608891781120 [0;39m 更新数据开始
+2021-05-08 22:11:45.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237608891781120 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:11:50.003 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237629821358080 [0;39m 更新数据开始
+2021-05-08 22:11:50.003 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237629821358080 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:11:55.005 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237650801266688 [0;39m 更新数据开始
+2021-05-08 22:11:55.005 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237650801266688 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:12:00.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237671802146816 [0;39m 更新数据开始
+2021-05-08 22:12:00.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237671802146816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:12:05.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237692803026944 [0;39m 更新数据开始
+2021-05-08 22:12:05.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237692803026944 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:12:10.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237713749381120 [0;39m 更新数据开始
+2021-05-08 22:12:10.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237713749381120 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:12:15.021 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237734754455552 [0;39m 更新数据开始
+2021-05-08 22:12:15.021 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237734754455552 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:12:20.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237755671449600 [0;39m 更新数据开始
+2021-05-08 22:12:20.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237755671449600 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:12:25.021 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237776697495552 [0;39m 更新数据开始
+2021-05-08 22:12:25.021 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237776697495552 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:12:30.009 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237797618683904 [0;39m 更新数据开始
+2021-05-08 22:12:30.009 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237797618683904 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:12:35.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237818632146944 [0;39m 更新数据开始
+2021-05-08 22:12:35.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237818632146944 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:12:40.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237839607861248 [0;39m 更新数据开始
+2021-05-08 22:12:40.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237839607861248 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:12:45.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237860575186944 [0;39m 更新数据开始
+2021-05-08 22:12:45.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237860575186944 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:12:50.021 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237881555095552 [0;39m 更新数据开始
+2021-05-08 22:12:50.021 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237881555095552 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:12:55.011 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237902484672512 [0;39m 更新数据开始
+2021-05-08 22:12:55.011 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237902484672512 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:13:00.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237923493941248 [0;39m 更新数据开始
+2021-05-08 22:13:00.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237923493941248 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:13:05.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237944431906816 [0;39m 更新数据开始
+2021-05-08 22:13:05.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237944431906816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:13:10.005 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237965374066688 [0;39m 更新数据开始
+2021-05-08 22:13:10.005 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237965374066688 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:13:15.009 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46237986362363904 [0;39m 更新数据开始
+2021-05-08 22:13:15.009 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46237986362363904 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:13:20.006 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238007321300992 [0;39m 更新数据开始
+2021-05-08 22:13:20.006 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238007321300992 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:13:25.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238028351541248 [0;39m 更新数据开始
+2021-05-08 22:13:25.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238028351541248 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:13:30.015 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238049302089728 [0;39m 更新数据开始
+2021-05-08 22:13:30.016 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238049302089728 [0;39m 更新数据结束，耗时：1毫秒
+2021-05-08 22:13:35.018 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238070286192640 [0;39m 更新数据开始
+2021-05-08 22:13:35.018 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238070286192640 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:13:40.021 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238091270295552 [0;39m 更新数据开始
+2021-05-08 22:13:40.021 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238091270295552 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:13:45.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238112233426944 [0;39m 更新数据开始
+2021-05-08 22:13:45.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238112233426944 [0;39m 更新数据结束，耗时：1毫秒
+2021-05-08 22:13:50.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238133204946944 [0;39m 更新数据开始
+2021-05-08 22:13:50.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238133204946944 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:13:55.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238154189049856 [0;39m 更新数据开始
+2021-05-08 22:13:55.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238154189049856 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:14:00.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238175160569856 [0;39m 更新数据开始
+2021-05-08 22:14:00.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238175160569856 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:14:05.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238196073369600 [0;39m 更新数据开始
+2021-05-08 22:14:05.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238196073369600 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:14:10.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238217091026944 [0;39m 更新数据开始
+2021-05-08 22:14:10.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238217091026944 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:14:15.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238238062546944 [0;39m 更新数据开始
+2021-05-08 22:14:15.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238238062546944 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:14:20.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238259034066944 [0;39m 更新数据开始
+2021-05-08 22:14:20.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238259034066944 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:14:25.018 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238280001392640 [0;39m 更新数据开始
+2021-05-08 22:14:25.018 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238280001392640 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:14:30.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238300947746816 [0;39m 更新数据开始
+2021-05-08 22:14:30.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238300947746816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:14:35.021 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238321957015552 [0;39m 更新数据开始
+2021-05-08 22:14:35.021 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238321957015552 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:14:40.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238342882398208 [0;39m 更新数据开始
+2021-05-08 22:14:40.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238342882398208 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:14:45.004 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238363828752384 [0;39m 更新数据开始
+2021-05-08 22:14:45.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238363828752384 [0;39m 更新数据结束，耗时：8毫秒
+2021-05-08 22:14:45.491 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238365871378432 [0;39m ------------- 开始 -------------
+2021-05-08 22:14:45.491 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238365871378432 [0;39m 请求地址: http://localhost:9000/opr/list GET
+2021-05-08 22:14:45.491 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238365871378432 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.list
+2021-05-08 22:14:45.491 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238365871378432 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:14:45.492 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238365871378432 [0;39m 请求参数: [{}]
+2021-05-08 22:14:45.503 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238365871378432 [0;39m 返回结果: {"content":[{"oprHiredate":1409587200000,"oprId":1,"oprName":"Tobin Farquharson","oprPay":"¥9592.12","oprSex":"Male","oprTel":"3652891934"},{"oprHiredate":1374681600000,"oprId":2,"oprName":"Willy Ranscome","oprPay":"¥9840.38","oprSex":"Agender","oprTel":"6138437612"},{"oprHiredate":1211644800000,"oprId":3,"oprName":"Jo Bewick","oprPay":"¥12706.09","oprSex":"Non-binary","oprTel":"9921745544"},{"oprHiredate":1506960000000,"oprId":4,"oprName":"Anne-corinne Duly","oprPay":"¥9068.77","oprSex":"Genderqueer","oprTel":"3107128439"},{"oprHiredate":1151769600000,"oprId":5,"oprName":"Zahara Lideard","oprPay":"¥8525.92","oprSex":"Genderqueer","oprTel":"6265203266"},{"oprHiredate":1292688000000,"oprId":6,"oprName":"Kriste Wathall","oprPay":"¥10075.28","oprSex":"Female","oprTel":"7175269331"},{"oprHiredate":1365264000000,"oprId":7,"oprName":"Dianne Croall","oprPay":"¥13101.07","oprSex":"Genderfluid","oprTel":"4286822525"},{"oprHiredate":1531670400000,"oprId":8,"oprName":"Althea Somerton","oprPay":"¥11366.35","oprSex":"Genderqueer","oprTel":"6115205458"},{"oprHiredate":1333728000000,"oprId":9,"oprName":"Leon Gaynor","oprPay":"¥9971.50","oprSex":"Male","oprTel":"3741249341"},{"oprHiredate":1472745600000,"oprId":10,"oprName":"Madella Taffrey","oprPay":"¥12934.22","oprSex":"Polygender","oprTel":"1909232675"}],"success":true}
+2021-05-08 22:14:45.504 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238365871378432 [0;39m ------------- 结束 耗时：13 ms -------------
+2021-05-08 22:14:46.134 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238368568315904 [0;39m ------------- 开始 -------------
+2021-05-08 22:14:46.134 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238368568315904 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-08 22:14:46.135 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238368568315904 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-08 22:14:46.135 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238368568315904 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:14:46.135 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238368568315904 [0;39m 请求参数: [{}]
+2021-05-08 22:14:46.141 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238368568315904 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"},{"custId":20,"oprId":4,"optTime":1591706353000,"orderId":2,"state":"1"},{"custId":24,"oprId":10,"optTime":1588734612000,"orderId":3,"state":"1"},{"custId":11,"oprId":10,"optTime":1618789137000,"orderId":4,"state":"1"},{"custId":23,"oprId":9,"orderId":5,"state":"0"},{"custId":5,"oprId":2,"optTime":1610218202000,"orderId":6,"state":"1"},{"custId":7,"oprId":8,"optTime":1589122077000,"orderId":7,"state":"1"},{"custId":26,"oprId":2,"orderId":8,"state":"0"},{"custId":4,"oprId":3,"optTime":1605387557000,"orderId":9,"state":"1"},{"custId":21,"oprId":8,"optTime":1589981263000,"orderId":10,"state":"1"},{"custId":25,"oprId":8,"orderId":11,"state":"0"},{"custId":15,"oprId":1,"optTime":1620205873000,"orderId":12,"state":"1"},{"custId":18,"oprId":10,"orderId":13,"state":"0"},{"custId":3,"oprId":5,"optTime":1601057347000,"orderId":14,"state":"1"},{"custId":4,"oprId":2,"orderId":15,"state":"0"},{"custId":7,"oprId":9,"optTime":1599072890000,"orderId":16,"state":"1"},{"custId":15,"oprId":10,"orderId":17,"state":"0"},{"custId":11,"oprId":9,"optTime":1618743970000,"orderId":18,"state":"1"},{"custId":7,"oprId":6,"orderId":19,"state":"0"},{"custId":1,"oprId":5,"orderId":20,"state":"0"},{"custId":12,"oprId":6,"optTime":1602473270000,"orderId":21,"state":"1"},{"custId":11,"oprId":3,"optTime":1589056029000,"orderId":22,"state":"1"},{"custId":10,"oprId":7,"optTime":1616558468000,"orderId":23,"state":"1"},{"custId":14,"oprId":3,"optTime":1596946559000,"orderId":24,"state":"1"},{"custId":30,"oprId":1,"optTime":1593287562000,"orderId":25,"state":"1"},{"custId":14,"oprId":10,"optTime":1613073758000,"orderId":26,"state":"1"},{"custId":17,"oprId":9,"optTime":1602185335000,"orderId":27,"state":"1"},{"custId":20,"oprId":7,"optTime":1609553766000,"orderId":28,"state":"1"},{"custId":5,"oprId":10,"optTime":1589334264000,"orderId":29,"state":"1"},{"custId":9,"oprId":6,"orderId":30,"state":"0"},{"custId":23,"oprId":2,"orderId":31,"state":"0"},{"custId":17,"oprId":4,"optTime":1600922998000,"orderId":32,"state":"1"},{"custId":3,"oprId":4,"optTime":1601494576000,"orderId":33,"state":"1"},{"custId":11,"oprId":9,"orderId":34,"state":"0"},{"custId":4,"oprId":1,"optTime":1605619011000,"orderId":35,"state":"1"},{"custId":22,"oprId":7,"optTime":1612224984000,"orderId":36,"state":"1"},{"custId":26,"oprId":5,"orderId":37,"state":"0"},{"custId":24,"oprId":6,"optTime":1606621981000,"orderId":38,"state":"1"},{"custId":9,"oprId":9,"optTime":1608418251000,"orderId":39,"state":"1"},{"custId":15,"oprId":8,"orderId":40,"state":"0"},{"custId":11,"oprId":5,"orderId":41,"state":"0"},{"custId":10,"oprId":2,"optTime":1619290022000,"orderId":42,"state":"1"},{"custId":23,"oprId":4,"orderId":43,"state":"0"},{"custId":13,"oprId":1,"optTime":1620393606000,"orderId":44,"state":"1"},{"custId":4,"oprId":4,"orderId":45,"state":"0"},{"custId":9,"oprId":6,"optTime":1588211725000,"orderId":46,"state":"1"},{"custId":22,"oprId":10,"optTime":1611020873000,"orderId":47,"state":"1"},{"custId":24,"oprId":1,"orderId":48,"state":"0"},{"custId":23,"oprId":6,"optTime":1599264982000,"orderId":49,"state":"1"},{"custId":24,"oprId":2,"orderId":50,"state":"0"},{"custId":1,"oprId":1,"optTime":1620380390000,"orderId":51,"state":"1"},{"custId":1,"oprId":2,"orderId":52,"state":"0"},{"custId":1,"oprId":2,"orderId":53,"state":"0"},{"custId":1,"oprId":2,"orderId":54,"state":"0"},{"custId":7,"oprId":10,"orderId":55,"state":"0"},{"custId":7,"oprId":7,"optTime":1620482779000,"orderId":56,"state":"1"}],"success":true}
+2021-05-08 22:14:46.141 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238368568315904 [0;39m ------------- 结束 耗时：7 ms -------------
+2021-05-08 22:14:47.154 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238372846505984 [0;39m ------------- 开始 -------------
+2021-05-08 22:14:47.154 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238372846505984 [0;39m 请求地址: http://localhost:9000/opr/order/7 GET
+2021-05-08 22:14:47.154 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238372846505984 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.order
+2021-05-08 22:14:47.155 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238372846505984 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:14:47.155 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238372846505984 [0;39m 请求参数: [7]
+2021-05-08 22:14:47.158 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238372846505984 [0;39m 返回结果: {"content":[{"custName":"Enrichetta Buddle","oprName":"Dianne Croall","orderId":23,"state":"1"},{"custName":"Emalia Isacoff","oprName":"Dianne Croall","orderId":28,"state":"1"},{"custName":"Aylmer Crotch","oprName":"Dianne Croall","orderId":36,"state":"1"},{"custName":"Gloriane Massei","oprName":"Dianne Croall","orderId":56,"state":"1"}],"success":true}
+2021-05-08 22:14:47.159 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238372846505984 [0;39m ------------- 结束 耗时：5 ms -------------
+2021-05-08 22:14:48.154 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238377040809984 [0;39m ------------- 开始 -------------
+2021-05-08 22:14:48.154 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238377040809984 [0;39m 请求地址: http://localhost:9000/supplier/list GET
+2021-05-08 22:14:48.154 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238377040809984 [0;39m 类名方法: com.wsz.medicine.controller.SupplierController.list
+2021-05-08 22:14:48.154 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238377040809984 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:14:48.154 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238377040809984 [0;39m 请求参数: [{}]
+2021-05-08 22:14:48.156 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238377040809984 [0;39m 返回结果: {"content":[{"supplierId":1,"supplierName":"Alcon Laboratories, Inc."},{"supplierId":2,"supplierName":"Tec Laboratories, Inc."},{"supplierId":3,"supplierName":"Dollar General"},{"supplierId":4,"supplierName":"HyVee Inc"},{"supplierId":5,"supplierName":"Save-A-Lot Food Stores Ltd"},{"supplierId":6,"supplierName":"Safeway"},{"supplierId":7,"supplierName":"Johnson & Johnson Healthcare Products, Division of McNEIL-PPC, Inc."}],"success":true}
+2021-05-08 22:14:48.156 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238377040809984 [0;39m ------------- 结束 耗时：2 ms -------------
+2021-05-08 22:14:49.720 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238383609090048 [0;39m ------------- 开始 -------------
+2021-05-08 22:14:49.720 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238383609090048 [0;39m 请求地址: http://localhost:9000/supplier/order/2 GET
+2021-05-08 22:14:49.720 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238383609090048 [0;39m 类名方法: com.wsz.medicine.controller.SupplierController.order
+2021-05-08 22:14:49.720 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238383609090048 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:14:49.720 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238383609090048 [0;39m 请求参数: [2]
+2021-05-08 22:14:49.787 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238383609090048 [0;39m 返回结果: {"content":[{"drugName":"TRAMADOL HYDROCHLORIDE","drugNum":1904,"oprName":"Zahara Lideard","purchaseId":7,"purchasePrice":"¥106.35","supplierName":"Tec Laboratories, Inc."}],"success":true}
+2021-05-08 22:14:49.787 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238383609090048 [0;39m ------------- 结束 耗时：67 ms -------------
+2021-05-08 22:14:50.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238384833826816 [0;39m 更新数据开始
+2021-05-08 22:14:50.015 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238384833826816 [0;39m 更新数据结束，耗时：3毫秒
+2021-05-08 22:14:51.166 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238389674053632 [0;39m ------------- 开始 -------------
+2021-05-08 22:14:51.166 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238389674053632 [0;39m 请求地址: http://localhost:9000/analysis/get-analysis GET
+2021-05-08 22:14:51.167 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238389674053632 [0;39m 类名方法: com.wsz.medicine.controller.AnalysisController.getAnalysis
+2021-05-08 22:14:51.167 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238389674053632 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:14:51.167 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238389674053632 [0;39m 请求参数: []
+2021-05-08 22:14:51.170 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238389674053632 [0;39m 返回结果: {"content":[{"analysisId":2,"loyalCustomer":"Thedric Strettle","orderSum":56,"orderSum30":7,"salesSum":"59063.24","salesSum30":"8426.83","today":1620403200000}],"success":true}
+2021-05-08 22:14:51.171 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238389674053632 [0;39m ------------- 结束 耗时：5 ms -------------
+2021-05-08 22:14:55.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238405796958208 [0;39m 更新数据开始
+2021-05-08 22:14:55.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238405796958208 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:15:00.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238426776866816 [0;39m 更新数据开始
+2021-05-08 22:15:00.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238426776866816 [0;39m 更新数据结束，耗时：9毫秒
+2021-05-08 22:15:05.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238447739998208 [0;39m 更新数据开始
+2021-05-08 22:15:05.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238447739998208 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:15:10.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238468711518208 [0;39m 更新数据开始
+2021-05-08 22:15:10.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238468711518208 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:15:12.739 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238480157773824 [0;39m ------------- 开始 -------------
+2021-05-08 22:15:12.740 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238480157773824 [0;39m 请求地址: http://localhost:9000/analysis/get-analysis GET
+2021-05-08 22:15:12.740 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238480157773824 [0;39m 类名方法: com.wsz.medicine.controller.AnalysisController.getAnalysis
+2021-05-08 22:15:12.740 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238480157773824 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:15:12.740 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238480157773824 [0;39m 请求参数: []
+2021-05-08 22:15:12.742 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238480157773824 [0;39m 返回结果: {"content":[{"analysisId":2,"loyalCustomer":"Thedric Strettle","orderSum":56,"orderSum30":7,"salesSum":"59063.24","salesSum30":"8426.83","today":1620403200000}],"success":true}
+2021-05-08 22:15:12.742 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238480157773824 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-08 22:15:15.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238489724981248 [0;39m 更新数据开始
+2021-05-08 22:15:15.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238489724981248 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:15:20.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238510654558208 [0;39m 更新数据开始
+2021-05-08 22:15:20.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238510654558208 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:15:25.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238531626078208 [0;39m 更新数据开始
+2021-05-08 22:15:25.015 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238531626078208 [0;39m 更新数据结束，耗时：5毫秒
+2021-05-08 22:15:30.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238552597598208 [0;39m 更新数据开始
+2021-05-08 22:15:30.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238552597598208 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:15:35.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238573611061248 [0;39m 更新数据开始
+2021-05-08 22:15:35.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238573611061248 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:15:40.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238594582581248 [0;39m 更新数据开始
+2021-05-08 22:15:40.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238594582581248 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:15:45.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238615554101248 [0;39m 更新数据开始
+2021-05-08 22:15:45.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238615554101248 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:15:50.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238636483678208 [0;39m 更新数据开始
+2021-05-08 22:15:50.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238636483678208 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:15:55.005 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238657434226688 [0;39m 更新数据开始
+2021-05-08 22:15:55.005 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238657434226688 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:16:00.006 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238678409940992 [0;39m 更新数据开始
+2021-05-08 22:16:00.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238678409940992 [0;39m 更新数据结束，耗时：4毫秒
+2021-05-08 22:16:05.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238699440181248 [0;39m 更新数据开始
+2021-05-08 22:16:05.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238699440181248 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:16:10.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238720369758208 [0;39m 更新数据开始
+2021-05-08 22:16:10.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238720369758208 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:16:15.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238741341278208 [0;39m 更新数据开始
+2021-05-08 22:16:15.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238741341278208 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:16:20.016 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238762337964032 [0;39m 更新数据开始
+2021-05-08 22:16:20.027 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238762337964032 [0;39m 更新数据结束，耗时：10毫秒
+2021-05-08 22:16:22.921 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238774522417152 [0;39m ------------- 开始 -------------
+2021-05-08 22:16:22.921 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238774522417152 [0;39m 请求地址: http://localhost:9000/opr/logout/46236215720153088 GET
+2021-05-08 22:16:22.921 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238774522417152 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.logout
+2021-05-08 22:16:22.922 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238774522417152 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:16:22.922 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238774522417152 [0;39m 请求参数: ["46236215720153088"]
+2021-05-08 22:16:22.923 INFO  com.wsz.medicine.controller.OperatersController   :69   [32m46238774522417152 [0;39m 从redis中删除token: 46236215720153088
+2021-05-08 22:16:22.923 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238774522417152 [0;39m 返回结果: {"success":true}
+2021-05-08 22:16:22.924 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238774522417152 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-08 22:16:23.109 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238775310946304 [0;39m ------------- 开始 -------------
+2021-05-08 22:16:23.109 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238775310946304 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-08 22:16:23.109 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238775310946304 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-08 22:16:23.110 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238775310946304 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:16:23.110 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238775310946304 [0;39m 请求参数: [{"custId":2}]
+2021-05-08 22:16:23.112 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238775310946304 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-08 22:16:23.112 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238775310946304 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-08 22:16:25.003 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238783254958080 [0;39m 更新数据开始
+2021-05-08 22:16:25.005 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238783254958080 [0;39m 更新数据结束，耗时：2毫秒
+2021-05-08 22:16:29.107 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238800468381696 [0;39m ------------- 开始 -------------
+2021-05-08 22:16:29.107 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238800468381696 [0;39m 请求地址: http://localhost:9000/drug/login POST
+2021-05-08 22:16:29.107 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238800468381696 [0;39m 类名方法: com.wsz.medicine.controller.BuyMedicineController.login
+2021-05-08 22:16:29.107 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238800468381696 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:16:29.107 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238800468381696 [0;39m 请求参数: [{"custId":7,"custPassword":"JZRFRhvolJ"}]
+2021-05-08 22:16:29.109 INFO  com.wsz.medicine.controller.BuyMedicineController :56   [32m46238800468381696 [0;39m 生成单点登录token：46238800476770304，并放入redis中
+2021-05-08 22:16:29.111 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238800468381696 [0;39m 返回结果: {"content":{"custId":7,"custName":"Gloriane Massei","token":"46238800476770304"},"success":true}
+2021-05-08 22:16:29.112 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238800468381696 [0;39m ------------- 结束 耗时：5 ms -------------
+2021-05-08 22:16:30.014 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238804272615424 [0;39m 更新数据开始
+2021-05-08 22:16:30.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238804272615424 [0;39m 更新数据结束，耗时：5毫秒
+2021-05-08 22:16:31.517 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238810576654336 [0;39m ------------- 开始 -------------
+2021-05-08 22:16:31.517 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238810576654336 [0;39m 请求地址: http://localhost:9000/history/list/7 GET
+2021-05-08 22:16:31.517 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238810576654336 [0;39m 类名方法: com.wsz.medicine.controller.OrderHistoryController.list
+2021-05-08 22:16:31.517 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238810576654336 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:16:31.517 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238810576654336 [0;39m 请求参数: [7]
+2021-05-08 22:16:31.555 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238810576654336 [0;39m 返回结果: {"content":[{"custName":"Gloriane Massei","oprId":8,"optTime":1589122077000,"orderId":7,"state":"1","sum":1296.4},{"custName":"Gloriane Massei","oprId":9,"optTime":1599072890000,"orderId":16,"state":"1","sum":899.85},{"custName":"Gloriane Massei","oprId":6,"orderId":19,"state":"0","sum":777.84},{"custName":"Gloriane Massei","oprId":10,"orderId":55,"state":"0","sum":916.56},{"custName":"Gloriane Massei","oprId":7,"optTime":1620482779000,"orderId":56,"state":"1","sum":743.06}],"success":true}
+2021-05-08 22:16:31.555 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238810576654336 [0;39m ------------- 结束 耗时：38 ms -------------
+2021-05-08 22:16:33.483 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238818822656000 [0;39m ------------- 开始 -------------
+2021-05-08 22:16:33.483 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238818822656000 [0;39m 请求地址: http://localhost:9000/drug/list GET
+2021-05-08 22:16:33.484 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238818822656000 [0;39m 类名方法: com.wsz.medicine.controller.BuyMedicineController.list
+2021-05-08 22:16:33.484 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238818822656000 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:16:33.484 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238818822656000 [0;39m 请求参数: []
+2021-05-08 22:16:33.491 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238818822656000 [0;39m 返回结果: {"content":[{"drugId":1,"drugName":"Lovastatin","drugPrice":"¥259.28","expireDate":1660579200000,"sortName":"消化系统用药"},{"drugId":2,"drugName":"RHODOTORULA MUCILAGINOSA","drugPrice":"¥470.90","expireDate":1652284800000,"sortName":"消化系统用药"},{"drugId":3,"drugName":"Hydromorphone Hydrochloride","drugPrice":"¥136.08","expireDate":1622563200000,"sortName":"呼吸系统用药"},{"drugId":4,"drugName":"Magnesium Citrate","drugPrice":"¥285.88","expireDate":1656777600000,"sortName":"泌尿系统用药"},{"drugId":5,"drugName":"Captopril","drugPrice":"¥179.97","expireDate":1648569600000,"sortName":"滋补类"},{"drugId":6,"drugName":"TRAMADOL HYDROCHLORIDE","drugPrice":"¥132.94","expireDate":1677168000000,"sortName":"清热解毒药品"},{"drugId":7,"drugName":"Lidocaine Hydrochloride","drugPrice":"¥297.88","expireDate":1625414400000,"sortName":"抗生素类"},{"drugId":8,"drugName":"LBEL Couleur Luxe Rouge Amplifier XP amplifying SPF 15","drugPrice":"¥194.48","expireDate":1676476800000,"sortName":"心脑血管用药"},{"drugId":9,"drugName":"Equate Tussin CF","drugPrice":"¥183.70","expireDate":1638633600000,"sortName":"抗生素类"},{"drugId":10,"drugName":"HUMCO Merthiolate","drugPrice":"¥205.63","expireDate":1634486400000,"sortName":"血液系统用药"},{"drugId":11,"drugName":"Sulwhasoo Lumitouch","drugPrice":"¥491.22","expireDate":1675440000000,"sortName":"泌尿系统用药"},{"drugId":12,"drugName":"In Control Nicotine","drugPrice":"¥239.82","expireDate":1649952000000,"sortName":"激素类"},{"drugId":13,"drugName":"lamotrigine","drugPrice":"¥338.37","expireDate":1661011200000,"sortName":"呼吸系统用药"},{"drugId":14,"drugName":"U-max Beauty","drugPrice":"¥151.40","expireDate":1635177600000,"sortName":"血液系统用药"},{"drugId":15,"drugName":"Groundsel","drugPrice":"¥263.24","expireDate":1661270400000,"sortName":"泌尿系统用药"},{"drugId":16,"drugName":"Ifosfamide and Mesna","drugPrice":"¥168.54","expireDate":1627488000000,"sortName":"血液系统用药"},{"drugId":17,"drugName":"Lotrel","drugPrice":"¥63.00","expireDate":1663689600000,"sortName":"清热解毒药品"},{"drugId":18,"drugName":"Clonazepam","drugPrice":"¥373.25","expireDate":1634659200000,"sortName":"泌尿系统用药"},{"drugId":19,"drugName":"Vivelle Dot","drugPrice":"¥229.06","expireDate":1676649600000,"sortName":"消化系统用药"},{"drugId":20,"drugName":"Conney Exra Strength Aspirin Free","drugPrice":"¥61.93","expireDate":1624291200000,"sortName":"消化系统用药"}],"success":true}
+2021-05-08 22:16:33.491 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238818822656000 [0;39m ------------- 结束 耗时：8 ms -------------
+2021-05-08 22:16:35.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238825218969600 [0;39m 更新数据开始
+2021-05-08 22:16:35.018 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238825218969600 [0;39m 更新数据结束，耗时：10毫秒
+2021-05-08 22:16:35.864 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238828809293824 [0;39m ------------- 开始 -------------
+2021-05-08 22:16:35.864 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238828809293824 [0;39m 请求地址: http://localhost:9000/drug/list GET
+2021-05-08 22:16:35.864 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238828809293824 [0;39m 类名方法: com.wsz.medicine.controller.BuyMedicineController.list
+2021-05-08 22:16:35.864 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238828809293824 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:16:35.864 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238828809293824 [0;39m 请求参数: []
+2021-05-08 22:16:35.867 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238828809293824 [0;39m 返回结果: {"content":[{"drugId":1,"drugName":"Lovastatin","drugPrice":"¥259.28","expireDate":1660579200000,"sortName":"消化系统用药"},{"drugId":2,"drugName":"RHODOTORULA MUCILAGINOSA","drugPrice":"¥470.90","expireDate":1652284800000,"sortName":"消化系统用药"},{"drugId":3,"drugName":"Hydromorphone Hydrochloride","drugPrice":"¥136.08","expireDate":1622563200000,"sortName":"呼吸系统用药"},{"drugId":4,"drugName":"Magnesium Citrate","drugPrice":"¥285.88","expireDate":1656777600000,"sortName":"泌尿系统用药"},{"drugId":5,"drugName":"Captopril","drugPrice":"¥179.97","expireDate":1648569600000,"sortName":"滋补类"},{"drugId":6,"drugName":"TRAMADOL HYDROCHLORIDE","drugPrice":"¥132.94","expireDate":1677168000000,"sortName":"清热解毒药品"},{"drugId":7,"drugName":"Lidocaine Hydrochloride","drugPrice":"¥297.88","expireDate":1625414400000,"sortName":"抗生素类"},{"drugId":8,"drugName":"LBEL Couleur Luxe Rouge Amplifier XP amplifying SPF 15","drugPrice":"¥194.48","expireDate":1676476800000,"sortName":"心脑血管用药"},{"drugId":9,"drugName":"Equate Tussin CF","drugPrice":"¥183.70","expireDate":1638633600000,"sortName":"抗生素类"},{"drugId":10,"drugName":"HUMCO Merthiolate","drugPrice":"¥205.63","expireDate":1634486400000,"sortName":"血液系统用药"},{"drugId":11,"drugName":"Sulwhasoo Lumitouch","drugPrice":"¥491.22","expireDate":1675440000000,"sortName":"泌尿系统用药"},{"drugId":12,"drugName":"In Control Nicotine","drugPrice":"¥239.82","expireDate":1649952000000,"sortName":"激素类"},{"drugId":13,"drugName":"lamotrigine","drugPrice":"¥338.37","expireDate":1661011200000,"sortName":"呼吸系统用药"},{"drugId":14,"drugName":"U-max Beauty","drugPrice":"¥151.40","expireDate":1635177600000,"sortName":"血液系统用药"},{"drugId":15,"drugName":"Groundsel","drugPrice":"¥263.24","expireDate":1661270400000,"sortName":"泌尿系统用药"},{"drugId":16,"drugName":"Ifosfamide and Mesna","drugPrice":"¥168.54","expireDate":1627488000000,"sortName":"血液系统用药"},{"drugId":17,"drugName":"Lotrel","drugPrice":"¥63.00","expireDate":1663689600000,"sortName":"清热解毒药品"},{"drugId":18,"drugName":"Clonazepam","drugPrice":"¥373.25","expireDate":1634659200000,"sortName":"泌尿系统用药"},{"drugId":19,"drugName":"Vivelle Dot","drugPrice":"¥229.06","expireDate":1676649600000,"sortName":"消化系统用药"},{"drugId":20,"drugName":"Conney Exra Strength Aspirin Free","drugPrice":"¥61.93","expireDate":1624291200000,"sortName":"消化系统用药"}],"success":true}
+2021-05-08 22:16:35.868 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238828809293824 [0;39m ------------- 结束 耗时：4 ms -------------
+2021-05-08 22:16:40.010 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238846198878208 [0;39m 更新数据开始
+2021-05-08 22:16:40.016 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238846198878208 [0;39m 更新数据结束，耗时：6毫秒
+2021-05-08 22:16:40.271 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238847293591552 [0;39m ------------- 开始 -------------
+2021-05-08 22:16:40.271 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238847293591552 [0;39m 请求地址: http://localhost:9000/drug/buy POST
+2021-05-08 22:16:40.271 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238847293591552 [0;39m 类名方法: com.wsz.medicine.controller.BuyMedicineController.buy
+2021-05-08 22:16:40.271 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238847293591552 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:16:40.272 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238847293591552 [0;39m 请求参数: ["{\"custId\":7,\"basket\":[{\"drugId\":11,\"drugName\":\"Sulwhasoo Lumitouch\",\"drugPrice\":\"¥491.22\",\"sortName\":\"泌尿系统用药\",\"quantity\":1},{\"drugId\":12,\"drugName\":\"In Control Nicotine\",\"drugPrice\":\"¥239.82\",\"sortName\":\"激素类\",\"quantity\":1},{\"drugId\":14,\"drugName\":\"U-max Beauty\",\"drugPrice\":\"¥151.40\",\"sortName\":\"血液系统用药\",\"quantity\":1}]}"]
+2021-05-08 22:16:40.610 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238847293591552 [0;39m 返回结果: {"content":"已生成订单,等待操作员确认","success":true}
+2021-05-08 22:16:40.610 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238847293591552 [0;39m ------------- 结束 耗时：339 ms -------------
+2021-05-08 22:16:42.518 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238856718192640 [0;39m ------------- 开始 -------------
+2021-05-08 22:16:42.518 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238856718192640 [0;39m 请求地址: http://localhost:9000/analysis/get-analysis GET
+2021-05-08 22:16:42.519 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238856718192640 [0;39m 类名方法: com.wsz.medicine.controller.AnalysisController.getAnalysis
+2021-05-08 22:16:42.519 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238856718192640 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:16:42.519 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238856718192640 [0;39m 请求参数: []
+2021-05-08 22:16:42.520 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238856718192640 [0;39m 返回结果: {"content":[{"analysisId":2,"loyalCustomer":"Thedric Strettle","orderSum":56,"orderSum30":7,"salesSum":"59063.24","salesSum30":"8426.83","today":1620403200000}],"success":true}
+2021-05-08 22:16:42.520 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238856718192640 [0;39m ------------- 结束 耗时：2 ms -------------
+2021-05-08 22:16:45.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238867212341248 [0;39m 更新数据开始
+2021-05-08 22:16:45.031 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238867212341248 [0;39m 更新数据结束，耗时：11毫秒
+2021-05-08 22:16:46.476 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238873319247872 [0;39m ------------- 开始 -------------
+2021-05-08 22:16:46.477 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238873319247872 [0;39m 请求地址: http://localhost:9000/analysis/get-analysis GET
+2021-05-08 22:16:46.477 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238873319247872 [0;39m 类名方法: com.wsz.medicine.controller.AnalysisController.getAnalysis
+2021-05-08 22:16:46.477 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238873319247872 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:16:46.477 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238873319247872 [0;39m 请求参数: []
+2021-05-08 22:16:46.478 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238873319247872 [0;39m 返回结果: {"content":[{"analysisId":2,"loyalCustomer":"Gloriane Massei","orderSum":57,"orderSum30":7,"salesSum":"59945.68","salesSum30":"8426.83","today":1620403200000}],"success":true}
+2021-05-08 22:16:46.478 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238873319247872 [0;39m ------------- 结束 耗时：2 ms -------------
+2021-05-08 22:16:50.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238888133529600 [0;39m 更新数据开始
+2021-05-08 22:16:50.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238888133529600 [0;39m 更新数据结束，耗时：4毫秒
+2021-05-08 22:16:55.001 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238909075689472 [0;39m 更新数据开始
+2021-05-08 22:16:55.004 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238909075689472 [0;39m 更新数据结束，耗时：3毫秒
+2021-05-08 22:16:56.273 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238914410844160 [0;39m ------------- 开始 -------------
+2021-05-08 22:16:56.274 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238914410844160 [0;39m 请求地址: http://localhost:9000/history/list/7 GET
+2021-05-08 22:16:56.274 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238914410844160 [0;39m 类名方法: com.wsz.medicine.controller.OrderHistoryController.list
+2021-05-08 22:16:56.274 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238914410844160 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:16:56.274 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238914410844160 [0;39m 请求参数: [7]
+2021-05-08 22:16:56.328 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238914410844160 [0;39m 返回结果: {"content":[{"custName":"Gloriane Massei","oprId":8,"optTime":1589122077000,"orderId":7,"state":"1","sum":1296.4},{"custName":"Gloriane Massei","oprId":9,"optTime":1599072890000,"orderId":16,"state":"1","sum":899.85},{"custName":"Gloriane Massei","oprId":6,"orderId":19,"state":"0","sum":777.84},{"custName":"Gloriane Massei","oprId":10,"orderId":55,"state":"0","sum":916.56},{"custName":"Gloriane Massei","oprId":7,"optTime":1620482779000,"orderId":56,"state":"1","sum":743.06},{"custName":"Gloriane Massei","oprId":8,"orderId":57,"state":"0","sum":882.44}],"success":true}
+2021-05-08 22:16:56.328 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238914410844160 [0;39m ------------- 结束 耗时：55 ms -------------
+2021-05-08 22:17:00.009 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238930080763904 [0;39m 更新数据开始
+2021-05-08 22:17:00.017 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238930080763904 [0;39m 更新数据结束，耗时：8毫秒
+2021-05-08 22:17:00.383 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238931649433600 [0;39m ------------- 开始 -------------
+2021-05-08 22:17:00.384 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238931649433600 [0;39m 请求地址: http://localhost:9000/analysis/get-analysis GET
+2021-05-08 22:17:00.384 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238931649433600 [0;39m 类名方法: com.wsz.medicine.controller.AnalysisController.getAnalysis
+2021-05-08 22:17:00.384 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238931649433600 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:17:00.384 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238931649433600 [0;39m 请求参数: []
+2021-05-08 22:17:00.385 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238931649433600 [0;39m 返回结果: {"content":[{"analysisId":2,"loyalCustomer":"Gloriane Massei","orderSum":57,"orderSum30":7,"salesSum":"59945.68","salesSum30":"8426.83","today":1620403200000}],"success":true}
+2021-05-08 22:17:00.385 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238931649433600 [0;39m ------------- 结束 耗时：2 ms -------------
+2021-05-08 22:17:05.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238951064866816 [0;39m 更新数据开始
+2021-05-08 22:17:05.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238951064866816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:17:07.979 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46238963509366784 [0;39m ------------- 开始 -------------
+2021-05-08 22:17:07.980 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46238963509366784 [0;39m 请求地址: http://localhost:9000/history/list/7 GET
+2021-05-08 22:17:07.981 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46238963509366784 [0;39m 类名方法: com.wsz.medicine.controller.OrderHistoryController.list
+2021-05-08 22:17:07.981 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46238963509366784 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:17:07.981 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46238963509366784 [0;39m 请求参数: [7]
+2021-05-08 22:17:08.029 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46238963509366784 [0;39m 返回结果: {"content":[{"custName":"Gloriane Massei","oprId":8,"optTime":1589122077000,"orderId":7,"state":"1","sum":1296.4},{"custName":"Gloriane Massei","oprId":9,"optTime":1599072890000,"orderId":16,"state":"1","sum":899.85},{"custName":"Gloriane Massei","oprId":6,"orderId":19,"state":"0","sum":777.84},{"custName":"Gloriane Massei","oprId":10,"orderId":55,"state":"0","sum":916.56},{"custName":"Gloriane Massei","oprId":7,"optTime":1620482779000,"orderId":56,"state":"1","sum":743.06},{"custName":"Gloriane Massei","oprId":8,"orderId":57,"state":"0","sum":882.44}],"success":true}
+2021-05-08 22:17:08.029 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46238963509366784 [0;39m ------------- 结束 耗时：50 ms -------------
+2021-05-08 22:17:10.015 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238972048969728 [0;39m 更新数据开始
+2021-05-08 22:17:10.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238972048969728 [0;39m 更新数据结束，耗时：4毫秒
+2021-05-08 22:17:15.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46238993007906816 [0;39m 更新数据开始
+2021-05-08 22:17:15.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46238993007906816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:17:20.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239013979426816 [0;39m 更新数据开始
+2021-05-08 22:17:20.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239013979426816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:17:25.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239034950946816 [0;39m 更新数据开始
+2021-05-08 22:17:25.018 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239034950946816 [0;39m 更新数据结束，耗时：6毫秒
+2021-05-08 22:17:30.002 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239055880523776 [0;39m 更新数据开始
+2021-05-08 22:17:30.002 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239055880523776 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:17:35.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239076935929856 [0;39m 更新数据开始
+2021-05-08 22:17:35.030 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239076935929856 [0;39m 更新数据结束，耗时：8毫秒
+2021-05-08 22:17:40.002 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239097823563776 [0;39m 更新数据开始
+2021-05-08 22:17:40.002 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239097823563776 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:17:45.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239118878969856 [0;39m 更新数据开始
+2021-05-08 22:17:45.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239118878969856 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:17:50.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239139808546816 [0;39m 更新数据开始
+2021-05-08 22:17:50.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239139808546816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:17:55.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239160780066816 [0;39m 更新数据开始
+2021-05-08 22:17:55.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239160780066816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:17:59.939 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46239181445402624 [0;39m ------------- 开始 -------------
+2021-05-08 22:17:59.939 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46239181445402624 [0;39m 请求地址: http://localhost:9000/opr/logout/undefined GET
+2021-05-08 22:17:59.940 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46239181445402624 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.logout
+2021-05-08 22:17:59.940 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46239181445402624 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:17:59.940 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46239181445402624 [0;39m 请求参数: ["undefined"]
+2021-05-08 22:17:59.941 INFO  com.wsz.medicine.controller.OperatersController   :69   [32m46239181445402624 [0;39m 从redis中删除token: undefined
+2021-05-08 22:17:59.942 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46239181445402624 [0;39m 返回结果: {"success":true}
+2021-05-08 22:17:59.942 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46239181445402624 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-08 22:18:00.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239181785141248 [0;39m 更新数据开始
+2021-05-08 22:18:00.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239181785141248 [0;39m 更新数据结束，耗时：2毫秒
+2021-05-08 22:18:00.096 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46239182103908352 [0;39m ------------- 开始 -------------
+2021-05-08 22:18:00.096 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46239182103908352 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-08 22:18:00.096 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46239182103908352 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-08 22:18:00.096 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46239182103908352 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:18:00.097 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46239182103908352 [0;39m 请求参数: [{"custId":2}]
+2021-05-08 22:18:00.125 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46239182103908352 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-08 22:18:00.125 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46239182103908352 [0;39m ------------- 结束 耗时：29 ms -------------
+2021-05-08 22:18:05.006 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239202697940992 [0;39m 更新数据开始
+2021-05-08 22:18:05.009 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239202697940992 [0;39m 更新数据结束，耗时：3毫秒
+2021-05-08 22:18:10.009 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239223682043904 [0;39m 更新数据开始
+2021-05-08 22:18:10.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239223682043904 [0;39m 更新数据结束，耗时：3毫秒
+2021-05-08 22:18:15.003 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239244628398080 [0;39m 更新数据开始
+2021-05-08 22:18:15.006 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239244628398080 [0;39m 更新数据结束，耗时：3毫秒
+2021-05-08 22:18:20.003 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239265599918080 [0;39m 更新数据开始
+2021-05-08 22:18:20.009 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239265599918080 [0;39m 更新数据结束，耗时：6毫秒
+2021-05-08 22:18:25.003 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239286571438080 [0;39m 更新数据开始
+2021-05-08 22:18:25.011 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239286571438080 [0;39m 更新数据结束，耗时：8毫秒
+2021-05-08 22:18:30.000 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239307530375168 [0;39m 更新数据开始
+2021-05-08 22:18:30.002 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239307530375168 [0;39m 更新数据结束，耗时：2毫秒
+2021-05-08 22:18:35.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239328552226816 [0;39m 更新数据开始
+2021-05-08 22:18:35.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239328552226816 [0;39m 更新数据结束，耗时：8毫秒
+2021-05-08 22:18:40.001 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239349477609472 [0;39m 更新数据开始
+2021-05-08 22:18:40.004 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239349477609472 [0;39m 更新数据结束，耗时：3毫秒
+2021-05-08 22:18:40.685 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46239352346513408 [0;39m ------------- 开始 -------------
+2021-05-08 22:18:40.685 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46239352346513408 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-08 22:18:40.686 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46239352346513408 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-08 22:18:40.686 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46239352346513408 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:18:40.686 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46239352346513408 [0;39m 请求参数: [{"custId":2}]
+2021-05-08 22:18:40.688 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46239352346513408 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-08 22:18:40.688 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46239352346513408 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-08 22:18:43.918 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46239365906698240 [0;39m ------------- 开始 -------------
+2021-05-08 22:18:43.919 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46239365906698240 [0;39m 请求地址: http://localhost:9000/opr/login POST
+2021-05-08 22:18:43.919 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46239365906698240 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.login
+2021-05-08 22:18:43.919 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46239365906698240 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:18:43.919 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46239365906698240 [0;39m 请求参数: [{"oprId":8,"oprPassword":"XTM8R52"}]
+2021-05-08 22:18:43.922 INFO  com.wsz.medicine.controller.OperatersController   :57   [32m46239365906698240 [0;39m 生成单点登录token：46239365923475456，并放入redis中
+2021-05-08 22:18:44.058 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46239365906698240 [0;39m 返回结果: {"content":{"oprId":8,"oprName":"Althea Somerton","token":"46239365923475456"},"success":true}
+2021-05-08 22:18:44.060 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46239365906698240 [0;39m ------------- 结束 耗时：142 ms -------------
+2021-05-08 22:18:45.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239370478489600 [0;39m 更新数据开始
+2021-05-08 22:18:45.018 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239370478489600 [0;39m 更新数据结束，耗时：10毫秒
+2021-05-08 22:18:47.832 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46239382323204096 [0;39m ------------- 开始 -------------
+2021-05-08 22:18:47.833 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46239382323204096 [0;39m 请求地址: http://localhost:9000/opr/order/8 GET
+2021-05-08 22:18:47.833 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46239382323204096 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.order
+2021-05-08 22:18:47.833 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46239382323204096 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:18:47.833 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46239382323204096 [0;39m 请求参数: [8]
+2021-05-08 22:18:47.835 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46239382323204096 [0;39m 返回结果: {"content":[{"custName":"Gloriane Massei","oprName":"Althea Somerton","orderId":7,"state":"1"},{"custName":"Ravid Ridesdale","oprName":"Althea Somerton","orderId":10,"state":"1"},{"custName":"Riobard Piegrome","oprName":"Althea Somerton","orderId":11,"state":"0"},{"custName":"Yoko Crannis","oprName":"Althea Somerton","orderId":40,"state":"0"},{"custName":"Gloriane Massei","oprName":"Althea Somerton","orderId":57,"state":"0"}],"success":true}
+2021-05-08 22:18:47.835 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46239382323204096 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-08 22:18:49.770 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46239390451765248 [0;39m ------------- 开始 -------------
+2021-05-08 22:18:49.771 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46239390451765248 [0;39m 请求地址: http://localhost:9000/saleorder/confirm-order/57 GET
+2021-05-08 22:18:49.771 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46239390451765248 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.updateState
+2021-05-08 22:18:49.771 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46239390451765248 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:18:49.771 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46239390451765248 [0;39m 请求参数: [57]
+2021-05-08 22:18:49.786 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46239390451765248 [0;39m 返回结果: {"message":"操作完成,订单已确认","success":true}
+2021-05-08 22:18:49.786 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46239390451765248 [0;39m ------------- 结束 耗时：16 ms -------------
+2021-05-08 22:18:50.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239391450009600 [0;39m 更新数据开始
+2021-05-08 22:18:50.015 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239391450009600 [0;39m 更新数据结束，耗时：7毫秒
+2021-05-08 22:18:52.380 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46239401398898688 [0;39m ------------- 开始 -------------
+2021-05-08 22:18:52.381 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46239401398898688 [0;39m 请求地址: http://localhost:9000/opr/order/8 GET
+2021-05-08 22:18:52.381 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46239401398898688 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.order
+2021-05-08 22:18:52.381 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46239401398898688 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:18:52.382 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46239401398898688 [0;39m 请求参数: [8]
+2021-05-08 22:18:52.384 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46239401398898688 [0;39m 返回结果: {"content":[{"custName":"Gloriane Massei","oprName":"Althea Somerton","orderId":7,"state":"1"},{"custName":"Ravid Ridesdale","oprName":"Althea Somerton","orderId":10,"state":"1"},{"custName":"Riobard Piegrome","oprName":"Althea Somerton","orderId":11,"state":"0"},{"custName":"Yoko Crannis","oprName":"Althea Somerton","orderId":40,"state":"0"},{"custName":"Gloriane Massei","oprName":"Althea Somerton","orderId":57,"state":"1"}],"success":true}
+2021-05-08 22:18:52.384 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46239401398898688 [0;39m ------------- 结束 耗时：4 ms -------------
+2021-05-08 22:18:55.002 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239412396363776 [0;39m 更新数据开始
+2021-05-08 22:18:55.002 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239412396363776 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:18:55.934 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46239416305455104 [0;39m ------------- 开始 -------------
+2021-05-08 22:18:55.934 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46239416305455104 [0;39m 请求地址: http://localhost:9000/analysis/get-analysis GET
+2021-05-08 22:18:55.934 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46239416305455104 [0;39m 类名方法: com.wsz.medicine.controller.AnalysisController.getAnalysis
+2021-05-08 22:18:55.934 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46239416305455104 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:18:55.935 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46239416305455104 [0;39m 请求参数: []
+2021-05-08 22:18:55.936 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46239416305455104 [0;39m 返回结果: {"content":[{"analysisId":2,"loyalCustomer":"Gloriane Massei","orderSum":57,"orderSum30":8,"salesSum":"59945.68","salesSum30":"9309.27","today":1620403200000}],"success":true}
+2021-05-08 22:18:55.936 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46239416305455104 [0;39m ------------- 结束 耗时：2 ms -------------
+2021-05-08 22:19:00.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239433409826816 [0;39m 更新数据开始
+2021-05-08 22:19:00.017 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239433409826816 [0;39m 更新数据结束，耗时：5毫秒
+2021-05-08 22:19:05.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239454423289856 [0;39m 更新数据开始
+2021-05-08 22:19:05.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239454423289856 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:19:10.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239475352866816 [0;39m 更新数据开始
+2021-05-08 22:19:10.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239475352866816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:19:12.510 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46239485830238208 [0;39m ------------- 开始 -------------
+2021-05-08 22:19:12.510 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46239485830238208 [0;39m 请求地址: http://localhost:9000/opr/logout/46239365923475456 GET
+2021-05-08 22:19:12.511 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46239485830238208 [0;39m 类名方法: com.wsz.medicine.controller.OperatersController.logout
+2021-05-08 22:19:12.511 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46239485830238208 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:19:12.511 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46239485830238208 [0;39m 请求参数: ["46239365923475456"]
+2021-05-08 22:19:12.535 INFO  com.wsz.medicine.controller.OperatersController   :69   [32m46239485830238208 [0;39m 从redis中删除token: 46239365923475456
+2021-05-08 22:19:12.535 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46239485830238208 [0;39m 返回结果: {"success":true}
+2021-05-08 22:19:12.535 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46239485830238208 [0;39m ------------- 结束 耗时：25 ms -------------
+2021-05-08 22:19:12.651 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46239486421635072 [0;39m ------------- 开始 -------------
+2021-05-08 22:19:12.651 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46239486421635072 [0;39m 请求地址: http://localhost:9000/saleorder/list GET
+2021-05-08 22:19:12.651 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46239486421635072 [0;39m 类名方法: com.wsz.medicine.controller.SaleOrderController.list
+2021-05-08 22:19:12.652 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46239486421635072 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:19:12.652 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46239486421635072 [0;39m 请求参数: [{"custId":2}]
+2021-05-08 22:19:12.654 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46239486421635072 [0;39m 返回结果: {"content":[{"custId":2,"oprId":10,"orderId":1,"state":"0"}],"success":true}
+2021-05-08 22:19:12.654 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46239486421635072 [0;39m ------------- 结束 耗时：3 ms -------------
+2021-05-08 22:19:15.021 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239496362135552 [0;39m 更新数据开始
+2021-05-08 22:19:15.024 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239496362135552 [0;39m 更新数据结束，耗时：3毫秒
+2021-05-08 22:19:15.379 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46239497863696384 [0;39m ------------- 开始 -------------
+2021-05-08 22:19:15.380 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46239497863696384 [0;39m 请求地址: http://localhost:9000/drug/login POST
+2021-05-08 22:19:15.380 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46239497863696384 [0;39m 类名方法: com.wsz.medicine.controller.BuyMedicineController.login
+2021-05-08 22:19:15.380 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46239497863696384 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:19:15.381 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46239497863696384 [0;39m 请求参数: [{"custId":7,"custPassword":"JZRFRhvolJ"}]
+2021-05-08 22:19:15.383 INFO  com.wsz.medicine.controller.BuyMedicineController :56   [32m46239497863696384 [0;39m 生成单点登录token：46239497880473600，并放入redis中
+2021-05-08 22:19:15.478 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46239497863696384 [0;39m 返回结果: {"content":{"custId":7,"custName":"Gloriane Massei","token":"46239497880473600"},"success":true}
+2021-05-08 22:19:15.479 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46239497863696384 [0;39m ------------- 结束 耗时：100 ms -------------
+2021-05-08 22:19:20.014 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239517304295424 [0;39m 更新数据开始
+2021-05-08 22:19:20.017 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239517304295424 [0;39m 更新数据结束，耗时：3毫秒
+2021-05-08 22:19:23.436 INFO  com.wsz.medicine.aspect.LogAspect                 :54   [32m46239531657203712 [0;39m ------------- 开始 -------------
+2021-05-08 22:19:23.436 INFO  com.wsz.medicine.aspect.LogAspect                 :55   [32m46239531657203712 [0;39m 请求地址: http://localhost:9000/drug/logout/46239497880473600 GET
+2021-05-08 22:19:23.437 INFO  com.wsz.medicine.aspect.LogAspect                 :56   [32m46239531657203712 [0;39m 类名方法: com.wsz.medicine.controller.BuyMedicineController.logout
+2021-05-08 22:19:23.437 INFO  com.wsz.medicine.aspect.LogAspect                 :57   [32m46239531657203712 [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-05-08 22:19:23.437 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46239531657203712 [0;39m 请求参数: ["46239497880473600"]
+2021-05-08 22:19:23.448 INFO  com.wsz.medicine.controller.BuyMedicineController :68   [32m46239531657203712 [0;39m 从redis中删除token: 46239497880473600
+2021-05-08 22:19:23.448 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46239531657203712 [0;39m 返回结果: {"success":true}
+2021-05-08 22:19:23.448 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46239531657203712 [0;39m ------------- 结束 耗时：12 ms -------------
+2021-05-08 22:19:25.006 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239538242260992 [0;39m 更新数据开始
+2021-05-08 22:19:25.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239538242260992 [0;39m 更新数据结束，耗时：7毫秒
+2021-05-08 22:19:30.002 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239559197003776 [0;39m 更新数据开始
+2021-05-08 22:19:30.002 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239559197003776 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:19:35.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239580252409856 [0;39m 更新数据开始
+2021-05-08 22:19:35.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239580252409856 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:19:40.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239601181986816 [0;39m 更新数据开始
+2021-05-08 22:19:40.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239601181986816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:19:45.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239622195449856 [0;39m 更新数据开始
+2021-05-08 22:19:45.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239622195449856 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:19:50.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239643125026816 [0;39m 更新数据开始
+2021-05-08 22:19:50.020 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239643125026816 [0;39m 更新数据结束，耗时：8毫秒
+2021-05-08 22:19:55.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239664096546816 [0;39m 更新数据开始
+2021-05-08 22:19:55.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239664096546816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:20:00.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239685072261120 [0;39m 更新数据开始
+2021-05-08 22:20:00.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239685072261120 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-08 22:20:05.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239706039586816 [0;39m 更新数据开始
+2021-05-08 22:20:05.017 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239706039586816 [0;39m 更新数据结束，耗时：5毫秒
+2021-05-08 22:20:10.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46239727053049856 [0;39m 更新数据开始
+2021-05-08 22:20:10.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46239727053049856 [0;39m 更新数据结束，耗时：0毫秒

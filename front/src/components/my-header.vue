@@ -121,8 +121,8 @@ export default defineComponent({
 
     const oprUser=ref({
       //必须和后端的字段名相同
-      oprId:1,
-      oprPassword:"DMcv3v8AxaKE"
+      oprId:8,
+      oprPassword:"XTM8R52"
     })
     const custUser=ref({
       //必须和后端的字段名相同
