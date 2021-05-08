@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsz.medicine.mapper.AnalysisMapper">
+  <resultMap id="BaseResultMap" type="com.wsz.medicine.domain.Analysis">
+    <id column="analysis_id" jdbcType="BIGINT" property="analysisId" />
+    <result column="today" jdbcType="DATE" property="today" />
+    <result column="order_sum" jdbcType="BIGINT" property="orderSum" />
+    <result column="order_sum_30" jdbcType="BIGINT" property="orderSum30" />
+    <result column="sales_sum" jdbcType="VARCHAR" property="salesSum" />
+    <result column="sales_sum_30" jdbcType="VARCHAR" property="salesSum30" />
+    <result column="loyal_customer" jdbcType="VARCHAR" property="loyalCustomer" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    analysis_id, today, order_sum, order_sum_30, sales_sum, sales_sum_30, loyal_customer
+  </sql>
+  <select id="selectByExample" parameterType="com.wsz.medicine.domain.AnalysisExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from analysis
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from analysis
+    where analysis_id = #{analysisId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from analysis
+    where analysis_id = #{analysisId,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.wsz.medicine.domain.AnalysisExample">
+    delete from analysis
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.wsz.medicine.domain.Analysis">
+    insert into analysis (analysis_id, today, order_sum, 
+      order_sum_30, sales_sum, sales_sum_30, 
+      loyal_customer)
+    values (#{analysisId,jdbcType=BIGINT}, #{today,jdbcType=DATE}, #{orderSum,jdbcType=BIGINT}, 
+      #{orderSum30,jdbcType=BIGINT}, #{salesSum,jdbcType=VARCHAR}, #{salesSum30,jdbcType=VARCHAR}, 
+      #{loyalCustomer,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.wsz.medicine.domain.Analysis">
+    insert into analysis
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="analysisId != null">
+        analysis_id,
+      </if>
+      <if test="today != null">
+        today,
+      </if>
+      <if test="orderSum != null">
+        order_sum,
+      </if>
+      <if test="orderSum30 != null">
+        order_sum_30,
+      </if>
+      <if test="salesSum != null">
+        sales_sum,
+      </if>
+      <if test="salesSum30 != null">
+        sales_sum_30,
+      </if>
+      <if test="loyalCustomer != null">
+        loyal_customer,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="analysisId != null">
+        #{analysisId,jdbcType=BIGINT},
+      </if>
+      <if test="today != null">
+        #{today,jdbcType=DATE},
+      </if>
+      <if test="orderSum != null">
+        #{orderSum,jdbcType=BIGINT},
+      </if>
+      <if test="orderSum30 != null">
+        #{orderSum30,jdbcType=BIGINT},
+      </if>
+      <if test="salesSum != null">
+        #{salesSum,jdbcType=VARCHAR},
+      </if>
+      <if test="salesSum30 != null">
+        #{salesSum30,jdbcType=VARCHAR},
+      </if>
+      <if test="loyalCustomer != null">
+        #{loyalCustomer,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.wsz.medicine.domain.AnalysisExample" resultType="java.lang.Long">
+    select count(*) from analysis
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update analysis
+    <set>
+      <if test="record.analysisId != null">
+        analysis_id = #{record.analysisId,jdbcType=BIGINT},
+      </if>
+      <if test="record.today != null">
+        today = #{record.today,jdbcType=DATE},
+      </if>
+      <if test="record.orderSum != null">
+        order_sum = #{record.orderSum,jdbcType=BIGINT},
+      </if>
+      <if test="record.orderSum30 != null">
+        order_sum_30 = #{record.orderSum30,jdbcType=BIGINT},
+      </if>
+      <if test="record.salesSum != null">
+        sales_sum = #{record.salesSum,jdbcType=VARCHAR},
+      </if>
+      <if test="record.salesSum30 != null">
+        sales_sum_30 = #{record.salesSum30,jdbcType=VARCHAR},
+      </if>
+      <if test="record.loyalCustomer != null">
+        loyal_customer = #{record.loyalCustomer,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update analysis
+    set analysis_id = #{record.analysisId,jdbcType=BIGINT},
+      today = #{record.today,jdbcType=DATE},
+      order_sum = #{record.orderSum,jdbcType=BIGINT},
+      order_sum_30 = #{record.orderSum30,jdbcType=BIGINT},
+      sales_sum = #{record.salesSum,jdbcType=VARCHAR},
+      sales_sum_30 = #{record.salesSum30,jdbcType=VARCHAR},
+      loyal_customer = #{record.loyalCustomer,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.wsz.medicine.domain.Analysis">
+    update analysis
+    <set>
+      <if test="today != null">
+        today = #{today,jdbcType=DATE},
+      </if>
+      <if test="orderSum != null">
+        order_sum = #{orderSum,jdbcType=BIGINT},
+      </if>
+      <if test="orderSum30 != null">
+        order_sum_30 = #{orderSum30,jdbcType=BIGINT},
+      </if>
+      <if test="salesSum != null">
+        sales_sum = #{salesSum,jdbcType=VARCHAR},
+      </if>
+      <if test="salesSum30 != null">
+        sales_sum_30 = #{salesSum30,jdbcType=VARCHAR},
+      </if>
+      <if test="loyalCustomer != null">
+        loyal_customer = #{loyalCustomer,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where analysis_id = #{analysisId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wsz.medicine.domain.Analysis">
+    update analysis
+    set today = #{today,jdbcType=DATE},
+      order_sum = #{orderSum,jdbcType=BIGINT},
+      order_sum_30 = #{orderSum30,jdbcType=BIGINT},
+      sales_sum = #{salesSum,jdbcType=VARCHAR},
+      sales_sum_30 = #{salesSum30,jdbcType=VARCHAR},
+      loyal_customer = #{loyalCustomer,jdbcType=VARCHAR}
+    where analysis_id = #{analysisId,jdbcType=BIGINT}
+  </update>
+</mapper>

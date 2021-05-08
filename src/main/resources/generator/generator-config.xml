@@ -48,6 +48,7 @@
 <!--        <table tableName="drug" domainObjectName="Drug"/>-->
 <!--        <table tableName="sort" domainObjectName="Sort"/>-->
 <!--        <table tableName="supplier" domainObjectName="Supplier"/>-->
-        <table tableName="purchase_order" domainObjectName="PurchaseOrder"/>
+<!--        <table tableName="purchase_order" domainObjectName="PurchaseOrder"/>-->
+        <table tableName="analysis" domainObjectName="Analysis"/>
     </context>
 </generatorConfiguration>

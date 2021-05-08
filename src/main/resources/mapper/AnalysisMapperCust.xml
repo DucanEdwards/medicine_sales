@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wsz.medicine.mapper.AnalysisMapperCust" >
+
+    <select id="getAnalysis" resultType="com.wsz.medicine.resp.AnalysisResp">
+        select
+            t1.analysis_id as analysisId,
+            t1.today as today,
+            t1.order_sum as orderSum,
+            t1.order_sum_30 as orderSum30,
+            t1.sales_sum as salesSum,
+            t1.sales_sum_30 as salesSum30,
+            t1.loyal_customer as loyalCustomer
+        from
+            analysis t1
+        where
+            t1.today =curdate()
+    </select>
+
+</mapper>

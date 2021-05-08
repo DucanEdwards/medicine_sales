@@ -125,8 +125,8 @@ export default defineComponent({
     })
     const custUser=ref({
       //必须和后端的字段名相同
-      custId:1,
-      custPassword:"lSFTznAQ7"
+      custId:7,
+      custPassword:"JZRFRhvolJ"
     })
     const visible=ref(false);
     const loading=ref(false);

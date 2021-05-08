@@ -3,17 +3,18 @@
 <mapper namespace="com.wsz.medicine.mapper.BuyMedicineMapperCust" >
 
     <insert id="buy">
+        start transaction;
         ALTER TABLE `sales_order` AUTO_INCREMENT =1;
         ALTER TABLE `order_detail` AUTO_INCREMENT =1;
         insert into sales_order(order_id, cust_id, opr_id, opt_time, state) values
             (0,#{custId},floor(1+rand()*(10-1+1)),null,0);
-
         set @orderid=0;
         SELECT order_id into @orderid from sales_order ORDER BY order_id DESC LIMIT 1;
         insert into order_detail(detail_id, order_id, drug_id, drug_num, drug_name) values
         <foreach item="drug" collection="list" separator=",">
             (0,@orderid, #{drug.drugId}, #{drug.quantity},#{drug.drugName})
-        </foreach>
+        </foreach>;
+        commit;
     </insert>
 
 
