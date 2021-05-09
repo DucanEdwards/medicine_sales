@@ -20,7 +20,7 @@
           </template>
 
           <template #confirm="{ text,record }">
-            <a-button type="dashed" @click="confirm(record)">确认发货</a-button>
+            <a-button type="dashed" :disabled="record.state==1" @click="confirm(record)">确认发货</a-button>
           </template>
 
         </a-table>

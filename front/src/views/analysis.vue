@@ -57,6 +57,23 @@
             </a-card>
           </a-col>
         </a-row>
+        <br>
+        <br>
+        <a-row :gutter="16">
+          <a-col :span="8">
+          </a-col>
+          <a-col :span="8">
+            <a-card hoverable class="high">
+            <a-statistic title="今日销售额" :value="analysis.todaysalesSum" style="margin-right: 50px">
+              <template #suffix>
+                <MoneyCollectOutlined />
+              </template>
+            </a-statistic>
+            </a-card>
+          </a-col>
+          <a-col :span="8">
+          </a-col>
+        </a-row>
       </div>
     </a-layout-content>
   </a-layout>
@@ -76,12 +93,13 @@ export default defineComponent({
     const query=()=>{
       axios.get("/analysis/get-analysis").then((res=>{
         const data=res.data.content;
-        analysis.value.orderSum=data[0].orderSum;
-        analysis.value.orderSum30=data[0].orderSum30;
-        analysis.value.salesSum=data[0].salesSum;
-        analysis.value.salesSum30=data[0].salesSum30;
-        analysis.value.today=data[0].today;
-        analysis.value.loyalCustomer=data[0].loyalCustomer;
+        analysis.value.orderSum=data[1].orderSum;
+        analysis.value.orderSum30=data[1].orderSum30;
+        analysis.value.salesSum=data[1].salesSum;
+        analysis.value.salesSum30=data[1].salesSum30;
+        analysis.value.today=data[1].today;
+        analysis.value.loyalCustomer=data[1].loyalCustomer;
+        analysis.value.todaysalesSum=(data[1].salesSum-data[0].salesSum).toFixed(2)
       }))
     }
 
@@ -90,7 +108,7 @@ export default defineComponent({
     })
 
     return {
-      analysis
+      analysis,
     }
   }
 });

@@ -14,7 +14,7 @@
         from
             analysis t1
         where
-            t1.today =curdate()
+            t1.today >=subdate(curdate(),interval 1 day)
     </select>
 
     <update id="getNowAnalysis">

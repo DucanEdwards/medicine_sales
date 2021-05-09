@@ -30,7 +30,7 @@
 
           <template v-slot:cancel="{ text, record }">
             <a-space size="small">
-              <a-button type="dashed" @click="handleDelete(record.orderId)">
+              <a-button type="dashed" @click="showDeleteConfirm(record.orderId)">
                   取消订单
               </a-button>
             </a-space>
@@ -43,11 +43,12 @@
 </template>
 
 <script lang="ts">
-import {computed, defineComponent, ref,onMounted} from 'vue';
+import {computed, defineComponent, ref,onMounted, createVNode} from 'vue';
 import axios from "axios";
 import {useRoute} from "vue-router";
 import store from "@/store";
-import {message} from "ant-design-vue";
+import {message, Modal} from "ant-design-vue";
+import { ExclamationCircleOutlined } from '@ant-design/icons-vue';
 
 export default defineComponent({
   name: 'OrderHistory',
@@ -117,6 +118,23 @@ export default defineComponent({
       })
     }
 
+    const showDeleteConfirm = (orderId:number) => {
+      Modal.confirm({
+        title: '确定取消订单?',
+        icon: createVNode(ExclamationCircleOutlined),
+        content: 'Confirm to cancel the order?',
+        okText: 'Yes',
+        okType: 'danger',
+        cancelText: 'No',
+        onOk() {
+          handleDelete(orderId)
+        },
+        onCancel() {
+          console.log('Cancel');
+        },
+      });
+    };
+
     onMounted(()=>{
       query()
     })
@@ -126,7 +144,8 @@ export default defineComponent({
       loading,
       columns,
 
-      handleDelete
+      handleDelete,
+      showDeleteConfirm
     }
   }
 });
