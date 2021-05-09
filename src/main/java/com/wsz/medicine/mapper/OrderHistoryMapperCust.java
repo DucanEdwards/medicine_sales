@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface OrderHistoryMapperCust {
     List<OrderHistoryResp> list(Long custId);
+
+    void delete(Long orderId);
 }

@@ -1,3 +1,9 @@
+DELETE http://localhost:9000/history/delete/57
+
+<> 2021-05-09T124427.200.json
+
+###
+
 GET http://localhost:9000/drug/list
 
 <> 2021-05-05T175708.200.json
@@ -277,13 +283,6 @@ Accept: application/json
 ###
 
 GET http://localhost:9000/saleorder/list
-
-###
-
-GET http://localhost:9000/hello
-Accept: application/json
-
-<> 2021-04-30T214701.200.json
 
 ###
 

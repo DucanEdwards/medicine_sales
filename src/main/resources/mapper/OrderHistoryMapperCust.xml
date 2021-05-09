@@ -17,4 +17,10 @@
         where c.cust_id=#{custId}
     </select>
 
+    <delete id="delete">
+        SET FOREIGN_KEY_CHECKS=0;
+        delete from sales_order where order_id=#{orderId};
+        SET FOREIGN_KEY_CHECKS=1;
+    </delete>
+
 </mapper>

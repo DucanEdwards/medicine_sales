@@ -4,10 +4,7 @@ import com.wsz.medicine.resp.CommonResp;
 import com.wsz.medicine.resp.DrugInfoResp;
 import com.wsz.medicine.resp.OrderHistoryResp;
 import com.wsz.medicine.service.OrderHistoryService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -24,5 +21,12 @@ public class OrderHistoryController {
         List<OrderHistoryResp> list=orderHistoryService.list(custId);
         saleOrderCommonResp.setContent(list);
         return saleOrderCommonResp;
+    }
+
+    @DeleteMapping("delete/{orderId}")
+    public CommonResp delete(@PathVariable Long orderId) {
+        CommonResp resp = new CommonResp<>();
+        orderHistoryService.delete(orderId);
+        return resp;
     }
 }
