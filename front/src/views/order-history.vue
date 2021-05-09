@@ -28,6 +28,14 @@
             </a-space>
           </template>
 
+          <template v-slot:cancel="{ text, record }">
+            <a-space size="small">
+              <a-button type="dashed" @click="handleDelete(record.orderId)">
+                  取消订单
+              </a-button>
+            </a-space>
+          </template>
+
         </a-table>
       </div>
     </a-layout-content>
@@ -39,6 +47,7 @@ import {computed, defineComponent, ref,onMounted} from 'vue';
 import axios from "axios";
 import {useRoute} from "vue-router";
 import store from "@/store";
+import {message} from "ant-design-vue";
 
 export default defineComponent({
   name: 'OrderHistory',
@@ -78,6 +87,12 @@ export default defineComponent({
         dataIndex: 'druginfo',
         slots: { customRender: 'druginfo' },
       },
+      {
+        title: "取消订单(仅限未操作和近7日的订单)",
+        key:"cancel",
+        dataIndex: 'cancel',
+        slots: { customRender: 'cancel' },
+      },
     ];
 
     const query=()=>{
@@ -89,6 +104,19 @@ export default defineComponent({
       });
     }
 
+    const handleDelete=(orderId:number)=>{
+      axios.delete("/history/delete/"+orderId).then((res)=>{
+        const data=res.data
+        if (data.success) {
+          message.success("取消订单成功");
+          location.reload()
+        }
+        else {
+          message.error(data.message)
+        }
+      })
+    }
+
     onMounted(()=>{
       query()
     })
@@ -96,7 +124,9 @@ export default defineComponent({
     return {
       orderhistory,
       loading,
-      columns
+      columns,
+
+      handleDelete
     }
   }
 });

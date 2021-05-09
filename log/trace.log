@@ -1399,3 +1399,45 @@
 2021-05-09 12:44:26.991 INFO  com.wsz.medicine.aspect.LogAspect                 :79   [32m46457230945554432 [0;39m 请求参数: [57]
 2021-05-09 12:44:27.038 INFO  com.wsz.medicine.aspect.LogAspect                 :91   [32m46457230945554432 [0;39m 返回结果: {"success":true}
 2021-05-09 12:44:27.038 INFO  com.wsz.medicine.aspect.LogAspect                 :92   [32m46457230945554432 [0;39m ------------- 结束 耗时：47 ms -------------
+2021-05-09 12:44:30.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457243616546816 [0;39m 更新数据开始
+2021-05-09 12:44:30.015 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457243616546816 [0;39m 更新数据结束，耗时：3毫秒
+2021-05-09 12:44:35.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457264588066816 [0;39m 更新数据开始
+2021-05-09 12:44:35.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457264588066816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:44:40.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457285588946944 [0;39m 更新数据开始
+2021-05-09 12:44:40.019 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457285588946944 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:44:45.006 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457306505940992 [0;39m 更新数据开始
+2021-05-09 12:44:45.006 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457306505940992 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:44:50.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457327502626816 [0;39m 更新数据开始
+2021-05-09 12:44:50.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457327502626816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:44:55.016 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457348490924032 [0;39m 更新数据开始
+2021-05-09 12:44:55.016 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457348490924032 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:45:00.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457369487609856 [0;39m 更新数据开始
+2021-05-09 12:45:00.022 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457369487609856 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:45:05.017 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457390438158336 [0;39m 更新数据开始
+2021-05-09 12:45:05.017 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457390438158336 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:45:10.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457411371929600 [0;39m 更新数据开始
+2021-05-09 12:45:10.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457411371929600 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:45:15.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457432343449600 [0;39m 更新数据开始
+2021-05-09 12:45:15.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457432343449600 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:45:20.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457453331746816 [0;39m 更新数据开始
+2021-05-09 12:45:20.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457453331746816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:45:25.023 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457474349404160 [0;39m 更新数据开始
+2021-05-09 12:45:25.028 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457474349404160 [0;39m 更新数据结束，耗时：5毫秒
+2021-05-09 12:45:30.017 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457495295758336 [0;39m 更新数据开始
+2021-05-09 12:45:30.017 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457495295758336 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:45:35.023 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457516292444160 [0;39m 更新数据开始
+2021-05-09 12:45:35.023 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457516292444160 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:45:40.007 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457537196855296 [0;39m 更新数据开始
+2021-05-09 12:45:40.007 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457537196855296 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:45:45.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457558189346816 [0;39m 更新数据开始
+2021-05-09 12:45:45.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457558189346816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:45:50.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457579160866816 [0;39m 更新数据开始
+2021-05-09 12:45:50.012 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457579160866816 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:45:55.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457600136581120 [0;39m 更新数据开始
+2021-05-09 12:45:55.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457600136581120 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:46:00.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457621087129600 [0;39m 更新数据开始
+2021-05-09 12:46:00.008 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457621087129600 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:46:05.016 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457642092204032 [0;39m 更新数据开始
+2021-05-09 12:46:05.016 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457642092204032 [0;39m 更新数据结束，耗时：0毫秒
+2021-05-09 12:46:10.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :26   [32m46457663051141120 [0;39m 更新数据开始
+2021-05-09 12:46:10.013 INFO  com.wsz.medicine.timedtask.AnalysisTask           :29   [32m46457663051141120 [0;39m 更新数据结束，耗时：0毫秒

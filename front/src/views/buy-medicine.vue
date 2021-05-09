@@ -40,7 +40,7 @@
                 </tr>
                 </tbody>
               </table>
-              <p>总价：{{total +'RMB'}}</p>
+              <p>总价：{{total.toFixed(2) +'RMB'}}</p>
             </div>
             <div v-else><h3>{{basketsText}}</h3></div>
           </a-col>
