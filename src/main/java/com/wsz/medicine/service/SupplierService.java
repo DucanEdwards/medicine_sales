@@ -1,14 +1,10 @@
 package com.wsz.medicine.service;
 
-import com.wsz.medicine.domain.Operators;
-import com.wsz.medicine.domain.OperatorsExample;
 import com.wsz.medicine.domain.Supplier;
 import com.wsz.medicine.domain.SupplierExample;
 import com.wsz.medicine.mapper.SupplierMapper;
 import com.wsz.medicine.mapper.SupplierOrderMapperCust;
-import com.wsz.medicine.req.OperatorsReq;
-import com.wsz.medicine.req.SupplierReq;
-import com.wsz.medicine.resp.OperatorsResp;
+import com.wsz.medicine.request.SupplierReq;
 import com.wsz.medicine.resp.SupplierOrderResp;
 import com.wsz.medicine.resp.SupplierResp;
 import com.wsz.medicine.util.CopyUtil;

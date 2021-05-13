@@ -1,7 +1,6 @@
 package com.wsz.medicine.controller;
 
-import com.wsz.medicine.domain.SaleOrder;
-import com.wsz.medicine.req.SaleOrderReq;
+import com.wsz.medicine.request.SaleOrderReq;
 import com.wsz.medicine.resp.CommonResp;
 import com.wsz.medicine.resp.OrderDetailResp;
 import com.wsz.medicine.resp.SaleOrderResp;

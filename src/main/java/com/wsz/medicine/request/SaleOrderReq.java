@@ -1,6 +1,4 @@
-package com.wsz.medicine.req;
-
-import java.util.Date;
+package com.wsz.medicine.request;
 
 public class SaleOrderReq {
     private Long orderId;

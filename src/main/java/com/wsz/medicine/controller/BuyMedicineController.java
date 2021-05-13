@@ -4,13 +4,9 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.wsz.medicine.domain.DrugToBuy;
-import com.wsz.medicine.req.BuyDrugReq;
-import com.wsz.medicine.req.CustLoginReq;
-import com.wsz.medicine.req.OprLoginReq;
-import com.wsz.medicine.req.SaleOrderReq;
+import com.wsz.medicine.request.CustLoginReq;
 import com.wsz.medicine.resp.*;
 import com.wsz.medicine.service.BuyMedicineService;
-import com.wsz.medicine.service.SaleOrderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -19,9 +15,7 @@ import com.wsz.medicine.util.SnowFlake;
 
 import javax.annotation.Resource;
 import javax.validation.Valid;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 

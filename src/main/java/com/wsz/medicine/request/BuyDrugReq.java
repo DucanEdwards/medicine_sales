@@ -1,9 +1,7 @@
-package com.wsz.medicine.req;
+package com.wsz.medicine.request;
 
 import com.wsz.medicine.domain.DrugToBuy;
 
-import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 
 public class BuyDrugReq {

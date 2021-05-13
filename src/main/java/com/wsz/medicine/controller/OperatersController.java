@@ -1,16 +1,14 @@
 package com.wsz.medicine.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.wsz.medicine.req.OperatorsReq;
-import com.wsz.medicine.req.OprLoginReq;
-import com.wsz.medicine.req.SaleOrderReq;
+import com.wsz.medicine.request.OperatorsReq;
+import com.wsz.medicine.request.OprLoginReq;
 import com.wsz.medicine.resp.*;
 import com.wsz.medicine.service.OperatorsService;
 import com.wsz.medicine.util.SnowFlake;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;

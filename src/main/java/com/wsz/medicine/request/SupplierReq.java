@@ -1,4 +1,4 @@
-package com.wsz.medicine.req;
+package com.wsz.medicine.request;
 
 public class SupplierReq {
     private Long supplierId;

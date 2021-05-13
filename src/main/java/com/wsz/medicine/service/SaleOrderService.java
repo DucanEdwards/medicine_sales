@@ -1,21 +1,18 @@
 package com.wsz.medicine.service;
 
-import com.wsz.medicine.domain.Operators;
 import com.wsz.medicine.domain.SaleOrder;
 import com.wsz.medicine.domain.SaleOrderExample;
 import com.wsz.medicine.mapper.SaleOrderDetailMapperCust;
 import com.wsz.medicine.mapper.SaleOrderMapper;
-import com.wsz.medicine.req.SaleOrderReq;
+import com.wsz.medicine.request.SaleOrderReq;
 import com.wsz.medicine.resp.OrderDetailResp;
 import com.wsz.medicine.resp.SaleOrderResp;
 import com.wsz.medicine.util.CopyUtil;
-import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 
 import javax.annotation.Resource;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.TimeZone;

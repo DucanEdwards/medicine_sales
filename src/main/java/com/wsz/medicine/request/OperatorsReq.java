@@ -1,8 +1,4 @@
-package com.wsz.medicine.req;
-
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
-import java.util.Date;
+package com.wsz.medicine.request;
 
 public class OperatorsReq {
 

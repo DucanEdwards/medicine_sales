@@ -1,6 +1,5 @@
-package com.wsz.medicine.req;
+package com.wsz.medicine.request;
 
-import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
